@@ -67,3 +67,6 @@
 /:version/windows-tar https://github.com/nextest-rs/nextest/releases/download/cargo-nextest-:version/cargo-nextest-:version-x86_64-pc-windows-msvc.tar.gz 302
 /:version/windows-x86 https://github.com/nextest-rs/nextest/releases/download/cargo-nextest-:version/cargo-nextest-:version-i686-pc-windows-msvc.zip 302
 /:version/windows-x86-tar https://github.com/nextest-rs/nextest/releases/download/cargo-nextest-:version/cargo-nextest-:version-i686-pc-windows-msvc.tar.gz 302
+
+# Extra redirects added by the release process
+/ https://nexte.st/book/pre-built-binaries 302
