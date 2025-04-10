@@ -47,6 +47,8 @@
 /0.9.5-rc.2/x86_64-pc-windows-msvc.tar.gz https://github.com/nextest-rs/nextest/releases/download/cargo-nextest-0.9.5-rc.2/cargo-nextest-0.9.5-rc.2-x86_64-unknown-linux-gnu.tar.gz 302
 /0.9.5-rc.2/windows-tar https://github.com/nextest-rs/nextest/releases/download/cargo-nextest-0.9.5-rc.2/cargo-nextest-0.9.5-rc.2-x86_64-unknown-linux-gnu.tar.gz 302
 /:version/release https://github.com/nextest-rs/nextest/releases/cargo-nextest-:version 302
+/:version/aarch64-pc-windows-msvc.tar.gz https://github.com/nextest-rs/nextest/releases/download/cargo-nextest-:version/cargo-nextest-:version-aarch64-pc-windows-msvc.tar.gz 302
+/:version/aarch64-pc-windows-msvc.zip https://github.com/nextest-rs/nextest/releases/download/cargo-nextest-:version/cargo-nextest-:version-aarch64-pc-windows-msvc.zip 302
 /:version/aarch64-unknown-linux-gnu.tar.gz https://github.com/nextest-rs/nextest/releases/download/cargo-nextest-:version/cargo-nextest-:version-aarch64-unknown-linux-gnu.tar.gz 302
 /:version/i686-pc-windows-msvc.tar.gz https://github.com/nextest-rs/nextest/releases/download/cargo-nextest-:version/cargo-nextest-:version-i686-pc-windows-msvc.tar.gz 302
 /:version/i686-pc-windows-msvc.zip https://github.com/nextest-rs/nextest/releases/download/cargo-nextest-:version/cargo-nextest-:version-i686-pc-windows-msvc.zip 302
@@ -64,6 +66,8 @@
 /:version/linux-musl https://github.com/nextest-rs/nextest/releases/download/cargo-nextest-:version/cargo-nextest-:version-x86_64-unknown-linux-musl.tar.gz 302
 /:version/mac https://github.com/nextest-rs/nextest/releases/download/cargo-nextest-:version/cargo-nextest-:version-universal-apple-darwin.tar.gz 302
 /:version/windows https://github.com/nextest-rs/nextest/releases/download/cargo-nextest-:version/cargo-nextest-:version-x86_64-pc-windows-msvc.zip 302
+/:version/windows-arm https://github.com/nextest-rs/nextest/releases/download/cargo-nextest-:version/cargo-nextest-:version-aarch64-pc-windows-msvc.zip 302
+/:version/windows-arm-tar https://github.com/nextest-rs/nextest/releases/download/cargo-nextest-:version/cargo-nextest-:version-aarch64-pc-windows-msvc.tar.gz 302
 /:version/windows-tar https://github.com/nextest-rs/nextest/releases/download/cargo-nextest-:version/cargo-nextest-:version-x86_64-pc-windows-msvc.tar.gz 302
 /:version/windows-x86 https://github.com/nextest-rs/nextest/releases/download/cargo-nextest-:version/cargo-nextest-:version-i686-pc-windows-msvc.zip 302
 /:version/windows-x86-tar https://github.com/nextest-rs/nextest/releases/download/cargo-nextest-:version/cargo-nextest-:version-i686-pc-windows-msvc.tar.gz 302
