@@ -65,6 +65,7 @@
 /:version/aarch64-unknown-linux-musl.tar.gz https://github.com/nextest-rs/nextest/releases/download/cargo-nextest-:version/cargo-nextest-:version-aarch64-unknown-linux-musl.tar.gz 302
 /:version/i686-pc-windows-msvc.tar.gz https://github.com/nextest-rs/nextest/releases/download/cargo-nextest-:version/cargo-nextest-:version-i686-pc-windows-msvc.tar.gz 302
 /:version/i686-pc-windows-msvc.zip https://github.com/nextest-rs/nextest/releases/download/cargo-nextest-:version/cargo-nextest-:version-i686-pc-windows-msvc.zip 302
+/:version/riscv64gc-unknown-linux-gnu.tar.gz https://github.com/nextest-rs/nextest/releases/download/cargo-nextest-:version/cargo-nextest-:version-riscv64gc-unknown-linux-gnu.tar.gz 302
 /:version/universal-apple-darwin.tar.gz https://github.com/nextest-rs/nextest/releases/download/cargo-nextest-:version/cargo-nextest-:version-universal-apple-darwin.tar.gz 302
 /:version/x86_64-pc-windows-msvc.tar.gz https://github.com/nextest-rs/nextest/releases/download/cargo-nextest-:version/cargo-nextest-:version-x86_64-pc-windows-msvc.tar.gz 302
 /:version/x86_64-pc-windows-msvc.zip https://github.com/nextest-rs/nextest/releases/download/cargo-nextest-:version/cargo-nextest-:version-x86_64-pc-windows-msvc.zip 302
@@ -78,6 +79,7 @@
 /:version/linux-arm https://github.com/nextest-rs/nextest/releases/download/cargo-nextest-:version/cargo-nextest-:version-aarch64-unknown-linux-gnu.tar.gz 302
 /:version/linux-arm-musl https://github.com/nextest-rs/nextest/releases/download/cargo-nextest-:version/cargo-nextest-:version-aarch64-unknown-linux-musl.tar.gz 302
 /:version/linux-musl https://github.com/nextest-rs/nextest/releases/download/cargo-nextest-:version/cargo-nextest-:version-x86_64-unknown-linux-musl.tar.gz 302
+/:version/linux-riscv64 https://github.com/nextest-rs/nextest/releases/download/cargo-nextest-:version/cargo-nextest-:version-riscv64gc-unknown-linux-gnu.tar.gz 302
 /:version/mac https://github.com/nextest-rs/nextest/releases/download/cargo-nextest-:version/cargo-nextest-:version-universal-apple-darwin.tar.gz 302
 /:version/windows https://github.com/nextest-rs/nextest/releases/download/cargo-nextest-:version/cargo-nextest-:version-x86_64-pc-windows-msvc.zip 302
 /:version/windows-arm https://github.com/nextest-rs/nextest/releases/download/cargo-nextest-:version/cargo-nextest-:version-aarch64-pc-windows-msvc.zip 302
