@@ -4,9 +4,142 @@
       "latest": "0.9",
       "ranges": {
         "0.9": {
-          "latest": "0.9.131",
+          "latest": "0.9.132",
           "is_prerelease": false,
           "versions": {
+            "0.9.132": {
+              "release_url": "https://github.com/nextest-rs/nextest/releases/cargo-nextest-0.9.132",
+              "status": "active",
+              "locations": [
+                {
+                  "target": "x86_64-unknown-linux-gnu",
+                  "format": "tar.gz",
+                  "url": "https://github.com/nextest-rs/nextest/releases/download/cargo-nextest-0.9.132/cargo-nextest-0.9.132-x86_64-unknown-linux-gnu.tar.gz",
+                  "checksums": {
+                    "blake2b": "bc98bd5c3e269f303a45b8745352e4388f63b55a94afe295bd26fee9695e846f0e8718b2f00beb64c61cac9e9cfd3c7a7b981e6aecf78dc043486f36e0a171d6",
+                    "sha256": "e22f14ecaff5519dbfe521e8717d64e9989648bddc23eb1f71bb0053518a52e7"
+                  }
+                },
+                {
+                  "target": "x86_64-unknown-linux-musl",
+                  "format": "tar.gz",
+                  "url": "https://github.com/nextest-rs/nextest/releases/download/cargo-nextest-0.9.132/cargo-nextest-0.9.132-x86_64-unknown-linux-musl.tar.gz",
+                  "checksums": {
+                    "blake2b": "0fb06adff480d28430fe55214e4fb675e54af02608bf9338e182985e7ad33359fdc5558d499f570d5fc7770aa19b51b6e2f24c2edd0ac7504e8f4d3a91df188a",
+                    "sha256": "5e93f3b4244e2f8bffe5818b2a7cbd6a59f32d262dcb6017905e345cc74227af"
+                  }
+                },
+                {
+                  "target": "aarch64-unknown-linux-gnu",
+                  "format": "tar.gz",
+                  "url": "https://github.com/nextest-rs/nextest/releases/download/cargo-nextest-0.9.132/cargo-nextest-0.9.132-aarch64-unknown-linux-gnu.tar.gz",
+                  "checksums": {
+                    "blake2b": "ce1a067607e95165e924bb8cd13ec08e0bf93def7b7b31136d605d2a0b23d091627e4c235dd5744a8d4c39e082fc55f69b9b1092094033f33cc49ef78884df84",
+                    "sha256": "592db3fa3d3ee62f109dc149554811eb8ecdc68e1514be5af79986b1560e2e0d"
+                  }
+                },
+                {
+                  "target": "aarch64-unknown-linux-musl",
+                  "format": "tar.gz",
+                  "url": "https://github.com/nextest-rs/nextest/releases/download/cargo-nextest-0.9.132/cargo-nextest-0.9.132-aarch64-unknown-linux-musl.tar.gz",
+                  "checksums": {
+                    "blake2b": "988913f0eabeb359aab151a7546f9369f9ab3a0e68ae3b6ef85ef4c69532c2867c335458390242fb8e856b0fd892c205fca870216bfdd7bb8094df9b2c8e34da",
+                    "sha256": "2497ddfd2a0c6805f7c5514ff680c6ca9c1ffc5b9ab30af43e85830b768c129a"
+                  }
+                },
+                {
+                  "target": "riscv64gc-unknown-linux-gnu",
+                  "format": "tar.gz",
+                  "url": "https://github.com/nextest-rs/nextest/releases/download/cargo-nextest-0.9.132/cargo-nextest-0.9.132-riscv64gc-unknown-linux-gnu.tar.gz",
+                  "checksums": {
+                    "blake2b": "4e08930d29056d23d9002740a4db56f85d360bd30b8c4044fb6cd9ba1c510a7e97678e9de742907a6ec76c3305ce11158adad0401189cde304d1366aa686509b",
+                    "sha256": "82d1f0c4b7733e0a852e2e8b3f1a3f65b89e7ffd165121127ac356f0c9f7b5d2"
+                  }
+                },
+                {
+                  "target": "x86_64-pc-windows-msvc",
+                  "format": "tar.gz",
+                  "url": "https://github.com/nextest-rs/nextest/releases/download/cargo-nextest-0.9.132/cargo-nextest-0.9.132-x86_64-pc-windows-msvc.tar.gz",
+                  "checksums": {
+                    "blake2b": "fc9fc0ac68a10865977a82a7fd7ac013fc3502be5bc4fe4fcc1b2220d31fefbdabf28b20c877e42bc8046da9e08a0493a1ff2c7e36ab936a9a7b7830eb01be6c",
+                    "sha256": "6f934574f621613d7d759547401a04619b3e1ebe1f4e8f624880197d566fa6ad"
+                  }
+                },
+                {
+                  "target": "x86_64-pc-windows-msvc",
+                  "format": "zip",
+                  "url": "https://github.com/nextest-rs/nextest/releases/download/cargo-nextest-0.9.132/cargo-nextest-0.9.132-x86_64-pc-windows-msvc.zip",
+                  "checksums": {
+                    "blake2b": "2c00aa5c9467b82f6b2ebb79b4d50bf07dc72854c63867415e7a6e59071ec3c2b9ac506d2660bdae9b0ac60fac46d26d758caab37672f47e7b46b549d576cfde",
+                    "sha256": "c43a93b3c3c77d17e77be5001a82a3f1f13b09e9ae31b13822ea9cd629bd0e7d"
+                  }
+                },
+                {
+                  "target": "i686-pc-windows-msvc",
+                  "format": "tar.gz",
+                  "url": "https://github.com/nextest-rs/nextest/releases/download/cargo-nextest-0.9.132/cargo-nextest-0.9.132-i686-pc-windows-msvc.tar.gz",
+                  "checksums": {
+                    "blake2b": "b022a91c27f4ff73cb181818243862b90e780fdb9935896737544eebcde25314ada60ea5943383fc2821876c55e4af21d09c3f4e88f3c6915b7e5c865d7e6134",
+                    "sha256": "1070050f6bcbc8ffb6e6bde3896b49f8a65eee51221d95661270da423c0b0a59"
+                  }
+                },
+                {
+                  "target": "i686-pc-windows-msvc",
+                  "format": "zip",
+                  "url": "https://github.com/nextest-rs/nextest/releases/download/cargo-nextest-0.9.132/cargo-nextest-0.9.132-i686-pc-windows-msvc.zip",
+                  "checksums": {
+                    "blake2b": "3878e7319aca7c5b08d256d895ce93c301a751f03885db70c0653c0d91ca989907f7387b2cb99c34e93e9203faee1d188e67f5d9d287678ff0b424c1a87a0fe5",
+                    "sha256": "116c9d053d0a2552a3f149ca3b71b818f9f39f929e6166aae943d710efde4971"
+                  }
+                },
+                {
+                  "target": "aarch64-pc-windows-msvc",
+                  "format": "tar.gz",
+                  "url": "https://github.com/nextest-rs/nextest/releases/download/cargo-nextest-0.9.132/cargo-nextest-0.9.132-aarch64-pc-windows-msvc.tar.gz",
+                  "checksums": {
+                    "blake2b": "49ad15a7979228f99b0ff4ef8f0fab992d7909a5df8cef2873fdd21eefcd9154f20a625bc4bc41ef26ddff1a806003af75dda81f29c5fca687ae9108eb7f5f4f",
+                    "sha256": "3c519d128909fba6829a318476bcbd9777d97ec066b4d973a3f1e04da049ef0b"
+                  }
+                },
+                {
+                  "target": "aarch64-pc-windows-msvc",
+                  "format": "zip",
+                  "url": "https://github.com/nextest-rs/nextest/releases/download/cargo-nextest-0.9.132/cargo-nextest-0.9.132-aarch64-pc-windows-msvc.zip",
+                  "checksums": {
+                    "blake2b": "4fa17d86437e24539d145f0e9c42818fc1d55c062c5160f022bb6fa740989cbade97c17bb13191b03701382acae944264eaed57a387f046d72737379d2222a0b",
+                    "sha256": "3a9f5ac97c8bd6aeaf76c6c2c8c17a2c22b989237cf23c1bf5dd1a1df979a4fc"
+                  }
+                },
+                {
+                  "target": "universal-apple-darwin",
+                  "format": "tar.gz",
+                  "url": "https://github.com/nextest-rs/nextest/releases/download/cargo-nextest-0.9.132/cargo-nextest-0.9.132-universal-apple-darwin.tar.gz",
+                  "checksums": {
+                    "blake2b": "cc8f3b52880894053e9ac1a5ccad9950fa1ccd5467faee61056d05c7aae5e59a9805d672faf62e61c230b7c540660e7364428a04805a69d36a98e74768e2eef0",
+                    "sha256": "6ce5c844ae3cdac3f6f42fd86bf71a8bf99aecd76bab9f6743c808223d31fad1"
+                  }
+                },
+                {
+                  "target": "x86_64-unknown-freebsd",
+                  "format": "tar.gz",
+                  "url": "https://github.com/nextest-rs/nextest/releases/download/cargo-nextest-0.9.132/cargo-nextest-0.9.132-x86_64-unknown-freebsd.tar.gz",
+                  "checksums": {
+                    "blake2b": "da79c51cf2688c94d246e7e7a95e1edecc8c737e02504191a8418eeac2d395d53fc1265a6f488029900176539928d23ff000eaebf2c4142eff660fc1bf682efd",
+                    "sha256": "64c776fe02a2de1f4eadc0bfc3817568f77521acd4de3c270699629d828d5daa"
+                  }
+                },
+                {
+                  "target": "x86_64-unknown-illumos",
+                  "format": "tar.gz",
+                  "url": "https://github.com/nextest-rs/nextest/releases/download/cargo-nextest-0.9.132/cargo-nextest-0.9.132-x86_64-unknown-illumos.tar.gz",
+                  "checksums": {
+                    "blake2b": "28db7cf0a7c2ed878a4bca4a6c6be8483c6bac995a08415746cfa5d0767b19b024bb958669c64c16542bd6076daf88a4f3198820cf15f135f9ee80d2e690a807",
+                    "sha256": "4a501eb1ff3a39b26210fb8567cfcb6d4151bca3ecdcfbd403d3e4fd445adb91"
+                  }
+                }
+              ],
+              "metadata": null
+            },
             "0.9.132-rc.3": {
               "release_url": "https://github.com/nextest-rs/nextest/releases/cargo-nextest-0.9.132-rc.3",
               "status": "active",
