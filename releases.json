@@ -4,9 +4,142 @@
       "latest": "0.9",
       "ranges": {
         "0.9": {
-          "latest": "0.9.149",
+          "latest": "0.9.150",
           "is_prerelease": false,
           "versions": {
+            "0.9.150": {
+              "release_url": "https://github.com/nextest-rs/nextest/releases/cargo-nextest-0.9.150",
+              "status": "active",
+              "locations": [
+                {
+                  "target": "x86_64-unknown-linux-gnu",
+                  "format": "tar.gz",
+                  "url": "https://github.com/nextest-rs/nextest/releases/download/cargo-nextest-0.9.150/cargo-nextest-0.9.150-x86_64-unknown-linux-gnu.tar.gz",
+                  "checksums": {
+                    "blake2b": "ca5309c2b492515e2198f8184439f47d560baf1b8e419e75e8cb1d9da42a060a8347b27aeef9d29e915309769842e704f140c6a08d2a013d024aafdc94d644d5",
+                    "sha256": "b0959bc64232974224cf9fb22c915845398c0e8668fa7831eb5b43fb1eef781f"
+                  }
+                },
+                {
+                  "target": "x86_64-unknown-linux-musl",
+                  "format": "tar.gz",
+                  "url": "https://github.com/nextest-rs/nextest/releases/download/cargo-nextest-0.9.150/cargo-nextest-0.9.150-x86_64-unknown-linux-musl.tar.gz",
+                  "checksums": {
+                    "blake2b": "a0d4602368bfb7b73c57bffe366d5113d3a6ea9a5575c55bd6d2e785acdd2c7b502fb45b708851bfcb67b25c06a4bc034127dc1d655ae78f605928db21448c86",
+                    "sha256": "84f0f9ba75d0b6fa117bc418d49747ba78e20e4583057f6fa628f1b17c17234d"
+                  }
+                },
+                {
+                  "target": "aarch64-unknown-linux-gnu",
+                  "format": "tar.gz",
+                  "url": "https://github.com/nextest-rs/nextest/releases/download/cargo-nextest-0.9.150/cargo-nextest-0.9.150-aarch64-unknown-linux-gnu.tar.gz",
+                  "checksums": {
+                    "blake2b": "70cf858c301dcf5226ffadb6d5791fefa2bed0879fc4618b1120a4e856eec91c1c3292792b11294160d12fc8e08133def31ba84a37d2f7c2b2944b61f3bb27e1",
+                    "sha256": "9164568e9840c6509177086828ac7d3178c2d8feb0658b4d2bff62fa620e98c8"
+                  }
+                },
+                {
+                  "target": "aarch64-unknown-linux-musl",
+                  "format": "tar.gz",
+                  "url": "https://github.com/nextest-rs/nextest/releases/download/cargo-nextest-0.9.150/cargo-nextest-0.9.150-aarch64-unknown-linux-musl.tar.gz",
+                  "checksums": {
+                    "blake2b": "eaf33e3e32ef1e92c04b0e91e88909fcf0981c323fc12c6399352e95710cdac2482dbf65ae2d69fab0a49863d5213c015f1df5b6afa86524c419a94381ea20c6",
+                    "sha256": "5a7fe62b64a9006e1e47422021df7b1d308cc76c528c9eaf4649a488615ed6fb"
+                  }
+                },
+                {
+                  "target": "riscv64gc-unknown-linux-gnu",
+                  "format": "tar.gz",
+                  "url": "https://github.com/nextest-rs/nextest/releases/download/cargo-nextest-0.9.150/cargo-nextest-0.9.150-riscv64gc-unknown-linux-gnu.tar.gz",
+                  "checksums": {
+                    "blake2b": "8c1bc0cd2167ec01f65fc8bf9afd3abb15837a30ecfc3f990d62d0d20fb2369c8be4308ba722cb141dd796a6757302db8ecafe3e36154a60b376692dff56233b",
+                    "sha256": "39558f873ec2bf30206ee7c77339d98ab3c6139f5741b54d09a8d950ae0c836c"
+                  }
+                },
+                {
+                  "target": "x86_64-pc-windows-msvc",
+                  "format": "tar.gz",
+                  "url": "https://github.com/nextest-rs/nextest/releases/download/cargo-nextest-0.9.150/cargo-nextest-0.9.150-x86_64-pc-windows-msvc.tar.gz",
+                  "checksums": {
+                    "blake2b": "f0192a450cab8200370d295053b103220f8ac85c6ddbc084a852b2708997a0dc7f497fb5e493a9630e0d9406cc4d0baa396bd215ef343d7324cc59be13dfa14f",
+                    "sha256": "b7a8bf567140b8b366716f2dea27b32e088dc12f53597315f976d0dbf7c6ade8"
+                  }
+                },
+                {
+                  "target": "x86_64-pc-windows-msvc",
+                  "format": "zip",
+                  "url": "https://github.com/nextest-rs/nextest/releases/download/cargo-nextest-0.9.150/cargo-nextest-0.9.150-x86_64-pc-windows-msvc.zip",
+                  "checksums": {
+                    "blake2b": "9be903261285de0ae20675482ddbddd0bd69c973df0e9ebf6ee9249dcff3d2d3cbae600192a8abf51e93173cb284436c64e431e86ce36b22fe4b821f17dea8f1",
+                    "sha256": "6fd8f9ba48c946a79a5bcdd35bf4f922447b149f7ca6c3ff7f39e12f32ef78db"
+                  }
+                },
+                {
+                  "target": "i686-pc-windows-msvc",
+                  "format": "tar.gz",
+                  "url": "https://github.com/nextest-rs/nextest/releases/download/cargo-nextest-0.9.150/cargo-nextest-0.9.150-i686-pc-windows-msvc.tar.gz",
+                  "checksums": {
+                    "blake2b": "45f3cb7cf388f376c9585f0ebdf725c3e39e158fa48d8fc70dae1ab022364e803e9d539956ba2ddfcea8f64bad1a863ff660ab83791b44210d466f42f2119888",
+                    "sha256": "1cc34adc59657e91d66d6f67ba57bd7b688c3cbc61f751147a9d527bb7cb7d87"
+                  }
+                },
+                {
+                  "target": "i686-pc-windows-msvc",
+                  "format": "zip",
+                  "url": "https://github.com/nextest-rs/nextest/releases/download/cargo-nextest-0.9.150/cargo-nextest-0.9.150-i686-pc-windows-msvc.zip",
+                  "checksums": {
+                    "blake2b": "5aa489b5a126320515ea6fad6a4dbf8f0dd76c6c96fff7c42682daf6bffea6d0ab1caa7ed2ff072bda48a46ff7844f5264b59d7f3b9f2e7b30ac9e7967b13e84",
+                    "sha256": "365df6f321c4035a670e9e9b6ca3905ed99ed29a4444093b3f85c1656d58e78c"
+                  }
+                },
+                {
+                  "target": "aarch64-pc-windows-msvc",
+                  "format": "tar.gz",
+                  "url": "https://github.com/nextest-rs/nextest/releases/download/cargo-nextest-0.9.150/cargo-nextest-0.9.150-aarch64-pc-windows-msvc.tar.gz",
+                  "checksums": {
+                    "blake2b": "99813751e237ac0f04838dab132d52df55551a3a685b1b13d826ac209775ab492fcac8272366313101a4e606fcda06df3faf15d2c1ad95d179869f9a652f298b",
+                    "sha256": "d605079ddfb75f414e18dfa7ee3ed8839134406c261cdc6887e32dd1faa4c718"
+                  }
+                },
+                {
+                  "target": "aarch64-pc-windows-msvc",
+                  "format": "zip",
+                  "url": "https://github.com/nextest-rs/nextest/releases/download/cargo-nextest-0.9.150/cargo-nextest-0.9.150-aarch64-pc-windows-msvc.zip",
+                  "checksums": {
+                    "blake2b": "8d4708d068913f26e5e4c7d9fe95515a119fd2645aaa6ea155a66ddf5ba7478cd0cb17af94ecc53648fae4fd347ae9441337c189d47277b40f7b50b748882740",
+                    "sha256": "812da1f75a1a18911d8aeb74e2b75caa95e652bfd210a46527de7d5f0776f22e"
+                  }
+                },
+                {
+                  "target": "universal-apple-darwin",
+                  "format": "tar.gz",
+                  "url": "https://github.com/nextest-rs/nextest/releases/download/cargo-nextest-0.9.150/cargo-nextest-0.9.150-universal-apple-darwin.tar.gz",
+                  "checksums": {
+                    "blake2b": "39666993d4a4cdc0a15e873242b090984e372840185a980b762b5571959a75de8c9d4d8a25a7b0de1fce26b5cac99451cf552f3cda2d5e86437bd5b97d3fd74d",
+                    "sha256": "82a759b4d218d38359424196ab244c470e8f7c7d149c814fbbeef4d67c3c301a"
+                  }
+                },
+                {
+                  "target": "x86_64-unknown-freebsd",
+                  "format": "tar.gz",
+                  "url": "https://github.com/nextest-rs/nextest/releases/download/cargo-nextest-0.9.150/cargo-nextest-0.9.150-x86_64-unknown-freebsd.tar.gz",
+                  "checksums": {
+                    "blake2b": "a9b0b5ec2d30ce9ec5022d5ed1309fd64c7396d5c920595dda507efd7de2f14c283e6be540c0181616cda02976270a09bb7e65f6382c0402235a91daef27e767",
+                    "sha256": "7f75971eb6e0d44dfa76e75a936b438140e69292793d630e6c02331a9c6b3c31"
+                  }
+                },
+                {
+                  "target": "x86_64-unknown-illumos",
+                  "format": "tar.gz",
+                  "url": "https://github.com/nextest-rs/nextest/releases/download/cargo-nextest-0.9.150/cargo-nextest-0.9.150-x86_64-unknown-illumos.tar.gz",
+                  "checksums": {
+                    "blake2b": "3cc48c50bf7cdf0ad6abccc058f5e01707cef64406b98c44704f79502f73043127d5e811b1fa7d76543bb6241d7d578142bc82fb18d844410a9d196b925b9b8e",
+                    "sha256": "d20811ebfaf04f8dbc6aec27f20e4db23ed86a9abc452611e9cf115b713e80e9"
+                  }
+                }
+              ],
+              "metadata": null
+            },
             "0.9.149": {
               "release_url": "https://github.com/nextest-rs/nextest/releases/cargo-nextest-0.9.149",
               "status": "active",
@@ -18,8 +151,7 @@
                   "checksums": {
                     "blake2b": "0b46babcaf0a11dff920573be521a6c337ea630dacb3e451eb27e5924ef00e66775247a424f28fb90ff9595b97538bf79ad46c23cd7e5b9c692107d8dcca8548",
                     "sha256": "32d1d8c0567b7a80bee2bad8bb09125c846da96bc009b2de11ec08557290c770"
-                  },
-                  "min_glibc": "2.27"
+                  }
                 },
                 {
                   "target": "x86_64-unknown-linux-musl",
@@ -37,8 +169,7 @@
                   "checksums": {
                     "blake2b": "f8524cbc1118e78639e15bf624eddd4caec905828994198f1733de2697f7f0741fd59739cca5cee3d467a73c5cc6239ce1279b0575eca8b39f4ab15998c47ed8",
                     "sha256": "6f82e375187cf3a1f3e336879a51940c315a5d0ce7253f7e517ad28295b74189"
-                  },
-                  "min_glibc": "2.27"
+                  }
                 },
                 {
                   "target": "aarch64-unknown-linux-musl",
@@ -56,8 +187,7 @@
                   "checksums": {
                     "blake2b": "31de43ce6788d6ab2c008c6f2e8860697c99deef0809855b11f88d9abb95fb1fadc6accd35f27b389c90c3b40cb0c9298277b73a55019d93f3bda1e9976998db",
                     "sha256": "cb7c2c16e5a4bd807810d569bc061cde2598e9528e5ad6d183cf58061451b50f"
-                  },
-                  "min_glibc": "2.27"
+                  }
                 },
                 {
                   "target": "x86_64-pc-windows-msvc",
@@ -154,8 +284,7 @@
                   "checksums": {
                     "blake2b": "adfcf9db90c281ad9eae951ff0f176228c464500ed9d9696f1ac35cd4849f440f815950912d88be314ce08953df56676b01353f2249da77bb398e2ec6cbc0b23",
                     "sha256": "223ba936714cc861a9cdedad5a8eb664dfdd69d6fbdf6cea6aa8184f523290dc"
-                  },
-                  "min_glibc": "2.27"
+                  }
                 },
                 {
                   "target": "x86_64-unknown-linux-musl",
@@ -173,8 +302,7 @@
                   "checksums": {
                     "blake2b": "ef8b96bd29fd074bc194a1a441d9c80dc7bef1a2b575341d7bb22c19964068802c9f47d2544306a1c4e6ab3cc3ef65f647bcdd91aecd06a5a201f43dac2f3700",
                     "sha256": "81469eb963ef883fd590e60189e77d6aba3d91b418591d3391f50fe3e9480d2b"
-                  },
-                  "min_glibc": "2.27"
+                  }
                 },
                 {
                   "target": "aarch64-unknown-linux-musl",
@@ -192,8 +320,7 @@
                   "checksums": {
                     "blake2b": "48d7543fcc07e913031edfc6eee80e5f880ba59453e891075f8b1ac20728ec9b762e86b842b7d4c3b47c60421b6167a26b246f1a520a13279a1edcc60d181ad7",
                     "sha256": "b419ca4ba6458ef848e9d325d255932c97fee0a99d723db3f97f0cdd6917cbd5"
-                  },
-                  "min_glibc": "2.27"
+                  }
                 },
                 {
                   "target": "x86_64-pc-windows-msvc",
@@ -290,8 +417,7 @@
                   "checksums": {
                     "blake2b": "7af4fe4fd237d0c762d8c815444ce848d954a0606a6f38bca87eabb57dbf7e48463299788749c1fb6813933042d1ca22ebf816504626bf27b7d0b4d418c94ef4",
                     "sha256": "682c21b777c333e96fd532e114d3a5a894e0729ab88d94c0a9f20f8419695428"
-                  },
-                  "min_glibc": "2.27"
+                  }
                 },
                 {
                   "target": "x86_64-unknown-linux-musl",
@@ -309,8 +435,7 @@
                   "checksums": {
                     "blake2b": "14766addc21afd958d55c488a2d05d6ba03545ee1ab52aac4e049fbb02c5099cd076183908e86578de90b1a4c321e7570d0191affc6412692c4495fdaee5ce5f",
                     "sha256": "b2e33d7c72de7ade0ff7b3a948ac37516b24f8a836b7a8870c1f634a94be9de9"
-                  },
-                  "min_glibc": "2.27"
+                  }
                 },
                 {
                   "target": "aarch64-unknown-linux-musl",
@@ -328,8 +453,7 @@
                   "checksums": {
                     "blake2b": "6dd95cf860128616a1b50e03cbb1e686674b428e5351aa99e654b0c4098f6b2ac58d38ce5d4c24b3c2acac63697ecdabbcfb23156da714002bce5f7c2579d684",
                     "sha256": "c89fd7a2793c316b191f33b42b4ef76c1deb83635bb2c7a4723d8cc97a041d95"
-                  },
-                  "min_glibc": "2.27"
+                  }
                 },
                 {
                   "target": "x86_64-pc-windows-msvc",
@@ -426,8 +550,7 @@
                   "checksums": {
                     "blake2b": "a7721f61045671210fb177c82656d5d67dac80fdff9bda57f6ad5503658e40488db74d67c0472da745a4f1f4b6fed7022fc16dcb7bd23ff4ce621fcac4d573e7",
                     "sha256": "32aa82416099eb12fffae9cf1a279ad201fecbd3f74826c613e32e9006b29867"
-                  },
-                  "min_glibc": "2.27"
+                  }
                 },
                 {
                   "target": "x86_64-unknown-linux-musl",
@@ -445,8 +568,7 @@
                   "checksums": {
                     "blake2b": "478070e7ab2c3d343dc98f9a76726bfe67c1ab40487c2aea282ef03da02de6ebcf47dde4f0e04dfa573c3b6fe9d51e07d291baa54339f90a75a5d6902d07849f",
                     "sha256": "0ad2815fd91a7ecec3a7e25c749b584f66729ac688fd26b2fd494f7ff94b7fd0"
-                  },
-                  "min_glibc": "2.27"
+                  }
                 },
                 {
                   "target": "aarch64-unknown-linux-musl",
@@ -464,8 +586,7 @@
                   "checksums": {
                     "blake2b": "6117e99e33e82f7a8153aef3da2683ca78eb2709ab8046be1fd750c0eae2a8ad1714607c0be2e3655723e2823804c83cbce6b36c2f077cb175befb8a85e399d0",
                     "sha256": "b7ba8a7b6fa48bdd4da90411d487be290c81ae29195518c68d5bc49cd686f956"
-                  },
-                  "min_glibc": "2.27"
+                  }
                 },
                 {
                   "target": "x86_64-pc-windows-msvc",
@@ -562,8 +683,7 @@
                   "checksums": {
                     "blake2b": "1be3c68d697be94024bf5a86bbc98e69288f35baf42655472ad58104bce48a086db3cae5f87f75f1506590830196bc4e33bd26d417f3b205c92afc0fe1ab047c",
                     "sha256": "8a4f726272b0a1c499bd87ca3978bfbb1a8c20bb08ccf075b9996e2081bd1e1e"
-                  },
-                  "min_glibc": "2.27"
+                  }
                 },
                 {
                   "target": "x86_64-unknown-linux-musl",
@@ -581,8 +701,7 @@
                   "checksums": {
                     "blake2b": "15665c6c5b4eb252f1fb556a12d8de1c9906095a09b6259275e6e47fac4a3a7f99a552e16293e6eee69da968e1eafa864ab8c795b265bc06163f3e12c8346286",
                     "sha256": "7fecfd431b810c05c589d800524286b8f80ce2fe9fb1fef05caf16d095cea407"
-                  },
-                  "min_glibc": "2.27"
+                  }
                 },
                 {
                   "target": "aarch64-unknown-linux-musl",
@@ -600,8 +719,7 @@
                   "checksums": {
                     "blake2b": "3539666d2bed2964e49f27b15175c60f4a48448f3b8629071ce0c08b1405d808d4c6e81ab095117cd5166a92e0e328f2996770970d9e859c6ce691f916500c1c",
                     "sha256": "1d5d081245e73e9f7cfa462a4bcb37bf055c69f6bb7988b278523a8f8ead79ba"
-                  },
-                  "min_glibc": "2.27"
+                  }
                 },
                 {
                   "target": "x86_64-pc-windows-msvc",
@@ -698,8 +816,7 @@
                   "checksums": {
                     "blake2b": "afe067c4c258c31c4d666cc6dd5dc546c0b36b4ff4cb6406df9b3949ee4e1a027f51577e8572119e99dd8f018f6df56f9536acecfdd1f149ca9d686f361e04d6",
                     "sha256": "66786b9abe23920d022a182d1416b1bbc8130dd4872a9553d76985a1708dcd1e"
-                  },
-                  "min_glibc": "2.27"
+                  }
                 },
                 {
                   "target": "x86_64-unknown-linux-musl",
@@ -717,8 +834,7 @@
                   "checksums": {
                     "blake2b": "e648557719261a79edd767414cb3e12b3b68f34d9349076698d97ba5493c6ba086ea5c5b9e5476d5bb7d8a0b833546d229c099c6d3e5433d3584416cdb219eec",
                     "sha256": "2a64b3566a92508550a7ab29c3e8db25472ca37730ecb4d22100b6aa440c2a68"
-                  },
-                  "min_glibc": "2.27"
+                  }
                 },
                 {
                   "target": "aarch64-unknown-linux-musl",
@@ -736,8 +852,7 @@
                   "checksums": {
                     "blake2b": "a874759b00a05efd43e3223a04ea130d32f840cb552a4bf8a1d973f1210c2fe0194c2e8153e54794ffee0326db3e248ce952f16bad695407e6763ef84d49272a",
                     "sha256": "cb5035deced2353e6e03a8408dd7cddaa82ddf0a22238566254617f59f25cb42"
-                  },
-                  "min_glibc": "2.27"
+                  }
                 },
                 {
                   "target": "x86_64-pc-windows-msvc",
@@ -834,8 +949,7 @@
                   "checksums": {
                     "blake2b": "1996dd43e38ddacd8ecd9070bc37183c64af9cfa02569d4e58c8da5ae83e3d141d0bccf2b73b0f161ee418438a0bc54283502c37cf26c7de89792375b0bd53de",
                     "sha256": "c3f0910754172aa74ec39e6bc361284e370b34de457afa580ffb7de40e5946a0"
-                  },
-                  "min_glibc": "2.27"
+                  }
                 },
                 {
                   "target": "x86_64-unknown-linux-musl",
@@ -853,8 +967,7 @@
                   "checksums": {
                     "blake2b": "e701f6ebf8175c732bbe6113e36c702f445a314bf5a497186d47945627e75e6d558ea879bff66202a00f66c64a48d38838c434d827228c5edcf89902d062328a",
                     "sha256": "7ca37916d0e03c21b7c5667029f16b144e118555bae2bb3607ecd5f0776a5ad2"
-                  },
-                  "min_glibc": "2.27"
+                  }
                 },
                 {
                   "target": "aarch64-unknown-linux-musl",
@@ -872,8 +985,7 @@
                   "checksums": {
                     "blake2b": "9a26550e88107c737acca16029e4dcc20259f9fa7fa73d6dca3f4d5d18a5ea1249910cf3a93b67d4e46e027608c4df3c1885c0ec15cf7c0dc6b55aed3bd139ef",
                     "sha256": "3a0d01473f58aaca581f6ed6bfbd798da7cac1fdfc7543541a530055ac97aca1"
-                  },
-                  "min_glibc": "2.27"
+                  }
                 },
                 {
                   "target": "x86_64-pc-windows-msvc",
@@ -970,8 +1082,7 @@
                   "checksums": {
                     "blake2b": "7d48ab0393ca6980d62a055c005cc4d374948e927d088f4b6a00c2e96f277423a8e7d060acdf5c8c46f465c2900ec2fbcb6718b14ead3c5215d41be823c3214f",
                     "sha256": "4140166be58c2a928b4fb7c014c112a9c0039be375f86b7ebf4c72495a2c1c4d"
-                  },
-                  "min_glibc": "2.27"
+                  }
                 },
                 {
                   "target": "x86_64-unknown-linux-musl",
@@ -989,8 +1100,7 @@
                   "checksums": {
                     "blake2b": "69ff7e3fd88712cd3e4b16f9cce40ce4f3bb929597d3261b4e3abc9f18d9201dd05200cbd3f309f1a63ed7f104a03f72b520c15109ff7fa961741a864a1e6355",
                     "sha256": "cd7b362b682550e7a1caf10faf03f9429f72ced8fdd4adf67ff00f2bf01a5104"
-                  },
-                  "min_glibc": "2.27"
+                  }
                 },
                 {
                   "target": "aarch64-unknown-linux-musl",
@@ -1008,8 +1118,7 @@
                   "checksums": {
                     "blake2b": "ddedff3413597d3828fdd59737803b0862129afa9bb7d5399ec517f128eed0cc5e48ba97666b62cf945e8f4abfef08603201bf8909138ee9889062ceb1183e9a",
                     "sha256": "0db7899e5e277643b0f4eedc7cee53fd49b59d14d1c9f2b07b81d41c25915ad1"
-                  },
-                  "min_glibc": "2.27"
+                  }
                 },
                 {
                   "target": "x86_64-pc-windows-msvc",
@@ -1106,8 +1215,7 @@
                   "checksums": {
                     "blake2b": "f21e31fea1191f2aa7d3779b64cce498e90cfbbbe62bd5339dbb1366cc8d64e3a58a6caafe226bab0547b13f595c7837503f6554cc66c53dfc9791751cd12053",
                     "sha256": "4ee9aaa0d0171a985a5d0eb735b87355894c1c455972e9674fb9fdbd1387c9a3"
-                  },
-                  "min_glibc": "2.27"
+                  }
                 },
                 {
                   "target": "x86_64-unknown-linux-musl",
@@ -1125,8 +1233,7 @@
                   "checksums": {
                     "blake2b": "8fcedef082deedcd3fa51db34a1866856b60d26c2fcc60d6dab3c72803807a4a3fd9e3674b1df7357463a1db2d12d859497025c58e7da6860e0e59b8986f659c",
                     "sha256": "8b3f4d4560b6b0f83774fecc6be07e47716dbad0eb0bb6c3890f478f4affe4b6"
-                  },
-                  "min_glibc": "2.27"
+                  }
                 },
                 {
                   "target": "aarch64-unknown-linux-musl",
@@ -1144,8 +1251,7 @@
                   "checksums": {
                     "blake2b": "c3bc42a1afd100365f6f0328665e81fed656e098c435bfd47f0c06fa44fccba8172111bc398ec921d4343288bec40dc2548b886ee13dd5c179fff7cbc8da4807",
                     "sha256": "912c6bb01aa081c4dba1a264828c5b300a3f4e8ffd70565dbd6b8693829beaba"
-                  },
-                  "min_glibc": "2.27"
+                  }
                 },
                 {
                   "target": "x86_64-pc-windows-msvc",
@@ -1242,8 +1348,7 @@
                   "checksums": {
                     "blake2b": "6c68164801b1295508bc6141a9d99ed1f5cfbbedbb754f211c5ab57ea4e94b40c5e4aef3c57ac06f60c2294e21f08edff44dfeadd6cb640efe8e9f1952946305",
                     "sha256": "f7320ac096191f9a4cda2821ca85bcf270a2511c9c1b4201eafb103d2acd257e"
-                  },
-                  "min_glibc": "2.27"
+                  }
                 },
                 {
                   "target": "x86_64-unknown-linux-musl",
@@ -1261,8 +1366,7 @@
                   "checksums": {
                     "blake2b": "e44156514eb97372e1a18bdc6657a8af0bd7e98bd92b4ebf9c308c38aa052d89c3f7f21c97f24f2048bfded2f8645d4916931155c8827214deb0a3b459caeb20",
                     "sha256": "22f8d6364798d7c9b81854771351c8d419b935c265a755d47f0b4251774205b6"
-                  },
-                  "min_glibc": "2.27"
+                  }
                 },
                 {
                   "target": "aarch64-unknown-linux-musl",
@@ -1280,8 +1384,7 @@
                   "checksums": {
                     "blake2b": "7dcb3c0feebd3371e24b92057938142b7626a668ca407b6db4a23d0b381c81afd01541a9a83e88552707a58c78e9e5e175ac069797cbba578297d1a606bbf969",
                     "sha256": "97f56003a825612a1d9a2ae7611284e6aadc721b9bbca40fef35c90b96572e5e"
-                  },
-                  "min_glibc": "2.27"
+                  }
                 },
                 {
                   "target": "x86_64-pc-windows-msvc",
@@ -1378,8 +1481,7 @@
                   "checksums": {
                     "blake2b": "053430db4bc3abea4c1f4b56b1c9e9ab6191d1c2e6b00edd0e5316c6f99a93092a456295613dea417839100a45c51f0fbf8d6ffd632f1e43da2011dbe363d716",
                     "sha256": "d840882745a123eca643dff3a59f45d87a159d43b6e8b1cc6120f7974df6f28c"
-                  },
-                  "min_glibc": "2.27"
+                  }
                 },
                 {
                   "target": "x86_64-unknown-linux-musl",
@@ -1397,8 +1499,7 @@
                   "checksums": {
                     "blake2b": "4babf6050c81be105ead30186a0384e239d00c9c8c8e5d9f97b112b5be4a1fcad3d02f3dfcb63b56903b8ff6d63edd66a223013b2a566e39c4b0c380c093fdb4",
                     "sha256": "beb34ca045f9bd8c795411cd4e58b758cc7f1e3f84e7f3017747cb9e9e0d3b43"
-                  },
-                  "min_glibc": "2.27"
+                  }
                 },
                 {
                   "target": "aarch64-unknown-linux-musl",
@@ -1416,8 +1517,7 @@
                   "checksums": {
                     "blake2b": "7c7533a0aad956c7458849aefe390d1ba57c1373ae03239ebc859032dc06917d73ac70c1ca41b96d3d846024ccea4151c7409a160191ecd53cfa179739d75c4d",
                     "sha256": "082bfa7a091cdfa7597f7ccb7a70587dcd1c530ae960ccdc622fda8531e6febe"
-                  },
-                  "min_glibc": "2.39"
+                  }
                 },
                 {
                   "target": "x86_64-pc-windows-msvc",
@@ -1514,8 +1614,7 @@
                   "checksums": {
                     "blake2b": "1abaa5d2bd5d541e2d6b93dff76fc4fdb841bfa0322dd32da67601eeb4eda0bc7c01a052c3f805fdc6a9f12657bf2e6157a764ef2dcea14d18b265bcd56469e3",
                     "sha256": "3793bf0c27607b196f502c39b2108f571de89fcda7586ae6beefa11ee177b216"
-                  },
-                  "min_glibc": "2.27"
+                  }
                 },
                 {
                   "target": "x86_64-unknown-linux-musl",
@@ -1533,8 +1632,7 @@
                   "checksums": {
                     "blake2b": "c39a14cc798fc121625a22ca218be814c7884d40d922549d68c2f79990ffbf40216f4a8b2d3856bf1d7bb0c68e5be17c19cf7b5f00a25affe4e7a60e841cc664",
                     "sha256": "e1c85dbe02dcf5b963803b3f96f4f561757f5c37cab68c932411dea20d57284e"
-                  },
-                  "min_glibc": "2.18"
+                  }
                 },
                 {
                   "target": "aarch64-unknown-linux-musl",
@@ -1552,8 +1650,7 @@
                   "checksums": {
                     "blake2b": "e9648d8e9de00f07ced9b911fca49faa2499a40a02dffb1c79ce718017ca3afe8fe136c24bd8ab0bf8a77531b0ac4473b855a4e1de80008841d7ba8501cf85f6",
                     "sha256": "3298f6d9820a43c08343063baec382f0bcb98d8f8d2f7cacf51466e344fbe33f"
-                  },
-                  "min_glibc": "2.34"
+                  }
                 },
                 {
                   "target": "x86_64-pc-windows-msvc",
@@ -1650,8 +1747,7 @@
                   "checksums": {
                     "blake2b": "58fed768a0c430cf770822398e765bd6a31ced426ff99c50b56ef0cb8460f07b4944b4838c7cb5a48ccec54073a67c77240ca822b394497c74e672874eafde0d",
                     "sha256": "38fd6275e111b200bbbed1bd2ae91cbb0d7edd28504879875cff2b3d96f3f311"
-                  },
-                  "min_glibc": "2.27"
+                  }
                 },
                 {
                   "target": "x86_64-unknown-linux-musl",
@@ -1669,8 +1765,7 @@
                   "checksums": {
                     "blake2b": "4bbd7bf8124ec26b4496c17bbe64c13ac77dc4223065e110adc3b5761f82df7d322c3338c8bbfb9829fee53f28b7bf2802664194d29810fd6b3899d5edd54512",
                     "sha256": "8f878903d63a69dd0a8fba65d0dc871043423bd0591076f688023b862d58d1a6"
-                  },
-                  "min_glibc": "2.18"
+                  }
                 },
                 {
                   "target": "aarch64-unknown-linux-musl",
@@ -1688,8 +1783,7 @@
                   "checksums": {
                     "blake2b": "f31f44da29c1fa07862bc5e4d05e98df1382eb47d9dd05cad0273fbec22834132f18c41e2c74c24524a801535b83022beda1f4562c41f5d0dacd3a3e2a723083",
                     "sha256": "b1c235ea81560d0f0dee36053369ba6c8eda303183ff8603a9776fd28b946495"
-                  },
-                  "min_glibc": "2.34"
+                  }
                 },
                 {
                   "target": "x86_64-pc-windows-msvc",
@@ -1786,8 +1880,7 @@
                   "checksums": {
                     "blake2b": "a2f846b61a543a58b822b5fd828eae383ac6b761f6e4310a8eff9efc6cd04dfe755587f2f3961dd5f865f42ec4d6ad99d4db65096fed655b1a07d3b8b4305bcf",
                     "sha256": "a098eed56f2dd88c7fdca1e554a6b99fa1ffbd2a7a1c41b865700112981f6f52"
-                  },
-                  "min_glibc": "2.27"
+                  }
                 },
                 {
                   "target": "x86_64-unknown-linux-musl",
@@ -1805,8 +1898,7 @@
                   "checksums": {
                     "blake2b": "0d0288c63425c15ee4c3c426e03d6dbe654205233a9783a0aeedc343b1074402ccdf0b722737b36014497785f1bf3ca7f1b1aca4567f788f21fb533fc5b8cd56",
                     "sha256": "2a6d9e1dd07b56b4bbe03b73778615dbff2f623e54c8dd4fa9642901e11494ee"
-                  },
-                  "min_glibc": "2.18"
+                  }
                 },
                 {
                   "target": "aarch64-unknown-linux-musl",
@@ -1824,8 +1916,7 @@
                   "checksums": {
                     "blake2b": "aab4142ee3f3220fb099cf68d26540637f53242c9b79a176acb31557d8a0c6f86a9048d871362afd9993859b77993a41ab83f2a9838059e773ad85de1ce4f67c",
                     "sha256": "999eda3bc44a05ceed1b52f1e1b1bd840e71bbea76207d49cc2e88fb534efeb2"
-                  },
-                  "min_glibc": "2.34"
+                  }
                 },
                 {
                   "target": "x86_64-pc-windows-msvc",
@@ -1922,8 +2013,7 @@
                   "checksums": {
                     "blake2b": "d85c03815ad8a5e5c7bab9b30f54ac32f4b91bd8c7deb0e7b86f8cc79251f958a2fe1f58e1fdc4a35a5e6e52afab2575f82b03e5f624111968467daa8dea9387",
                     "sha256": "547090eba95177d474ce7ec9d73d5d7d54363fd2bb180b7168aac1d72b2776de"
-                  },
-                  "min_glibc": "2.27"
+                  }
                 },
                 {
                   "target": "x86_64-unknown-linux-musl",
@@ -1941,8 +2031,7 @@
                   "checksums": {
                     "blake2b": "df03cf7e2a2055e31a1cab37552452ffd37176dd4f5abc21b783c992d2f8b5ed619f95066e938dfe7000e1789ccc38b67ae95d46555db494ff752ff87c61c531",
                     "sha256": "3cbe45dcea1a11e4134a50b5d32827db942bc070c96d6eb8b97b84a88dccba62"
-                  },
-                  "min_glibc": "2.18"
+                  }
                 },
                 {
                   "target": "aarch64-unknown-linux-musl",
@@ -1960,8 +2049,7 @@
                   "checksums": {
                     "blake2b": "ca7e92f492c024a36ff7991b1c9c8d9089006212809a6992dd050fc61e892672266eeb504881776c356204a9dc3a325875aa0ce9dc5221971cde66bd187e9405",
                     "sha256": "623e4640572a4de6a7e4009704673ca83f1f4b1ccc73ce6f3cf006c9da4273b1"
-                  },
-                  "min_glibc": "2.34"
+                  }
                 },
                 {
                   "target": "x86_64-pc-windows-msvc",
@@ -2058,8 +2146,7 @@
                   "checksums": {
                     "blake2b": "ee0152ec6a6acd65aafb259e8c3403be80603f44a7c0215bd571780e7b1593931b43bb5f151c4c9dfe48a41dac3e873ceb6e75808b48edbb462036274ec39202",
                     "sha256": "3b4f60a5da132c1ccfe69377870dad227b3a05195cf8c147b1d3ce59a4f55a35"
-                  },
-                  "min_glibc": "2.27"
+                  }
                 },
                 {
                   "target": "x86_64-unknown-linux-musl",
@@ -2077,8 +2164,7 @@
                   "checksums": {
                     "blake2b": "28ed3f8c95bab23ae9147ed3a55b7f52b46dfc6f0ad75900f4ef964f214186d6d9e4709080c55917816af1c4233889ff10e98e6091394dd13b110f8566633578",
                     "sha256": "1de6c57858c71d0e7d455e41e5d38b4ff21c6c7fad066162cca04ea389980727"
-                  },
-                  "min_glibc": "2.18"
+                  }
                 },
                 {
                   "target": "aarch64-unknown-linux-musl",
@@ -2096,8 +2182,7 @@
                   "checksums": {
                     "blake2b": "bfcd445c3b44739fc71f35cdb5e8b584d03fe3efdd02dbb3fd5117160b46d11e971d5f5e4c28ab9b4bc018e4fec7145f4350917d9030940971110bcca7696bff",
                     "sha256": "6d8b199bdd9dead86957970225e53a681424a10d8d14f1ec58afdfac8d1c2ce6"
-                  },
-                  "min_glibc": "2.34"
+                  }
                 },
                 {
                   "target": "x86_64-pc-windows-msvc",
@@ -2194,8 +2279,7 @@
                   "checksums": {
                     "blake2b": "658ae43aa51ddb60dc3383e4e07235a7d5b795c9e10b323e9e731a82b2749b691b4a173a464b38d7ddb7c69fdb49fa61156e128ffd26d0b3db60150307f09326",
                     "sha256": "a9f992321e8759818400d93abb9477b4b11422d18d216e8d208505bd73454103"
-                  },
-                  "min_glibc": "2.27"
+                  }
                 },
                 {
                   "target": "x86_64-unknown-linux-musl",
@@ -2213,8 +2297,7 @@
                   "checksums": {
                     "blake2b": "c3eee1fb1cb094cb973f379ab93c367955aeaa7aa3ae40676407af05dd9b03f8ec44368e7105015f77de16c9694b5f02a585988b3f2d543b42f2c378101b415c",
                     "sha256": "8e4d241c78f9cbf5ca8597b13004f0441c18af484ea105b8f83b44a716c82d3d"
-                  },
-                  "min_glibc": "2.18"
+                  }
                 },
                 {
                   "target": "aarch64-unknown-linux-musl",
@@ -2232,8 +2315,7 @@
                   "checksums": {
                     "blake2b": "3c4d9f0ea565dfa1d23049fc9115c9141640b2a0d26d56cf57cb7e1eb2003b9011b6f1228178585678e56a0d65162863884678bfe5a124abb97fc1182f8a89d9",
                     "sha256": "57146e41731792fd25efd9d8e20cd3854807bd7b73197deb7266920b3114ff09"
-                  },
-                  "min_glibc": "2.34"
+                  }
                 },
                 {
                   "target": "x86_64-pc-windows-msvc",
@@ -2330,8 +2412,7 @@
                   "checksums": {
                     "blake2b": "bc98bd5c3e269f303a45b8745352e4388f63b55a94afe295bd26fee9695e846f0e8718b2f00beb64c61cac9e9cfd3c7a7b981e6aecf78dc043486f36e0a171d6",
                     "sha256": "e22f14ecaff5519dbfe521e8717d64e9989648bddc23eb1f71bb0053518a52e7"
-                  },
-                  "min_glibc": "2.27"
+                  }
                 },
                 {
                   "target": "x86_64-unknown-linux-musl",
@@ -2349,8 +2430,7 @@
                   "checksums": {
                     "blake2b": "ce1a067607e95165e924bb8cd13ec08e0bf93def7b7b31136d605d2a0b23d091627e4c235dd5744a8d4c39e082fc55f69b9b1092094033f33cc49ef78884df84",
                     "sha256": "592db3fa3d3ee62f109dc149554811eb8ecdc68e1514be5af79986b1560e2e0d"
-                  },
-                  "min_glibc": "2.18"
+                  }
                 },
                 {
                   "target": "aarch64-unknown-linux-musl",
@@ -2368,8 +2448,7 @@
                   "checksums": {
                     "blake2b": "4e08930d29056d23d9002740a4db56f85d360bd30b8c4044fb6cd9ba1c510a7e97678e9de742907a6ec76c3305ce11158adad0401189cde304d1366aa686509b",
                     "sha256": "82d1f0c4b7733e0a852e2e8b3f1a3f65b89e7ffd165121127ac356f0c9f7b5d2"
-                  },
-                  "min_glibc": "2.34"
+                  }
                 },
                 {
                   "target": "x86_64-pc-windows-msvc",
@@ -2466,8 +2545,7 @@
                   "checksums": {
                     "blake2b": "ad9b734e2e6aefd283065494777d5bb51cb2ea6802b42bc96f375f1cbf4df7d86f126a4c6e45a4fa348c1ed8877c7e0c930e32678244cbd7686ad8fc20b1a7ea",
                     "sha256": "209ede933b939aefa460d861345b0778fff5bea8475fb2444bcfd987ad6dbe00"
-                  },
-                  "min_glibc": "2.27"
+                  }
                 },
                 {
                   "target": "x86_64-unknown-linux-musl",
@@ -2485,8 +2563,7 @@
                   "checksums": {
                     "blake2b": "80b5e1f6f29e17baf7d778c349e86f689f83460404c8542223da3b34d7990c87e68b2445eb7b3fa9174066a623c7964d2287b55571e234bf2b400df09050b867",
                     "sha256": "c77dd6c5ab9fe3d47f7c6aa7a94b86b8f21351c20765df06b0cbfcfad60ae8b9"
-                  },
-                  "min_glibc": "2.18"
+                  }
                 },
                 {
                   "target": "aarch64-unknown-linux-musl",
@@ -2504,8 +2581,7 @@
                   "checksums": {
                     "blake2b": "9116bd0beb28a24ffba2598f3526bbee18501018fa999e3fd54e23d80314cbe3fe57a921d1a639560ef3be3481161e21785875e2c708408d7c7f7efcc22a40e6",
                     "sha256": "76a794598f8971eeb76353c98afece1de02168c7979e6bd071ab15841558c115"
-                  },
-                  "min_glibc": "2.34"
+                  }
                 },
                 {
                   "target": "x86_64-pc-windows-msvc",
@@ -2602,8 +2678,7 @@
                   "checksums": {
                     "blake2b": "b90e23fcc0e2a287d7e66c6f43fbccb800a02e4cb9d60b4d0e7b44962168d3117a93518d4de545a911284622b41861320180535820b360d067af66ac7e54b5e9",
                     "sha256": "8e38b16299864c9f597c9a1e2caf25b7e8b598ffc659ec014c2c735a9befd8fa"
-                  },
-                  "min_glibc": "2.27"
+                  }
                 },
                 {
                   "target": "x86_64-unknown-linux-musl",
@@ -2621,8 +2696,7 @@
                   "checksums": {
                     "blake2b": "40a20f35ed27604950322957fffc7a6c937d52ad9306ca3fdbb81ab08fb7b51c4990998ee4073945068dd4f2b7bc9dcb09abba7a376b5e01a9865b57b6447295",
                     "sha256": "ce3bc715344d51e6f0fbb944489e37d17e25d24dfafaf861cc37643cfe7de663"
-                  },
-                  "min_glibc": "2.18"
+                  }
                 },
                 {
                   "target": "aarch64-unknown-linux-musl",
@@ -2640,8 +2714,7 @@
                   "checksums": {
                     "blake2b": "4d810bf739286f5574c8fed48417326b2761b2a94ff38805889291c501b0c4740907077d1340977fe52116de97271388ab1dfff54c0d20725003a55699aa1699",
                     "sha256": "22adaaf5fa232dc78a8b2a3f51c41eb175440fda999c20eff17709a2905d0f94"
-                  },
-                  "min_glibc": "2.34"
+                  }
                 },
                 {
                   "target": "x86_64-pc-windows-msvc",
@@ -2738,8 +2811,7 @@
                   "checksums": {
                     "blake2b": "d54f67c40fffcbe327b05432f62660db84b579cc3e0bac26f58aeb5adda5822277bc071a5a0a7dd2d56e8fbae31b9854e0b63fbd672e1c772abfe9784072635e",
                     "sha256": "f57a18629f5ac92cdd56919b5bbe636aaae3ef95f7ce680465fc719f26d339bb"
-                  },
-                  "min_glibc": "2.27"
+                  }
                 },
                 {
                   "target": "x86_64-unknown-linux-musl",
@@ -2757,8 +2829,7 @@
                   "checksums": {
                     "blake2b": "ebd7b0decfe03c46bb17ac7d2af0e58877865665724bfd06131a5f263bba712ea899f7b4dabde61b2c2e6bd8e76386919ed8df8b952d73f253874c83a915f3fd",
                     "sha256": "464181a3f4d7080b2dabd6e7237dea1776a7769305e81fd50b6a901e737798af"
-                  },
-                  "min_glibc": "2.18"
+                  }
                 },
                 {
                   "target": "aarch64-unknown-linux-musl",
@@ -2776,8 +2847,7 @@
                   "checksums": {
                     "blake2b": "dfbd1b3c1836ecb215655c02174214a5231e7cfbdcbccf9938d172b8b4e22f12f837cb34ba268e4a1bc559b7f3f07e492710aa6f0edd5a5ae14a722436a87ad3",
                     "sha256": "e70ff66d25d4fc3ea45192405ecb66cd6f8aec725f82d7fda1c19a0d82217a35"
-                  },
-                  "min_glibc": "2.34"
+                  }
                 },
                 {
                   "target": "x86_64-pc-windows-msvc",
@@ -2874,8 +2944,7 @@
                   "checksums": {
                     "blake2b": "8e180ee8ea6e34fae13fd56d1297e7a020efbcdc27c34c21a4baf0c3fd97caaa388802f932b9ee97e411154a1d3520607d632202b5e06fdb4a30d0d137a0ff87",
                     "sha256": "8d77650d67c1a8a24304a5fb1a01e8d7632362c2aa0b6f401b188b0535c9e35f"
-                  },
-                  "min_glibc": "2.27"
+                  }
                 },
                 {
                   "target": "x86_64-unknown-linux-musl",
@@ -2893,8 +2962,7 @@
                   "checksums": {
                     "blake2b": "c8c01bb36536a4fd3f13834a1cb5cfe500ebe8206772a66f21618a1a1d39f8ca20ee70198a1b786b8a593742f6f29b75c93682b91edf05584f3cc58c58122a38",
                     "sha256": "87502a6e9e240182fdec1d5366880583821795ce4be03c1ce4d424fbc147c61b"
-                  },
-                  "min_glibc": "2.18"
+                  }
                 },
                 {
                   "target": "aarch64-unknown-linux-musl",
@@ -3000,8 +3068,7 @@
                   "checksums": {
                     "blake2b": "1d358540386d57cd23ead4037094cf4988fee8541776d425afed9e33929bc30d3ed63e9d81170bee0c2a4c7d9c6d95f72c4e8cb491bbc753ba77eeff83bffbb1",
                     "sha256": "cb291d9fefb0f5d7f3b21e8e3bc7a67ec44ff6a3ac4cda3b96a356899ab4625b"
-                  },
-                  "min_glibc": "2.27"
+                  }
                 },
                 {
                   "target": "x86_64-unknown-linux-musl",
@@ -3019,8 +3086,7 @@
                   "checksums": {
                     "blake2b": "d53ea80373882f38faaf8d0f51cdf795da484a232369316d9c6d22c23dbdf74087382fda14572480df2f4fd64109489ffb52d75d8fbd3348aa4de22614677dcd",
                     "sha256": "d35d3fdb8aa1af1b17b4c2062f5e5c61b957827284c9ba7e93718fdfa69cd5ab"
-                  },
-                  "min_glibc": "2.18"
+                  }
                 },
                 {
                   "target": "aarch64-unknown-linux-musl",
@@ -3126,8 +3192,7 @@
                   "checksums": {
                     "blake2b": "3abd3b56e7b7d6769c99a6249c12b32da900f30dda0728397c4e2004ed37bef86d885f2c3a8aa91f5ec247c3620687a7956a56c92f6cf093ebc15f8f0b5f9084",
                     "sha256": "f7035798220352c839d7a1f861f4c730c2fbbc335f186807dde148dc9caf7e9c"
-                  },
-                  "min_glibc": "2.27"
+                  }
                 },
                 {
                   "target": "x86_64-unknown-linux-musl",
@@ -3145,8 +3210,7 @@
                   "checksums": {
                     "blake2b": "10f049865482bcd2a7295cf8a1569b4412f45248416177e2b773dc1ac942e4a18a98f6d592802dcd8297476a479af402588ed7d46950e091437d26d0e5fa9980",
                     "sha256": "cca77f0b71dca2c82458294fc2b5992d8754c816e8b19ee64c76b3402e242e89"
-                  },
-                  "min_glibc": "2.18"
+                  }
                 },
                 {
                   "target": "aarch64-unknown-linux-musl",
@@ -3252,8 +3316,7 @@
                   "checksums": {
                     "blake2b": "4ceb9d9a017be34669e90f1445e556920fe2bb0a13f200bf4d974d356805f3776f19c174d6621034128d113f673a217a4f6b79bb44cc4b0b0d75c7b8c64fc4f1",
                     "sha256": "92365076068c60c2e571445a34521c32f18dc0f0230cf35301415fab52ce39bb"
-                  },
-                  "min_glibc": "2.27"
+                  }
                 },
                 {
                   "target": "x86_64-unknown-linux-musl",
@@ -3271,8 +3334,7 @@
                   "checksums": {
                     "blake2b": "de9ec8a98c05a18982212d0de926bd7751019d60e2ae03c2b141af35c2a57f35d7e345bb719fd07ff08d7ec7e55c5204db2571c4a82115626d77c742a9c6ce70",
                     "sha256": "27f6a395baa53a98c0d817104dcef4795d493dd41f33348f49f45ac616a1bfa7"
-                  },
-                  "min_glibc": "2.18"
+                  }
                 },
                 {
                   "target": "aarch64-unknown-linux-musl",
@@ -3378,8 +3440,7 @@
                   "checksums": {
                     "blake2b": "47e24a52461f8ced7e75bff79aa2d975f175ffff025430b87a390eb4eeab239137bed4e778fc5cbeb5657c5c0e2ac16cda733f96121fecda26dad10e65e8726f",
                     "sha256": "83c074a33648f93d9c1cce8edf23b0687122d5941f0d2ad3361339d04e3d30ab"
-                  },
-                  "min_glibc": "2.27"
+                  }
                 },
                 {
                   "target": "x86_64-unknown-linux-musl",
@@ -3397,8 +3458,7 @@
                   "checksums": {
                     "blake2b": "cfad0acc0a294ed8435b7e659ee6b6d916afb101f1ea609c4428370db036404f4b2350d59419b38832b65d3749a63651f9dbb70fe12154b5c458e724dda5898a",
                     "sha256": "4efeeb7ef3c6a4ed63998b2cecfef35503a38eeb9469dee84690abadcd6bb363"
-                  },
-                  "min_glibc": "2.18"
+                  }
                 },
                 {
                   "target": "aarch64-unknown-linux-musl",
@@ -3504,8 +3564,7 @@
                   "checksums": {
                     "blake2b": "1dcb33bb8a9a22bc0a0cddf86f13c9c15a46c513ad0cb698528307f4008a1652526977ff3ca2a8b4e406f4d23e62cd6466e84e72e1a7ddf9ac06450d5ce3673a",
                     "sha256": "0a9d356170528ba92a65fd0157ec0445a67d1f7c2c5726085656e55ba8a1b976"
-                  },
-                  "min_glibc": "2.27"
+                  }
                 },
                 {
                   "target": "x86_64-unknown-linux-musl",
@@ -3523,8 +3582,7 @@
                   "checksums": {
                     "blake2b": "8b55b2191b2ac0247c390e819b60da1cf7084f6ce20f1e0e278b1cdea6cf2b71586485e220a59d9ae49a95ac9553fc4191a43829c412d916f8fd777cb20176f5",
                     "sha256": "ce9f682227a131497227f84328e0b2eb36d2a7f43515f867a47bdb35c69516e4"
-                  },
-                  "min_glibc": "2.18"
+                  }
                 },
                 {
                   "target": "aarch64-unknown-linux-musl",
@@ -3630,8 +3688,7 @@
                   "checksums": {
                     "blake2b": "deec903a98da867c0d8aeb6cc9f99b971afdfb0509202258f50429faaa8eb48b1564f77df73fe0916098c80877da6a0e86fe9599f284a0f832e90f70a1e29f57",
                     "sha256": "f374217d343eb159a9c61bdb0dac773126854837ef1d615282ca84e91c29a4fd"
-                  },
-                  "min_glibc": "2.27"
+                  }
                 },
                 {
                   "target": "x86_64-unknown-linux-musl",
@@ -3649,8 +3706,7 @@
                   "checksums": {
                     "blake2b": "abc00b68f7cdd99b708a5211bbf1df2d76a23ce84fb29fca9e568213e5a498527250ac63d8231d422f965a22292a675d968449923118c3580ee90f2eaf8ee197",
                     "sha256": "0f248c2032d1cbabafc0c780901c3ce032114f4fbd7ff81b7f656edfeffcff21"
-                  },
-                  "min_glibc": "2.18"
+                  }
                 },
                 {
                   "target": "aarch64-unknown-linux-musl",
@@ -3756,8 +3812,7 @@
                   "checksums": {
                     "blake2b": "dd9537e047762f740707f8ef54df5851be9801c1dfcb7c460db7a5b6aa6bbfbc67b37dba923705ea56e3510dee10f25b62a94081cb0cb43465cc30bcbab80a25",
                     "sha256": "8e30496b8e68497aa45aaef7992e39f62919e2bd87d3f4530f7bd5d3acae9ea5"
-                  },
-                  "min_glibc": "2.27"
+                  }
                 },
                 {
                   "target": "x86_64-unknown-linux-musl",
@@ -3775,8 +3830,7 @@
                   "checksums": {
                     "blake2b": "6bbd1c9e39281aa3dde007ece986818822f4141841da5ed694f5b2cddb4ebc823a87fe8646b96a09939bcb83e9441701a1eeddc4f39cc6949efa59f3edc7f4dd",
                     "sha256": "ea3174c1d8941f85d9f4c6d5619178482811b0a3b78010d3ea369ba20705fc2b"
-                  },
-                  "min_glibc": "2.18"
+                  }
                 },
                 {
                   "target": "aarch64-unknown-linux-musl",
@@ -3882,8 +3936,7 @@
                   "checksums": {
                     "blake2b": "4753080385d866b70a5ef6d553bd59dbf5afe715bf9a2fc9de51e4d5ec94d0fe8913096766f5b3d342269eb207421fdd13cf9c8121efd1a6fc30d220626b904c",
                     "sha256": "cf3694155011e6e19a7306448b7984e5d0d781417a31478996a9018b7ec78e25"
-                  },
-                  "min_glibc": "2.27"
+                  }
                 },
                 {
                   "target": "x86_64-unknown-linux-musl",
@@ -3901,8 +3954,7 @@
                   "checksums": {
                     "blake2b": "03ba228d8765955d237aaee0af918ea6cc34925ad10f1a628113fab0eb99c4ea01220f995237e186388cfc9f10c7affabe44fa975ee6a2d94141b4706b41b5db",
                     "sha256": "d428e20e704715f8597e9b79bf30d0c1a3c5558a4e640766e7c746db368e2c34"
-                  },
-                  "min_glibc": "2.18"
+                  }
                 },
                 {
                   "target": "x86_64-pc-windows-msvc",
@@ -3999,8 +4051,7 @@
                   "checksums": {
                     "blake2b": "2f8d18369786197a4cef0759a2aabc5f1f3fe75621253747d82fe1f121df2c48b834f6cfc1344d5c372375ae74e8496daec2d8cfeaf4e38233b6ce51f1db87c4",
                     "sha256": "b5bfdecdfd1b4efb702ebfa512b7bf0932aeb8c5cde25917aa6df8bf63837b3b"
-                  },
-                  "min_glibc": "2.27"
+                  }
                 },
                 {
                   "target": "x86_64-unknown-linux-musl",
@@ -4018,8 +4069,7 @@
                   "checksums": {
                     "blake2b": "234f5a81dcb05cd64e433185671a53fdf00a3b8aad075eefb65d99450602ebfc1d0db4b1b7a04f7157656f70def6e92aabf5a1aa1315653a14e81df0dbb2b9a9",
                     "sha256": "91ab98eedb817a52f4d4ae31e4c354e630ce1cc7d81c534b37b4d1edd42451c8"
-                  },
-                  "min_glibc": "2.18"
+                  }
                 },
                 {
                   "target": "x86_64-pc-windows-msvc",
@@ -4116,8 +4166,7 @@
                   "checksums": {
                     "blake2b": "229641c45b996b0f8e6e69d5a4da1f743203cb4b77e19ae85698d8f32b2c08c7878df75f86f9a5a7cfa23367c216f1f62b0b3f8af869b1103f95600e40248074",
                     "sha256": "09747ebee75f8a89e59e4226db5080ca38d11aa28f710f8418a246b4fd7a86d9"
-                  },
-                  "min_glibc": "2.27"
+                  }
                 },
                 {
                   "target": "x86_64-unknown-linux-musl",
@@ -4135,8 +4184,7 @@
                   "checksums": {
                     "blake2b": "22b18a12fbd853b31e2d09fea9f31d0ad1a4a8cebe1dc6910b9684eb86dd05e97f1b917f2e6735d390a3aa156fc80e1b71cf8e7a11a436a6f37529b0a828a1ac",
                     "sha256": "3705642eae70790d46412ebd7b4118c7b0175addf9e98408fe161788ed75e2fd"
-                  },
-                  "min_glibc": "2.18"
+                  }
                 },
                 {
                   "target": "x86_64-pc-windows-msvc",
@@ -4233,8 +4281,7 @@
                   "checksums": {
                     "blake2b": "69e4a26deea432dd842d6c8732f8815d5028e67b3846677a8a38f0af05618c5374f72779db354ba6e483028c64719d85558329e2674ffc3a95e03996df7b3da4",
                     "sha256": "5812aec34c5f0468b04a4bdc1ec8b045169b933962745fa0d76e514a472b38fe"
-                  },
-                  "min_glibc": "2.27"
+                  }
                 },
                 {
                   "target": "x86_64-unknown-linux-musl",
@@ -4252,8 +4299,7 @@
                   "checksums": {
                     "blake2b": "25f693a55c57797dc9b8cea74819026c6a1bbdb45837fb56d1024d0ce579402c1f9b57ad7afe422fe42c1e08f6cb4c74d414be44e96e34192a0a01c2d600e129",
                     "sha256": "6fd98d38a57187edf63d2167f80d70db499ac6c96571114a9e77eaacef7d4231"
-                  },
-                  "min_glibc": "2.18"
+                  }
                 },
                 {
                   "target": "x86_64-pc-windows-msvc",
@@ -4350,8 +4396,7 @@
                   "checksums": {
                     "blake2b": "26328b5a36608569ba055bf5e3b8ed637901eade65996912c86ac806d3ad586cb69b4c7ab64d1b63313f6c4f55f9f4c6b96376a91ea5296e24521f22d37a88a3",
                     "sha256": "b4d4b3e156d2d3457c73e008291a5d5f23cbffd924eaf19e0027e20d3a33b4d6"
-                  },
-                  "min_glibc": "2.27"
+                  }
                 },
                 {
                   "target": "x86_64-unknown-linux-musl",
@@ -4369,8 +4414,7 @@
                   "checksums": {
                     "blake2b": "f226e1efbea542e914e62e4dcca4e47cc91f861fd8f6f801b1e167e3c3c80f5261e8eca969ad7bed955302f14143dbefaa3088f8f96b32b855459ec315ac66e6",
                     "sha256": "cdbd1dbd047e675b505c7199f6cecaeb4987cd84d35d50f2d832fb85948fc362"
-                  },
-                  "min_glibc": "2.18"
+                  }
                 },
                 {
                   "target": "x86_64-pc-windows-msvc",
@@ -4467,8 +4511,7 @@
                   "checksums": {
                     "blake2b": "5ab5e35e90a39b5ec303a57d11718493e1726fb264a8ab8ee752a3520302912ec08042c6c53c3f7726c9117fe13f0ad59d6ff9736115b34f8403ae6cca66efb8",
                     "sha256": "120fe8bad2ebee97817910c9eef63b420bd4e199c005ab60121b6c87bd153129"
-                  },
-                  "min_glibc": "2.27"
+                  }
                 },
                 {
                   "target": "x86_64-unknown-linux-musl",
@@ -4486,8 +4529,7 @@
                   "checksums": {
                     "blake2b": "59076111bc32a039d0248fea65e70210bc5d6680148edbeb0bc6b6a356125ddb32b287feecbcb66d4d4b9e70d5fd4146733ce0c8177138c7b101d02878991ebf",
                     "sha256": "60ae3ede01e94074d650ea9a7906f6ff53710192495abc17c2ed6dffdfeb8013"
-                  },
-                  "min_glibc": "2.18"
+                  }
                 },
                 {
                   "target": "x86_64-pc-windows-msvc",
@@ -4584,8 +4626,7 @@
                   "checksums": {
                     "blake2b": "6bd0defc4f6259805c20ac6d7aff32f2a6e9c530e939125c5b59c8a768079e617513f5b69b9a6cf828fbac3f6ede61d04e421f41c907503a657fce5b375e1011",
                     "sha256": "092ac9eb16051b546a6e6d6f2d4170d7ff48d36c3985100a31ad8d78a2e5c87d"
-                  },
-                  "min_glibc": "2.27"
+                  }
                 },
                 {
                   "target": "x86_64-unknown-linux-musl",
@@ -4603,8 +4644,7 @@
                   "checksums": {
                     "blake2b": "6ac4e945631ae793c1cf926ab5d99dc8afe4221b6ad6b8da1e14065ee8bc4e25b23f8e80865d17aa63b71ac1d8c6c1bea14804b57ba50885d4ea1fb28e41321b",
                     "sha256": "a6ebfd8bf8f962730172c6d9b10ae1895df52927ca90d37a1be43215eb1aa346"
-                  },
-                  "min_glibc": "2.18"
+                  }
                 },
                 {
                   "target": "x86_64-pc-windows-msvc",
@@ -4701,8 +4741,7 @@
                   "checksums": {
                     "blake2b": "a81aedaa24809e4cdf02e480ba97461b160343cfd9e4d2d26d7d0edc2ab87ac88d79516cc5d0af5e60ccb3d029ac602f37698b1bec36959ac54ae70e1488eb01",
                     "sha256": "4f8126d5bc74a7bb1aca632c41f19bda60d2ca2027667e6cf78e718621f8c8e2"
-                  },
-                  "min_glibc": "2.27"
+                  }
                 },
                 {
                   "target": "x86_64-unknown-linux-musl",
@@ -4720,8 +4759,7 @@
                   "checksums": {
                     "blake2b": "5d9605b169ecb43eb80d961b0a8eb47544e557b630c69461a704e8fd5628d747a78df651c3b47a2265d58b47bf09937f64241030e06ad437bb38f2ca777634eb",
                     "sha256": "e57599407edeccec8c924cc2b4549ddd3e25d1b36018e2026a1796017da8182f"
-                  },
-                  "min_glibc": "2.18"
+                  }
                 },
                 {
                   "target": "x86_64-pc-windows-msvc",
@@ -4818,8 +4856,7 @@
                   "checksums": {
                     "blake2b": "821e0637714e0a0228448e5c763aa020e675f6632fd978ec33f2c0b0872ebc2259adfb3c9123b9096c147217c0f11bd02693a68bb4850ee1806e47c9fff3509c",
                     "sha256": "a5b1c12500c47e27af4baf533c917bf1b38e9bf2e6ffb063dfa1de6e75aa8726"
-                  },
-                  "min_glibc": "2.27"
+                  }
                 },
                 {
                   "target": "x86_64-unknown-linux-musl",
@@ -4837,8 +4874,7 @@
                   "checksums": {
                     "blake2b": "3970754b3da9860bd6f370ee0a6baaf83ead7bed3804c84a5d49ec2073b16ff29160be61cbb69c29f696b3d35fde57b27308602b6d1fe3998dd52dc5191e83b6",
                     "sha256": "5e13751733a1fc4d26984ad5e1bce10d057d95299b02ed3ac96877b7288c8feb"
-                  },
-                  "min_glibc": "2.18"
+                  }
                 },
                 {
                   "target": "x86_64-pc-windows-msvc",
@@ -4935,8 +4971,7 @@
                   "checksums": {
                     "blake2b": "04f19203dca1de4a99f7792a3469d10246352a906f55bd14248e1ec4da1d616ad44c304ef914af5bf99b6d2d6003ea9f5be6fce9188527801ea08f2527ff98f7",
                     "sha256": "5768c26024be3489e9a389f53bea8dd9a565bb74f3cbb488708734b27531e848"
-                  },
-                  "min_glibc": "2.27"
+                  }
                 },
                 {
                   "target": "x86_64-unknown-linux-musl",
@@ -4954,8 +4989,7 @@
                   "checksums": {
                     "blake2b": "ae64e067661a4dd530e05262f460fd72d46ed2426e62378fbabdd9f0b90b4be065a42ea4a0d3e1ed066b913fcc44807e7b131729909f21937ca35745d31d5ecf",
                     "sha256": "b337d7312617b0c0eb057de4b10dfe09921bd2800f2846ae7becff60d992e5c8"
-                  },
-                  "min_glibc": "2.18"
+                  }
                 },
                 {
                   "target": "x86_64-pc-windows-msvc",
@@ -5052,8 +5086,7 @@
                   "checksums": {
                     "blake2b": "42d42e13beb560d825393e4a13d5c8bc55bd28c91f4cbed700764481d242a1efbe839eff849c427e7e9db277932ece2bb80d852dc8cc43bfda160e0bde690674",
                     "sha256": "7eff96817f88dbc161b59ba10ee324ecab43cf17a4d1179069d2d396592d9f2a"
-                  },
-                  "min_glibc": "2.27"
+                  }
                 },
                 {
                   "target": "x86_64-unknown-linux-musl",
@@ -5071,8 +5104,7 @@
                   "checksums": {
                     "blake2b": "59d04e0ddd406d2aa53903a6d43ac642a5e28b6734840c1680f22d126886b53d734a81a394b23a93151dea1df8d2b894b2ea8247b7708ce5ea72302f69fda869",
                     "sha256": "6598b2f0104070c55187996955faa77212e60a37c6e897878e407688710f65ce"
-                  },
-                  "min_glibc": "2.18"
+                  }
                 },
                 {
                   "target": "x86_64-pc-windows-msvc",
@@ -5169,8 +5201,7 @@
                   "checksums": {
                     "blake2b": "93248d27e3e5f153072311316fbd861cc598ac296040a40538c793ecbb98a4e990c770c8366a02fe07565fc60d0de27d1fefc56d600139457adab7f50f588bbf",
                     "sha256": "1e60aac5de62391d2419bb6c5bfa467f4b27586b3f1b3ec07aa79f4632583450"
-                  },
-                  "min_glibc": "2.25"
+                  }
                 },
                 {
                   "target": "x86_64-unknown-linux-musl",
@@ -5188,8 +5219,7 @@
                   "checksums": {
                     "blake2b": "8ad5665b4212445fe7dd20b53b7c5c3b0ba34ce50170aa8e013d8b5cc5b2206a346a438348fcdc16861d8ac8b1abbf31dde3b78c9c7cf2068262c8b080fe2b4b",
                     "sha256": "1b89b3cbac2e27095168f8edaa5165a344a83743b42dfb90a95b8896187807e8"
-                  },
-                  "min_glibc": "2.18"
+                  }
                 },
                 {
                   "target": "x86_64-pc-windows-msvc",
@@ -5286,8 +5316,7 @@
                   "checksums": {
                     "blake2b": "ac4cccb25200fdd0cf64cf91211e8af20b75bcf924aa5b7e53d6db7f05e8dc67f2b44fd3812e962b1a5a991d305c3551105802e47bca92793525b0d96bc51b16",
                     "sha256": "132ae72d48bcad4fc4eb823640f0d37ae81085116b8d0497c720a7f35095c664"
-                  },
-                  "min_glibc": "2.25"
+                  }
                 },
                 {
                   "target": "x86_64-unknown-linux-musl",
@@ -5305,8 +5334,7 @@
                   "checksums": {
                     "blake2b": "bef5751500f9f96cf782da5d14b4323a1c19d74b263782a773568c894499eeb3fb54c32b6c9df13129ff5eeec49dc414fabee80aaeab4e26681a73cf1f11c633",
                     "sha256": "85015537d3e987dce5326246eb53c9a086c7f862072898baed56b347d90d8e07"
-                  },
-                  "min_glibc": "2.18"
+                  }
                 },
                 {
                   "target": "x86_64-pc-windows-msvc",
@@ -5403,8 +5431,7 @@
                   "checksums": {
                     "blake2b": "67435e0f9f56cb2806257b19e5bb41234cb5fe24377035e1704970d0e8a23b2650f5d5457e6913aec995ced4f633727e802db526171d5c7971adbf77f2fb7956",
                     "sha256": "091d5a09af17fba9df5d3aebc5964d731c3a044525c963a98c31d6d4506a7ee3"
-                  },
-                  "min_glibc": "2.25"
+                  }
                 },
                 {
                   "target": "x86_64-unknown-linux-musl",
@@ -5422,8 +5449,7 @@
                   "checksums": {
                     "blake2b": "5ac913166476fad7302b7bc0ec823092ee777dbba5782ea9b48de8de1873a2d62190f04787fbf60aa5db359f5b2bae1c6b3b41dea03b8f2b7d96cd8ea54cb615",
                     "sha256": "f7ffe12e8859683a20b76738bc0f0352a24bbcd06ecfc40950f07ccceba96a27"
-                  },
-                  "min_glibc": "2.18"
+                  }
                 },
                 {
                   "target": "x86_64-pc-windows-msvc",
@@ -5520,8 +5546,7 @@
                   "checksums": {
                     "blake2b": "fd593416ef24ea777309918343262b63c83a6eb298179c91c690a1a01c4fac878ef1a6039a75fb288f2ad52d162a8831328b54f2717cc2713322b42c98dc8a86",
                     "sha256": "d5e4b9cf07323fc1706b58daff06c1a1ed36f3479a816ab7867956da7a1f2142"
-                  },
-                  "min_glibc": "2.25"
+                  }
                 },
                 {
                   "target": "x86_64-unknown-linux-musl",
@@ -5539,8 +5564,7 @@
                   "checksums": {
                     "blake2b": "6d9c62e4568a20a10f66bbdeb1d079c579899351f6555cc373507e31af04e5706d63fdbbcecb475aee6c9dba148f89ddd278b49537af3d4b585032fd179d982b",
                     "sha256": "731662a2ce5f4b8555581c1557739b50111a066dd77c150e79a18abd05ff09e9"
-                  },
-                  "min_glibc": "2.18"
+                  }
                 },
                 {
                   "target": "x86_64-pc-windows-msvc",
@@ -5637,8 +5661,7 @@
                   "checksums": {
                     "blake2b": "1dfda33d79b7c891e2248ff556fb89693411d038d7fb34190b0f13aba3a3f17addee462fb85f0b774a2eee6da8f85f302de67360ee382748bdcbf6d89267664e",
                     "sha256": "897cedb3b4e7c6e0d0960216a45a4635c1bca8c6f65930eaaf452ceb1a3d7f5c"
-                  },
-                  "min_glibc": "2.25"
+                  }
                 },
                 {
                   "target": "x86_64-unknown-linux-musl",
@@ -5656,8 +5679,7 @@
                   "checksums": {
                     "blake2b": "617a78c3beb6b874e653f81345a8016402761b58f6f3871b9e616da75318a402f5a0c2b4e948191534a3f45a82125ca2b5d7ad1d7d19760fd1ba11492d3c264b",
                     "sha256": "7de7f60700cc9d0397d1f909522270ce229ed752283ad59b2d413772d4b8409a"
-                  },
-                  "min_glibc": "2.18"
+                  }
                 },
                 {
                   "target": "x86_64-pc-windows-msvc",
@@ -5754,8 +5776,7 @@
                   "checksums": {
                     "blake2b": "820740b4fea6388956bb862af893f6ca7f656a25a854fa2dc6c58712e0b8adb9bcf09f5a7127e677b166fc7a05c7f4d9564cd7d6c2c04e224ca6b2f8e27f5366",
                     "sha256": "a9378dbf9820ca82ab758a8b706bca3515c6e9fadb99863ac03f799e641fc439"
-                  },
-                  "min_glibc": "2.25"
+                  }
                 },
                 {
                   "target": "x86_64-unknown-linux-musl",
@@ -5773,8 +5794,7 @@
                   "checksums": {
                     "blake2b": "4740d1474a7f26a327d17e2e4e1ad48c58bccf6403ba3a72f5abc907fda4e9e7b043e2855b54dfc3d4fe32af83b3dc96a158d258d1f8b14cb7fcb26313a8cb47",
                     "sha256": "f47787940e8ffaf37a5d9e0aa38005d756a03c31a14ce06871981b1cdc9fd75b"
-                  },
-                  "min_glibc": "2.18"
+                  }
                 },
                 {
                   "target": "x86_64-pc-windows-msvc",
@@ -5871,8 +5891,7 @@
                   "checksums": {
                     "blake2b": "8c6b5485e7e7da246d451617e96e9984587da9195ce2466db9ea7661c29896347955329b37c168854e92a520adabecfd2efed80ec8d0a3df1443863f8d1506a5",
                     "sha256": "b7f98047a5d1f5ac6f0fbe8d300a8c81084422050a52ba25240ea9a5683a41e7"
-                  },
-                  "min_glibc": "2.25"
+                  }
                 },
                 {
                   "target": "x86_64-unknown-linux-musl",
@@ -5890,8 +5909,7 @@
                   "checksums": {
                     "blake2b": "cb735e25d9d238a0f970ebc53d2e48a38a2eaa1362f24a600d1b5f5a8e6b5ce4ffa013d0c9c8d97092857b3f2628ab5c141763472c592df6310482889c7d56eb",
                     "sha256": "2fab782eb3fbe8d63dae2c9d940e2001825059c0dab336b180942cce3a9e0740"
-                  },
-                  "min_glibc": "2.18"
+                  }
                 },
                 {
                   "target": "x86_64-pc-windows-msvc",
@@ -5988,8 +6006,7 @@
                   "checksums": {
                     "blake2b": "6872a80e333217dc31ccb6adc9395a8e017cf39dd4c6e4a340fdfa056d75354aed284680314c54952a084735c837dde5521d91df1b44f4490e8a912afd29d77b",
                     "sha256": "5f72b9de22843e3dd92722df4e46000716bd8f92b365941cfc1853338b056df3"
-                  },
-                  "min_glibc": "2.25"
+                  }
                 },
                 {
                   "target": "x86_64-unknown-linux-musl",
@@ -6007,8 +6024,7 @@
                   "checksums": {
                     "blake2b": "764b0207fbc8763e3751c42f608420735622abdf2724f0ae04b1f6b0544ef2dcf8f5c93386cec08efd0413c7bb94c51b59ea989fd6aa81ad02e05a08c743a3ef",
                     "sha256": "cfef84084184f9ee92e927102cfdca46580cdb4385c575f76296527ebf56304f"
-                  },
-                  "min_glibc": "2.18"
+                  }
                 },
                 {
                   "target": "x86_64-pc-windows-msvc",
@@ -6105,8 +6121,7 @@
                   "checksums": {
                     "blake2b": "64d112e59e2db6df576c1647a7cde6151ab02238f4df6ed346103077bcbc3ed2d2bcac1c6e66ba155e2efad5306f7c00b1e54d3e021c849c2e093b72e596d872",
                     "sha256": "dd7ad86eb0eefa0ad1143b9692da8fc341b83a238356f630f39e4f199b4caa76"
-                  },
-                  "min_glibc": "2.25"
+                  }
                 },
                 {
                   "target": "x86_64-unknown-linux-musl",
@@ -6124,8 +6139,7 @@
                   "checksums": {
                     "blake2b": "e3e440f4e98b0b5ae521cf0565365416145af96b10beb2e87aed9a1652d93fe870e375e5cf684f8b54394124e0985c8783e8336dfe030b41c6aafc007eb2bcd7",
                     "sha256": "5b2f9d09d093371c85f78402d8122879d30af07858ac66102b31a551139baad7"
-                  },
-                  "min_glibc": "2.18"
+                  }
                 },
                 {
                   "target": "x86_64-pc-windows-msvc",
@@ -6222,8 +6236,7 @@
                   "checksums": {
                     "blake2b": "03f08921e675c8f4635af9d457b8a0d18afdc74253e9962233a59fc8815f11e28c38680f2c0b8c13f294b98a089ce29cd134fcf3c5b5b3176bf85689f186c8e1",
                     "sha256": "29623c7eaba8139fc58276f7bf0c4fe6760243ae8f9b33a86ba1deb57d50129e"
-                  },
-                  "min_glibc": "2.25"
+                  }
                 },
                 {
                   "target": "x86_64-unknown-linux-musl",
@@ -6241,8 +6254,7 @@
                   "checksums": {
                     "blake2b": "000bf0770af7a6c7f6ecd1e1c0be5a707c5e320b4d49fc5028348d05902489c4d64a0f92ff1e53565c54480cd2cc891fe0cfcbc56634cd79e5220ab5202f1616",
                     "sha256": "87eed177e96a0eaec421acc9b80bfe8a310946a4af5257171c55889045a1e198"
-                  },
-                  "min_glibc": "2.18"
+                  }
                 },
                 {
                   "target": "x86_64-pc-windows-msvc",
@@ -6339,8 +6351,7 @@
                   "checksums": {
                     "blake2b": "3d66ef0a4bd9920566575468a6396ee4193c36cde7a7d858912dccfb7266477fde9314bd6436fb17e278a813c1f1fc345a97d09fed89ea9fd1417abb2c5a09be",
                     "sha256": "8fd2d441ac5f11d424bfba4f9887be8387a2871c6caae861a99b32dcb14ca13b"
-                  },
-                  "min_glibc": "2.25"
+                  }
                 },
                 {
                   "target": "x86_64-unknown-linux-musl",
@@ -6358,8 +6369,7 @@
                   "checksums": {
                     "blake2b": "92a18be3d2efb252c926611ac3ba284eec73563e1b00710ae125657c9e1c29f19882cf435a0cab111fc408e62d294c22a33740bd138e68298502fe67eb16e6a5",
                     "sha256": "0d34e2e4e28754e09ea07e32cad23f17a0d0cfecf3e5371c5c5466a22ce6d6f7"
-                  },
-                  "min_glibc": "2.18"
+                  }
                 },
                 {
                   "target": "x86_64-pc-windows-msvc",
@@ -6456,8 +6466,7 @@
                   "checksums": {
                     "blake2b": "80a386034963b4fb61dc6293e4c3026e1d7ddf94e0202cbdd5dd8efb0c6b2fcfdebbffdf1fb7ed6b1d5a1776575dee330bd51f14b29dd16d65f8c097cdd4caf5",
                     "sha256": "eba5bd28e880954b44f8fd3cd193c3aa456c6ff770f2b8b2d0131a4cdf178a53"
-                  },
-                  "min_glibc": "2.25"
+                  }
                 },
                 {
                   "target": "x86_64-unknown-linux-musl",
@@ -6475,8 +6484,7 @@
                   "checksums": {
                     "blake2b": "9e97fe0d15c99ed3ffbf7fba8db1e2e1764d891c2873e86a755647800c3610b2bed6d8e246b8ba4b5420542cac0ef25e140849e1bda758ad275fbdb6cabfd847",
                     "sha256": "3fabc4a7eabd1ab011c8304ddb549dd587abf58788aeaf42b92808c1b0e9da77"
-                  },
-                  "min_glibc": "2.18"
+                  }
                 },
                 {
                   "target": "x86_64-pc-windows-msvc",
@@ -6573,8 +6581,7 @@
                   "checksums": {
                     "blake2b": "b79a07a03b45e126825301baba076930ea122cb7fc838147a067d0c9f88e7a92c37efadae93dbedad7631a0f6704e98e2b6cd6866e57919a4bfd237ca8a7189f",
                     "sha256": "5b5e5ff5d61842fa26f0ee3c3ade00601fad69057640a73c23d29e3772f06d80"
-                  },
-                  "min_glibc": "2.25"
+                  }
                 },
                 {
                   "target": "x86_64-unknown-linux-musl",
@@ -6592,8 +6599,7 @@
                   "checksums": {
                     "blake2b": "87e1162b7120953826e1dabd04db9eb1439558ebfb0eee83fb18eae3e8fac095430280b65f282fe2de9ef4d2e9c3b42ed348059ac160ffddb866e7c2190deb9c",
                     "sha256": "495653e78b690b21492daeebee86377fbab364cd1a52bdea9d3b412d42dfa707"
-                  },
-                  "min_glibc": "2.18"
+                  }
                 },
                 {
                   "target": "x86_64-pc-windows-msvc",
@@ -6690,8 +6696,7 @@
                   "checksums": {
                     "blake2b": "790ffdc0fcbc38230ef55e30f304519c144493f384f1e57164666e670135912c85d301f6c75d782359e86aef3c8e5e2127634f6ba35f35ffb63dbb854b9924c2",
                     "sha256": "5c578aaf83b676e84af24f8f544ac2ad2408f789f6722a34ed4160c1bc5664ab"
-                  },
-                  "min_glibc": "2.25"
+                  }
                 },
                 {
                   "target": "x86_64-unknown-linux-musl",
@@ -6709,8 +6714,7 @@
                   "checksums": {
                     "blake2b": "84d1a02661812644298284d2125afb5b58f579d8ae8ea118bd00b2c280865de11c371e35bec5bd47fc10d672bef3763b437e235593b2d49dcbf0eada1a19a37b",
                     "sha256": "66e11bb9b53e84b0423b49274949bedce526826c5594427b82756a810956c368"
-                  },
-                  "min_glibc": "2.18"
+                  }
                 },
                 {
                   "target": "x86_64-pc-windows-msvc",
@@ -6807,8 +6811,7 @@
                   "checksums": {
                     "blake2b": "ec0448153da52f4d0184e9e98a9f1ce7505b10e18807c29abfd311ee95f4bddbccf3e6324a855a0a389cecf00a1249e2a528efa95c007733dee876e00f8c4138",
                     "sha256": "ad12bbf4e2e6a8c809287900ea712a45cec8a55c9c7fc79a6a73abb927a6fcbc"
-                  },
-                  "min_glibc": "2.25"
+                  }
                 },
                 {
                   "target": "x86_64-unknown-linux-musl",
@@ -6826,8 +6829,7 @@
                   "checksums": {
                     "blake2b": "f4b3d2148db2b43e0ce32370afa79a3f97cd08a30ca27ac4bad805c7ddac81925380d1afe04582d2f77d4e48ec533dd11a41fcf5d14b3928607b2d0e91357a2a",
                     "sha256": "91efa420f3a49c98be5559295e8eb48d6d7982a59e9a41851dae57d7ac16ac90"
-                  },
-                  "min_glibc": "2.18"
+                  }
                 },
                 {
                   "target": "x86_64-pc-windows-msvc",
@@ -6924,8 +6926,7 @@
                   "checksums": {
                     "blake2b": "a38526cfecf6478fa09555a80be325988a3c876bd5e7f41e7a258dfc7a00e08dbaaa857842e6399c96b19bd98954b0d9ecf2cd26fb2bf7fd1af0635bf6c417fb",
                     "sha256": "b6b5daad02ddef2d0e1f1114c4cd708f2960fd421a415693f995cef3bef90036"
-                  },
-                  "min_glibc": "2.25"
+                  }
                 },
                 {
                   "target": "x86_64-unknown-linux-musl",
@@ -6943,8 +6944,7 @@
                   "checksums": {
                     "blake2b": "44d44d07d24e829ce6eef900adc8eb3fe0f76abbd1d99bf8fb02e9d2d2dcb489339af11b2cada76ee349f466d06442c0544a8e8a06e7a49dbee0175c5ef156e3",
                     "sha256": "caf1cbf376a485a30795d08dad21f1d9d2baddc6c102d24b60432e7ae7d9d7a4"
-                  },
-                  "min_glibc": "2.18"
+                  }
                 },
                 {
                   "target": "x86_64-pc-windows-msvc",
@@ -7041,8 +7041,7 @@
                   "checksums": {
                     "blake2b": "68b668ea87bc6a06402d1b312c2ddaacb4dded560a603dbb49e1428e6fa6852d9e64ef419f1bc50fdd2e1123850aab8b03d5b9eab5924192d0060151ec6f94eb",
                     "sha256": "dcce3daf32fd171960824465d440eb34209b95011dbc149a0948fbb83e724a8c"
-                  },
-                  "min_glibc": "2.25"
+                  }
                 },
                 {
                   "target": "x86_64-unknown-linux-musl",
@@ -7060,8 +7059,7 @@
                   "checksums": {
                     "blake2b": "31d8c19db2ca440cfb4528f691f8c99ebefd70f267f2eb7a70e4b169c03035229d587bf9b6745c877419a0291e691c6eafc64da342621edd43760fc67dc4d9d3",
                     "sha256": "f4124ab60b36bd558f8893dabd6024edd9d7e88deea7b3f54bb952295d6e256e"
-                  },
-                  "min_glibc": "2.18"
+                  }
                 },
                 {
                   "target": "x86_64-pc-windows-msvc",
@@ -7158,8 +7156,7 @@
                   "checksums": {
                     "blake2b": "50dfb4cdb3e758e1d388abddd2e6ea0e72445cfd6fa943556d2d404a93480196cd4eac26e167164ec630a0aa485c69b72c787698e8dbe4ee83942a55e4a44db1",
                     "sha256": "443fe2c5fde6cb0b8c9d9b73f081ea39d387596d654784da80e125034477d1c7"
-                  },
-                  "min_glibc": "2.25"
+                  }
                 },
                 {
                   "target": "x86_64-unknown-linux-musl",
@@ -7177,8 +7174,7 @@
                   "checksums": {
                     "blake2b": "670493672c53757190b2ba8896960cc7f2f798b44d072f88f07e2f85e6f30494f9f6e6df66b51e1742e1e4d61dda01cb6fafa8d76dbad8e95605238cb750da08",
                     "sha256": "1ba51967fb585a0eefb7b0b02b9f432b8f93f748eb40e1ee7592dd3b492678fc"
-                  },
-                  "min_glibc": "2.18"
+                  }
                 },
                 {
                   "target": "x86_64-pc-windows-msvc",
@@ -7275,8 +7271,7 @@
                   "checksums": {
                     "blake2b": "7fbc413f537814dd843c5a7406939aa810da2d0d4e784addeb31ab77ee708b074535f6570b8df981e0b326a78f98824d6c8dfdd14bfdabd751f9634d8c765b7c",
                     "sha256": "acf6c0afd44d2785d1b607ec47fe002fadbd60f4dfdc4ad8a5650a65a0b14b6b"
-                  },
-                  "min_glibc": "2.25"
+                  }
                 },
                 {
                   "target": "x86_64-unknown-linux-musl",
@@ -7294,8 +7289,7 @@
                   "checksums": {
                     "blake2b": "62428d8060c1088c3c41740d21f1f409f1410619111370acef6340130725f30afeeb71570f331bd783db0fb9ceb4447cad01a29a1d979c1329e7a43de33573eb",
                     "sha256": "24ec2bafd6c4da1ce17d9821cca0ddf675eca482f193ec70e3b66eb2311e0c6b"
-                  },
-                  "min_glibc": "2.18"
+                  }
                 },
                 {
                   "target": "x86_64-pc-windows-msvc",
@@ -7392,8 +7386,7 @@
                   "checksums": {
                     "blake2b": "7da9e3d0521e469a0a8bb219186bab6e5c1bc1d6f502291f33b8a32cfa8cf2917741566cbd5a46ddef20709ec5a4c83e1ec7e192f6d2c30b456f697c957d0eaa",
                     "sha256": "de8843f9d4cd72ba7ff3995679536b8a5638ebc8f94848cb988c7549d9dc4e7d"
-                  },
-                  "min_glibc": "2.25"
+                  }
                 },
                 {
                   "target": "x86_64-unknown-linux-musl",
@@ -7411,8 +7404,7 @@
                   "checksums": {
                     "blake2b": "60fb62e848052cdfc9404d4431c1fc60ea9ffe407716b8a70ea58e219dbd95cc5f5fd1248443629b35621581c8873d29828d33e648202e1584b9d8e35744e1f1",
                     "sha256": "53c2e65b61a3736304b3784f1300aaef61fc1538e0b36b7bc7461d4a1c690556"
-                  },
-                  "min_glibc": "2.18"
+                  }
                 },
                 {
                   "target": "x86_64-pc-windows-msvc",
@@ -7509,8 +7501,7 @@
                   "checksums": {
                     "blake2b": "b162f0fc283f9da7c9568d24933e5c4db38e74b0780d3e0e02087ac779f41356fb468a9da6e450ec63b8a48da2ad397e79aea39e41e16d8594218c82b8a4318a",
                     "sha256": "49442ae3f03e56e04581a251ace3edf700095aa7c1bba89fd16a1386295a70df"
-                  },
-                  "min_glibc": "2.25"
+                  }
                 },
                 {
                   "target": "x86_64-unknown-linux-musl",
@@ -7528,8 +7519,7 @@
                   "checksums": {
                     "blake2b": "25d891efe5460be7953b7b071877a0a952f43162ce581a89334de57a6e806fe7ac4c056c2549e3b4309c116ecc6a15c50b67c16aafd42ce88ce249fe8f4e674a",
                     "sha256": "2097164de24b364c9a518fb583bcc822577d29fa0083168126d0c9c3684e149f"
-                  },
-                  "min_glibc": "2.18"
+                  }
                 },
                 {
                   "target": "x86_64-pc-windows-msvc",
@@ -7626,8 +7616,7 @@
                   "checksums": {
                     "blake2b": "23854ab419a43ba18986cad892037a09bdd6bd64363c3b4d4357d41190d52588be20a94bf0d896b821d5e9924278e15a1ccce0a54af34c007773e28735a63916",
                     "sha256": "7d07712519615722b19ffe3b3d1097b7d4fa390995e3cac1f9d6dda1ba61b2a7"
-                  },
-                  "min_glibc": "2.25"
+                  }
                 },
                 {
                   "target": "x86_64-unknown-linux-musl",
@@ -7645,8 +7634,7 @@
                   "checksums": {
                     "blake2b": "9a0acd93acdb1f261a9dca29fa8b1eb892f688f7bf14dcebd8dd503dbad67ecd8ccac9c438d6c228e03b7cc6eafea3f941a1f3ceb8f8aa8b7d4760d44cbf23f2",
                     "sha256": "207adaa39756808aa9a719eb3e9002a710510c320da80b7f76bc373e3fadec4a"
-                  },
-                  "min_glibc": "2.18"
+                  }
                 },
                 {
                   "target": "x86_64-pc-windows-msvc",
@@ -7743,8 +7731,7 @@
                   "checksums": {
                     "blake2b": "8146bd41580f091b19cf37b203e24897862d9c6b5152a0de30492e035d272cdcf2a71cb0695ee059afdbf8ccbe82d7b625f9200f436c8fdf45fb4c1f958fbb37",
                     "sha256": "3e38621a82901da2df943d47082ef8c16598c5a5ceb04faca38d5e032200e0ab"
-                  },
-                  "min_glibc": "2.25"
+                  }
                 },
                 {
                   "target": "x86_64-unknown-linux-musl",
@@ -7762,8 +7749,7 @@
                   "checksums": {
                     "blake2b": "bcdf6230caa821e91d1a0b6e45e99f16f458a32729e6c26597c90e6835915509132d7bc7aff86dcbc892e724279653117d47ec692614293f361e306c0eebd36e",
                     "sha256": "74d150d1625a1b3b1404be5db94e54ec2755472d8f1612f0400ba4b7ad9674c3"
-                  },
-                  "min_glibc": "2.18"
+                  }
                 },
                 {
                   "target": "x86_64-pc-windows-msvc",
@@ -7860,8 +7846,7 @@
                   "checksums": {
                     "blake2b": "444339e4115c467ec3b77be31e47dc716db650506e054032bc629e6c0112b8fb70b597893ba148c628357155959333c11ae7d4e71f5309454558b101eeadba55",
                     "sha256": "0f1b196f271b86af42254dd019fc17527410b112742a64b9b1038e264ab69cdc"
-                  },
-                  "min_glibc": "2.25"
+                  }
                 },
                 {
                   "target": "x86_64-unknown-linux-musl",
@@ -7879,8 +7864,7 @@
                   "checksums": {
                     "blake2b": "2cc5c85261490689fbd0640fc0d39736783d42ca2898c40b20b06b96f46a3f2616e3639416fa662b035e7e0ce7d6f957243d2447e636e6d7bd28af9bfe7caf81",
                     "sha256": "6dce638cb68b614a0c5a098531606b83bba221146592faafd246f79292a47cc7"
-                  },
-                  "min_glibc": "2.18"
+                  }
                 },
                 {
                   "target": "x86_64-pc-windows-msvc",
@@ -7977,8 +7961,7 @@
                   "checksums": {
                     "blake2b": "e56fbd441db41135e4dc99a901407af7b0394e7d1e0b9eac1f1d9489c17b5148d71a62a9dfd3bf4d8985731e2435efecbb4408b16eb6f7e7f93711a1861d3ca3",
                     "sha256": "47c773b84e91484704598a0647aa74b0bab4ed4acf7c909445debb17cfa43278"
-                  },
-                  "min_glibc": "2.25"
+                  }
                 },
                 {
                   "target": "x86_64-unknown-linux-musl",
@@ -7996,8 +7979,7 @@
                   "checksums": {
                     "blake2b": "cd023e0f9aa96a5d1c097ffefe5b8f3addc84682b2bc8a8caffed815f6d44061bc5c569120d34a92f93c68d703d9eeacd1cb3974fa98a0dae764b146e27c7ef2",
                     "sha256": "ded5b6646bad819751b926545bcb39a0b4eb8208e941d8a0fc383690d960bca5"
-                  },
-                  "min_glibc": "2.18"
+                  }
                 },
                 {
                   "target": "x86_64-pc-windows-msvc",
@@ -8094,8 +8076,7 @@
                   "checksums": {
                     "blake2b": "2070b287c7f2e9346df77d17716cbb1f0e02b5bc4b26eec09d9292faf5ce54894585c1a60f97602aff2c2521077d6af377c32b892273156ddc01b28f6a65af74",
                     "sha256": "0344b4b09f1f17238d01aadb204566c7ab1a7a1c36586cf16a093bec8184a50c"
-                  },
-                  "min_glibc": "2.25"
+                  }
                 },
                 {
                   "target": "x86_64-unknown-linux-musl",
@@ -8113,8 +8094,7 @@
                   "checksums": {
                     "blake2b": "4a6921c632f5ecf3f97e6c5286cced30921918b1a95b2d8be573a997c33412cdaf1b52d24608035775db99cc7e881d54f1626637f162b64900db807236db51f7",
                     "sha256": "ffdb6efadc1d091e6b3f664c5594dd5e0f9cb79636a5b732be8308683a78e5a8"
-                  },
-                  "min_glibc": "2.18"
+                  }
                 },
                 {
                   "target": "x86_64-pc-windows-msvc",
@@ -8211,8 +8191,7 @@
                   "checksums": {
                     "blake2b": "8d90fc6d531e548607801244137b1d5af6e7963fa49e7ceb9516bc9272f00aad10ded926c4bd748d899b62f106338ba529fdd645d8cf75285d76bb93b0c81097",
                     "sha256": "01076b0c53a153a098abf3589bb2c4aae85ef3ed53ed5224e51028ae3c1d47b1"
-                  },
-                  "min_glibc": "2.25"
+                  }
                 },
                 {
                   "target": "x86_64-unknown-linux-musl",
@@ -8230,8 +8209,7 @@
                   "checksums": {
                     "blake2b": "aa73ad8f8b009cb2041c09e15d2a15f8a864ebbe5593c2cb89bd80bce0872952eea9b841b369cfd9de3ee2a608fc7ff6167d78835c449775f4b3dba6e14283dc",
                     "sha256": "bb5fc72c135d8f1a1613538613e2e25bed64b2c0f378a559eaa15fe94af89311"
-                  },
-                  "min_glibc": "2.18"
+                  }
                 },
                 {
                   "target": "x86_64-pc-windows-msvc",
@@ -8328,8 +8306,7 @@
                   "checksums": {
                     "blake2b": "c7e10950fda5681282718a158b470e3ec35da3b2d2f9529dc6b63908580cc3ceed1afd135457b6c9ede999b20a7d73989e80cac1630022a3e86f46756d28d089",
                     "sha256": "2914a383d29c9b8d3a68056aee0584ae6c26aa3ff821f53b2869386806376ca9"
-                  },
-                  "min_glibc": "2.25"
+                  }
                 },
                 {
                   "target": "x86_64-unknown-linux-musl",
@@ -8347,8 +8324,7 @@
                   "checksums": {
                     "blake2b": "c26da8c34e46fe0f80688b0f86b0dcefdbb7c9d5fbac55cf87ab13b5cf12c28c4ef8cb275a34944ca8b39fed9cbd1fdcf472a88b5bf9d60faa229bd4f407f016",
                     "sha256": "1022bbb91403ada1d516ce2e3e2738f61e1cd22e1fe797200dd23a4b5b7eba6e"
-                  },
-                  "min_glibc": "2.18"
+                  }
                 },
                 {
                   "target": "x86_64-pc-windows-msvc",
@@ -8445,8 +8421,7 @@
                   "checksums": {
                     "blake2b": "da0bbc6752d6ec8b036d1a8a276f97df3fc13c4ae5edf0d3ed52b330bcb9a1209c18bc56a2525e527db2c853ad521da2d10aba5cb23f604f65cb809b7191089a",
                     "sha256": "49027703ba7d12c933c882da20eeee95ed4d72ec25a2e292d214353af632b6a0"
-                  },
-                  "min_glibc": "2.25"
+                  }
                 },
                 {
                   "target": "x86_64-unknown-linux-musl",
@@ -8464,8 +8439,7 @@
                   "checksums": {
                     "blake2b": "fbd63f8745efc3d4744a8cd6c77ffded873ad4af7f6eb1bf15cbfd3b3a2aa6cf4a10a877506da58947352d57e97d51acee0c674b73fe303e93420dfd71c24448",
                     "sha256": "44adfee68776e623a1d2b5028ffe2ada5c52043ba3d0744e25db1056dd64ca45"
-                  },
-                  "min_glibc": "2.18"
+                  }
                 },
                 {
                   "target": "x86_64-pc-windows-msvc",
@@ -8562,8 +8536,7 @@
                   "checksums": {
                     "blake2b": "17c7a30c143728326d9fa6f1fb8368530447841f148af312bcce209e8adaebc04add6e700e1856d00af152840201468fe6f5a94fa64b62124328307df01c8ab3",
                     "sha256": "b164a4ea24b84fbbf65a5770a41c29009f1c7e246e177627992d9db2b57b7f7d"
-                  },
-                  "min_glibc": "2.25"
+                  }
                 },
                 {
                   "target": "x86_64-unknown-linux-musl",
@@ -8581,8 +8554,7 @@
                   "checksums": {
                     "blake2b": "58c7fc051b5396a842fa9eff51c7535032e11f51b414a7ad1ad505342f4812370952953d1406e16746ca0caa27548f504fb4753f8fa0da278ac7105ebdfbe023",
                     "sha256": "e41ae05b53b9963c747953de54d67a2e9b62de57bffa9d046571d1461da862ba"
-                  },
-                  "min_glibc": "2.18"
+                  }
                 },
                 {
                   "target": "x86_64-pc-windows-msvc",
@@ -8679,8 +8651,7 @@
                   "checksums": {
                     "blake2b": "75b68dcc7492ea68267dcd6c59ff33bd1119acf07c54ee2a72b2d6b9fde3847da447e59c2d4df7c8e5942a2c479a85a3cb2c5d00ea0476a0106738f3abf22771",
                     "sha256": "54e6d42dd22139e7a5f0f3a6d49a56bb2c60da86bc719cf3b7776dc63f6be7ec"
-                  },
-                  "min_glibc": "2.25"
+                  }
                 },
                 {
                   "target": "x86_64-unknown-linux-musl",
@@ -8698,8 +8669,7 @@
                   "checksums": {
                     "blake2b": "c16162aec16b98c2e0e7eb77bfc5914ccdc048050458259f6b79b198db11c7b1d2b6b5c41b9e8c761cb500c96b4004bea3f20db635b7eeafb2cb2d4cc8c5e8b7",
                     "sha256": "04fc236be7b6f31bc89af76a95cd6a28b81279b83eaa04644b0b1f4667c85cd7"
-                  },
-                  "min_glibc": "2.18"
+                  }
                 },
                 {
                   "target": "x86_64-pc-windows-msvc",
@@ -8796,8 +8766,7 @@
                   "checksums": {
                     "blake2b": "00c4804e97210ad5517052a4c3bcd5f1d88cb1563c2c02c5ad010e7cec2d109a9fc1f92c91ccc7516914ab4d7fe138d601cba50d66c5aab8b8726a591e758af3",
                     "sha256": "423e00d8bf2e4a3f4c0ea6aedb1411a733c82ca2ad6001bc99af9c10e0086fb8"
-                  },
-                  "min_glibc": "2.25"
+                  }
                 },
                 {
                   "target": "x86_64-unknown-linux-musl",
@@ -8815,8 +8784,7 @@
                   "checksums": {
                     "blake2b": "634d6d270d65676e859926ff9e9044029cb6801990a539096f5fe87250669b4e371b4e4b9ba548a686fe5b36ed6a2e4b6c412147ab55920f692f00dcfbca235d",
                     "sha256": "8a08e0313a7b10c9b2f3689a7cb52ce3da7e2734b0b1cd9346a05e51f30bb8d9"
-                  },
-                  "min_glibc": "2.18"
+                  }
                 },
                 {
                   "target": "x86_64-pc-windows-msvc",
@@ -8913,8 +8881,7 @@
                   "checksums": {
                     "blake2b": "b582dd953222c804255b4ab58859f8f3c45798a207036a7a239b7aac75c2bebd767fcf6f757b11be9a384d506411217780ae619dd217b6fc95896e0598863cb7",
                     "sha256": "b547ea40a4e0e9ced5c1f040f4525647240044c9312d81b8df613291586e0a2f"
-                  },
-                  "min_glibc": "2.25"
+                  }
                 },
                 {
                   "target": "x86_64-unknown-linux-musl",
@@ -8932,8 +8899,7 @@
                   "checksums": {
                     "blake2b": "86c15dfe41d707b340018111b1321b5ecddcb7094ce835792ac99aa4165272306f26dd3de2771364007c8b3b237a070de2b69c8f017f3894d53c4b127e849d88",
                     "sha256": "1ee975e7dadc0d3d439011d4bdbe4b597b197159387555085c68eb40322a0f94"
-                  },
-                  "min_glibc": "2.18"
+                  }
                 },
                 {
                   "target": "x86_64-pc-windows-msvc",
@@ -9012,8 +8978,7 @@
                   "checksums": {
                     "blake2b": "e3b95fba91d110c55f4b935d99798c5cf040480fd174fc765d2479cc0be5a2e207b5d9dd973ef49282a5abc95d1052ac0b9490c677a5d928b0db0c32fb791135",
                     "sha256": "7d8fabc1b012075aab1b77c9462670e5ea34f9e40c6cf2c12a2ec2f9ee32bf20"
-                  },
-                  "min_glibc": "2.25"
+                  }
                 },
                 {
                   "target": "x86_64-unknown-linux-musl",
@@ -9031,8 +8996,7 @@
                   "checksums": {
                     "blake2b": "e75c72e78fd041bec4c5b2ff0fade7cbab5889c92722662697977a18ef4d2fb59d6ccea344fa4157aa829f0beedabc13a7c17c6debfd6256434ae808f0c86f66",
                     "sha256": "6adc85b7ffebe5bc3c4f30127c047d4766f65ddca906e12731591ea1cc81e995"
-                  },
-                  "min_glibc": "2.18"
+                  }
                 },
                 {
                   "target": "x86_64-pc-windows-msvc",
@@ -9111,8 +9075,7 @@
                   "checksums": {
                     "blake2b": "1262a2d9ea06e1bb56684b70633f7f002b8e40a2932eefbd421b58b2aa20ee21fbe9d6f9bcaa68b8e477fa2bd62af0b569bfc0068af4035e9d583888b6e0a1de",
                     "sha256": "c28e4d7380662860eff0bc407d9830f59c2ac0a4b2d1c73d0d9c671139fa2eac"
-                  },
-                  "min_glibc": "2.25"
+                  }
                 },
                 {
                   "target": "x86_64-unknown-linux-musl",
@@ -9130,8 +9093,7 @@
                   "checksums": {
                     "blake2b": "1687834494c39d33726f675a5c7f443247d9e1af2de597e846f7835e2f3a3452701e15b323987e8be6304dad04e492a15790459604062edc6bbf4efc2c0f9ca2",
                     "sha256": "9169fe49cd6cc432e233d75ba8a6f35e0797ee2ea8ca917703c99ff9cc08922a"
-                  },
-                  "min_glibc": "2.18"
+                  }
                 },
                 {
                   "target": "x86_64-pc-windows-msvc",
@@ -9210,8 +9172,7 @@
                   "checksums": {
                     "blake2b": "d7ee0afef3e12ecf1bcf4feccca9b2ffd61e5a0e642b44517a0d11b6e4008e08a686947ecec53c109e539ab6654ae101f0cc12f069b7e6ff20fcf15bfb31fb2c",
                     "sha256": "c713b60d9612cd63cad22e65fa368d44e60a7708dc06f43c35ef1210a3176e48"
-                  },
-                  "min_glibc": "2.25"
+                  }
                 },
                 {
                   "target": "x86_64-unknown-linux-musl",
@@ -9229,8 +9190,7 @@
                   "checksums": {
                     "blake2b": "2cb72594fbad1e969eacbe8d7226e49e454ac724707fe22ac209ac1fd650c76a22ab40af4c7c316ecf86e3aafaabbebc9aa5605d4fae5216c0d9a3997e120fd3",
                     "sha256": "4b63d96f5624759d8e3543bff2c4ac38556da4a18b114e8ed16aa13ecfd3b29c"
-                  },
-                  "min_glibc": "2.18"
+                  }
                 },
                 {
                   "target": "x86_64-pc-windows-msvc",
@@ -9309,8 +9269,7 @@
                   "checksums": {
                     "blake2b": "0d0c0bf914995279b814b74e8a3b7a5b737f7d7c5359ecc20d4b67cdac05e3ffc0a7c703ca064a4d560f1e625bb31f6e5d05f06525e263d4f8415366824d32ac",
                     "sha256": "d90785677e767a0b8b50fbaffc465f3ab2d67d1f692137898130ae9d338070b9"
-                  },
-                  "min_glibc": "2.25"
+                  }
                 },
                 {
                   "target": "x86_64-unknown-linux-musl",
@@ -9328,8 +9287,7 @@
                   "checksums": {
                     "blake2b": "423ed574a454fdca6960b4ed96730a6efbd23dfd6a5e7e1c1291d46fb3f241f42dc47d09559762942aca982497dc96802162488145e93a15ff57f31fe0e59f4b",
                     "sha256": "8f00921063058b650e44246549c476e42e850a4925892b0b1a4f9b2b45bb7035"
-                  },
-                  "min_glibc": "2.18"
+                  }
                 },
                 {
                   "target": "x86_64-pc-windows-msvc",
@@ -9408,8 +9366,7 @@
                   "checksums": {
                     "blake2b": "51b961e0989df743f25732331afcc128fbdf85db3fb723a2f7c609c10e4f978c51d68ef011fe91a8110c5e110dfbf911ff98c5dea4e61a23679533b36787d51e",
                     "sha256": "6fdb196e5643d50cad6daeefea5c978fff4904f5593eecba472f5ea3150e2aa0"
-                  },
-                  "min_glibc": "2.25"
+                  }
                 },
                 {
                   "target": "x86_64-unknown-linux-musl",
@@ -9427,8 +9384,7 @@
                   "checksums": {
                     "blake2b": "5813964db18eb9f1841e842f69d95b510c5187caca35aa443d407a1b9579530ca7e204869fb1a8deea6258ac7f999399a20264e90d2eb55049a33d48f8133d09",
                     "sha256": "040c1fd58f8853a2104f64c2cc1e7c66bfb48b72637ab1e72027375672d94b6c"
-                  },
-                  "min_glibc": "2.18"
+                  }
                 },
                 {
                   "target": "x86_64-pc-windows-msvc",
@@ -9507,8 +9463,7 @@
                   "checksums": {
                     "blake2b": "f7c15cc955cfab2eccb971ec583dc5a0f456cfb145d2401b76a6a284066726081ba8800d492dab65516a4f71176a0da1a5f7b19d51d9d1a0a41ff47a34260d71",
                     "sha256": "bde8d231e435099b068e654c591224defe686c784b4920682ee12784b6bfcf9e"
-                  },
-                  "min_glibc": "2.25"
+                  }
                 },
                 {
                   "target": "x86_64-unknown-linux-musl",
@@ -9526,8 +9481,7 @@
                   "checksums": {
                     "blake2b": "28af7d67be9d9fbf45a292ef1f4b0b36297ea9bd837e641f68fc9ee7258bb91b1d938874051b104b8f8d39a5d3725451163236ff5ee7ddb0f275248c12cdb15f",
                     "sha256": "5501ee805594be80446968d6608eccac88e8e94b65b04afb2a3f1db923a0c55c"
-                  },
-                  "min_glibc": "2.18"
+                  }
                 },
                 {
                   "target": "x86_64-pc-windows-msvc",
@@ -9606,8 +9560,7 @@
                   "checksums": {
                     "blake2b": "5da20d9e39d214d9099232866360915cf2024919a260880c4e59d938f621dbe6b08e0a74805ed0461a5715b6fe8a684bfe25ac7644a0ee9657c5fb813e984ced",
                     "sha256": "3ce8bd1b7214b5753b276f1839aafbf209c331e94f753d1efd1d95e250637e30"
-                  },
-                  "min_glibc": "2.25"
+                  }
                 },
                 {
                   "target": "x86_64-unknown-linux-musl",
@@ -9625,8 +9578,7 @@
                   "checksums": {
                     "blake2b": "00bf906a4728cf5f0c7611a8d59b89caffa1f869149b9cf266a4fb5e6ddd8d893f4d34caac4039d7f0f82c33feac4fd7f70db4e190f3dce01a86c10df948b2f3",
                     "sha256": "d06bafaac0099e70753264f0c7c32566740735e89044efda01027d38dc8edc58"
-                  },
-                  "min_glibc": "2.18"
+                  }
                 },
                 {
                   "target": "x86_64-pc-windows-msvc",
@@ -9705,8 +9657,7 @@
                   "checksums": {
                     "blake2b": "50aeaad8232d497f01926577cb7465e71878abf74308a27481486cf98fbb7be60e394df11dc31814a9de428fdb7375941b262bf1714f97abdb0f457a0441607e",
                     "sha256": "181edbc2da743e6bf9b3d871b9699305f75009c7daa0daae2d5966746aa5ce88"
-                  },
-                  "min_glibc": "2.25"
+                  }
                 },
                 {
                   "target": "x86_64-unknown-linux-musl",
@@ -9724,8 +9675,7 @@
                   "checksums": {
                     "blake2b": "a0a961023eb7fd605deb4457ddddb37a17cff852a2c09287768443f3ef3e92ec5433241b30ceb5531c80decd4a9b130d2358b69af24446a21977db44b6254302",
                     "sha256": "0f295fcba7712196bc6767df8d5a342b5343f1d2996b66f1a48bd709257e825f"
-                  },
-                  "min_glibc": "2.18"
+                  }
                 },
                 {
                   "target": "x86_64-pc-windows-msvc",
@@ -9804,8 +9754,7 @@
                   "checksums": {
                     "blake2b": "0ef7b5aff09b52451a747568cfa83a24378719957e352aff2db49d869f3f53ea0e4ad2e2b073f615686a54afcf477ad8652af4d12212f57bc4a8af398583631e",
                     "sha256": "c2f55ff323046e2c7d4c5a3b0ca467700cc9f346ec93fe6a0f13c29d18addf34"
-                  },
-                  "min_glibc": "2.25"
+                  }
                 },
                 {
                   "target": "x86_64-unknown-linux-musl",
@@ -9823,8 +9772,7 @@
                   "checksums": {
                     "blake2b": "617448edb547fd0bbb8dfe8c56358ac5674c967c8627b4492c4db9c12e56ad36c9643e4211ca56a899708458b7737c060435ae19d2419648bcbe5124d830e7f0",
                     "sha256": "2a4779cc09f0fd788ac68997acca96a112abc18fedf499578566f64711df4d93"
-                  },
-                  "min_glibc": "2.18"
+                  }
                 },
                 {
                   "target": "x86_64-pc-windows-msvc",
@@ -9903,8 +9851,7 @@
                   "checksums": {
                     "blake2b": "24f3725c8ccc8c0ac5568415cb7bc0651b5ebc9656a4dc33ed4ebe7b6dd38093d5115cee23a05698bd3e583bd0b1b8744d04aadc8b663ff1905a486010c576c0",
                     "sha256": "75e9169363e3549e79741bd49d5a04640931b9b99e2641094b1193dd7b9b35c5"
-                  },
-                  "min_glibc": "2.25"
+                  }
                 },
                 {
                   "target": "x86_64-unknown-linux-musl",
@@ -9922,8 +9869,7 @@
                   "checksums": {
                     "blake2b": "97d4daff1809693789d48bc8b9d444d13da5066ef901472ba5d6c0669abe372fd557690619307477530b772cc9a1a78fd363d13a0a788cd34f35a3c1c8531a19",
                     "sha256": "ff4be887a9353f68540fc4914d7ffc1fa9c9e036b3ab2f696af43bde05445332"
-                  },
-                  "min_glibc": "2.18"
+                  }
                 },
                 {
                   "target": "x86_64-pc-windows-msvc",
@@ -10002,8 +9948,7 @@
                   "checksums": {
                     "blake2b": "e2007b60d50402b77fe3c265d1be4c70b2e6b18113d238a81f164d64f808e490281865b6ecc3f6905c71945ce0de60740a664a4319d0e5179b2b5ce80c84440f",
                     "sha256": "118c8bc9238e58f8c7dff16e5da946cf14d457911df815ddf1f6a8d898db180a"
-                  },
-                  "min_glibc": "2.25"
+                  }
                 },
                 {
                   "target": "x86_64-unknown-linux-musl",
@@ -10021,8 +9966,7 @@
                   "checksums": {
                     "blake2b": "88ac726784e10214d9fc9b1cc41dd8ea59dc8885ffd6278e98c59071369ad7e3a977e810ad10c9cfd6ed08e0db255156806181ad260d96bdb49aac94847a994e",
                     "sha256": "7713672ebe930f06df4acb7e6ff04fbda19129a2b13b9f340721b6c48accc932"
-                  },
-                  "min_glibc": "2.18"
+                  }
                 },
                 {
                   "target": "x86_64-pc-windows-msvc",
@@ -10101,8 +10045,7 @@
                   "checksums": {
                     "blake2b": "89e9d683633db141ce17a6130be8413cc81da291ce4952ba9ac4bf3529541b55aa340cad62c917959e7294eddac11ced3865e3e446b49a988831a1e9b258c58a",
                     "sha256": "1b0934dd04e0c06c8249c6cc394e2685367c4a9712e6da2d0f7ab5ae13fa0c89"
-                  },
-                  "min_glibc": "2.25"
+                  }
                 },
                 {
                   "target": "x86_64-unknown-linux-musl",
@@ -10120,8 +10063,7 @@
                   "checksums": {
                     "blake2b": "bf7e5a55b3cc828d51334f8c17917790e2277121be8dea87eeffc1e6c75c29e837fa0deabdaf671a45918d128a70f6bd3c4c7c06f41481d103197cf904015515",
                     "sha256": "ef89e6af390dcccce98ffd8da08380912fa036325d0aefea4dee89b771195030"
-                  },
-                  "min_glibc": "2.18"
+                  }
                 },
                 {
                   "target": "x86_64-pc-windows-msvc",
@@ -10200,8 +10142,7 @@
                   "checksums": {
                     "blake2b": "11b1bffb408162f93a50f1c76c8f4939ec071e4152371c1112570321a908ba3c8725cf9e86d8bd91e80077e6f0554eb41bbcee4095b0c2d45c6a4a78f4084906",
                     "sha256": "dd269934c1a123eff9f656b2976e340eee678c8b474d8c7663451be94e3fec0a"
-                  },
-                  "min_glibc": "2.25"
+                  }
                 },
                 {
                   "target": "x86_64-unknown-linux-musl",
@@ -10219,8 +10160,7 @@
                   "checksums": {
                     "blake2b": "31d8961146211bac26747c91e59d7cda1859406933fb26696b53051a1e39c0bb3d3d0cf4c60643a756452ec224550ba6a5fecb5ef494a425e28992f430c3bd63",
                     "sha256": "bd582e315ce04561511293b81891661653304db453d6a540d519fea58339baaf"
-                  },
-                  "min_glibc": "2.18"
+                  }
                 },
                 {
                   "target": "x86_64-pc-windows-msvc",
@@ -10299,8 +10239,7 @@
                   "checksums": {
                     "blake2b": "400126ef4619f55487ba4c547da3541c042c3c6f57531bb50c5e8a090c32c5db66dfb68f615e76b868f4d9f616a1f9c71ae333953896c78e69303b6375f20eb9",
                     "sha256": "b83e4ea328b527b472ff20d0e42d5b57a795efc2dcaed277e827961a2098eaba"
-                  },
-                  "min_glibc": "2.25"
+                  }
                 },
                 {
                   "target": "x86_64-unknown-linux-musl",
@@ -10318,8 +10257,7 @@
                   "checksums": {
                     "blake2b": "e0013492f823a162735191d4fbdd936ae48ec77b1851e0c2b1763375864d02796ddda794c598e4b5aeedfa55265c2e9cb78f96117920fb0e91d91e108ee6e059",
                     "sha256": "12f8b320b66d60fe531793912fcb16c91fcf58ed3f4a2e6b863777558b2dfb65"
-                  },
-                  "min_glibc": "2.18"
+                  }
                 },
                 {
                   "target": "x86_64-pc-windows-msvc",
@@ -10398,8 +10336,7 @@
                   "checksums": {
                     "blake2b": "b616d5d81eee02752ee8e95782ff30f15f3a983770bbe10da310b0ef2461cde480677ffba8975293599f0bbce3ab164845ff2ec34164987d07a2b01876cc656d",
                     "sha256": "7ed56b34502b8d32714d6d2b68fd8ff6043be7a1a7bb456b8c4cc0b3f156dea4"
-                  },
-                  "min_glibc": "2.25"
+                  }
                 },
                 {
                   "target": "x86_64-unknown-linux-musl",
@@ -10417,8 +10354,7 @@
                   "checksums": {
                     "blake2b": "55fcefb775987e4562e82b68a1ee65a85606c0f214c5654c77c16a353d1ef65705bdae2863d0209adfefae21bbd439a8d6d675a4e3174a8af4f864702abd6737",
                     "sha256": "c3e60cefc775777141aec51e3d5316b4d91446c278b9dad66ca6f66c8ca2fb13"
-                  },
-                  "min_glibc": "2.18"
+                  }
                 },
                 {
                   "target": "x86_64-pc-windows-msvc",
@@ -10497,8 +10433,7 @@
                   "checksums": {
                     "blake2b": "8b1461ad1e621a3e0b32e7a2c45db3bea15ae36fd0ed2f5af8b4392f74d021ef5e3e54d3512c128240a97347a7ef3e13face0cd47fe4a667e444fc720077e0a7",
                     "sha256": "54311a679100aaf5595e8a4ce27641b4cbc8f1c71719ede7574394a6c37a8477"
-                  },
-                  "min_glibc": "2.25"
+                  }
                 },
                 {
                   "target": "x86_64-unknown-linux-musl",
@@ -10516,8 +10451,7 @@
                   "checksums": {
                     "blake2b": "12d52db7d217ae4c8832f602f3fc7bcd73e0488d4f57918ffa5d007b9c8b1b5f97e6450cb3f2b467dba2485cfb47c4d3a83a31e5c606a70bb6be912eb97ec479",
                     "sha256": "359a0c0be044142d08cf4d4f1e73a7dcdd7af9bd4a5027c895f1f0bac9fa58f8"
-                  },
-                  "min_glibc": "2.18"
+                  }
                 },
                 {
                   "target": "x86_64-pc-windows-msvc",
@@ -10596,8 +10530,7 @@
                   "checksums": {
                     "blake2b": "6856d8c8f15b5113effbf792a0a6f5e03270dda7512b2ad4e94af6b80c3c98369c6d07c056685a4c747066fc65d99287ff52a50c077dd545850af474765cf6b8",
                     "sha256": "65979f5df280df3c5ef8264b11a6206a354ca1cd87cfdf2e781958bac1214fdb"
-                  },
-                  "min_glibc": "2.25"
+                  }
                 },
                 {
                   "target": "x86_64-unknown-linux-musl",
@@ -10615,8 +10548,7 @@
                   "checksums": {
                     "blake2b": "6a52a65310bf231c4822639d0944777c43624373bb23338f4dafead3241adfee02378bd66f5a792267a49dfd2d592b170fe5757a6a7ab350ed2b6b7964c84efa",
                     "sha256": "cacce36d44256d100a88b56a4e2d68785299d5606f9a8164d8af6242b2111b7a"
-                  },
-                  "min_glibc": "2.18"
+                  }
                 },
                 {
                   "target": "x86_64-pc-windows-msvc",
@@ -10695,8 +10627,7 @@
                   "checksums": {
                     "blake2b": "ff4834342db12cd3dd68c229be6d2966c4c0d0431484a9aede614e2ca88e363599719412812b45265bc664dc070dd3db7f2890a19a4cd228771e91dd5fc45a41",
                     "sha256": "90e80baedc4fe21b7c1941205bb78549e40a1cb18dc5dda4a2606ba66f39059e"
-                  },
-                  "min_glibc": "2.25"
+                  }
                 },
                 {
                   "target": "x86_64-unknown-linux-musl",
@@ -10714,8 +10645,7 @@
                   "checksums": {
                     "blake2b": "0b68d9279de4d2ad1afaee33ff417802cba85afdb8a97a32b901009512685a915ce563b67f718022a63cb6b923b45ceebe8d0f53bedf92656ede07c4e605aab5",
                     "sha256": "61586a2c7ce3b05a0d57dd8785874f33d4685d4078d83a2577ff06e7d20cc283"
-                  },
-                  "min_glibc": "2.18"
+                  }
                 },
                 {
                   "target": "x86_64-pc-windows-msvc",
@@ -10794,8 +10724,7 @@
                   "checksums": {
                     "blake2b": "49a75ad300b7a848d286c225b0a8f9dec938f7d9718776348c97be7b02e37e6fd9ea8b61183bc48d99662eec9927597b1d27d3767f0360d7c96a95c1864c89ad",
                     "sha256": "b6617241fa8f6774698ce439c05ff82f81da3995ac146ffab2bd1ced220cf0b2"
-                  },
-                  "min_glibc": "2.25"
+                  }
                 },
                 {
                   "target": "x86_64-unknown-linux-musl",
@@ -10813,8 +10742,7 @@
                   "checksums": {
                     "blake2b": "b40724b135402093b37e73ec9079eaf691ddbd3875daa938bb0942b997884bb9e54d1cdfb3df3d610304c2a5926a836205c339948a0893e4365a7f72bcb703c3",
                     "sha256": "68664be9ecbc093ac143aa0922cce0514bb7c9bb439b1c551ad287769e8bd972"
-                  },
-                  "min_glibc": "2.18"
+                  }
                 },
                 {
                   "target": "x86_64-pc-windows-msvc",
@@ -10893,8 +10821,7 @@
                   "checksums": {
                     "blake2b": "b692bec9277fa0371c7e6855353c3bd41ee7ef5f39e28c2c676e302a07656cca3355b99d6cc2703efb0f5870e937a629b1fa047069dd167c3ca8a572cdc9d083",
                     "sha256": "7c1c52c5146cc865c1d411a6a55d4bd24068bc1dc12765d2e47ec42b4eda5a2c"
-                  },
-                  "min_glibc": "2.25"
+                  }
                 },
                 {
                   "target": "x86_64-unknown-linux-musl",
@@ -10912,8 +10839,7 @@
                   "checksums": {
                     "blake2b": "4c0e1528f2643bdd3f527b92d43033479fb08974c456637ef9bb69d7efc0f857f5f81128bbc0961bfbce3592c463fd1793c32ff1fc35116a882e00d554891694",
                     "sha256": "12a62f32f0acafc5ca120f7651df446bcb7a9ccb217ceaa0f0e622029616c860"
-                  },
-                  "min_glibc": "2.18"
+                  }
                 },
                 {
                   "target": "x86_64-pc-windows-msvc",
@@ -10992,8 +10918,7 @@
                   "checksums": {
                     "blake2b": "c25f2c3747ce5af11b2bbc4b31b04d6c8cb11c8b93bf0405ca0f1eb5e226422b682424a437eee57b8496636a4d954a28e44d5b19183bba0f48ffcbce5aa2643a",
                     "sha256": "9de3a7e7b16de19103f49243465eb01117b4f2283dcae796df48cc3e2ac4acce"
-                  },
-                  "min_glibc": "2.25"
+                  }
                 },
                 {
                   "target": "x86_64-unknown-linux-musl",
@@ -11011,8 +10936,7 @@
                   "checksums": {
                     "blake2b": "ebba9b7604f24bd679b0fa911cfc5b999ae2480ad8f054d1a81b26649b9cb005f83c800812c51bda242a88c7c2674ba2f81efb7d5c5b3c0ac9649342feee3851",
                     "sha256": "75e547119c418bbcfcece7c6f577615d4b031a11f767486ff3194eb1768a9c46"
-                  },
-                  "min_glibc": "2.18"
+                  }
                 },
                 {
                   "target": "x86_64-pc-windows-msvc",
@@ -11091,8 +11015,7 @@
                   "checksums": {
                     "blake2b": "b50e777bdae1c956d4ebf0b82d5962d6be4c2ec2d9f672b6dd89e7ce5ada0bf298bdc5c33df59d07cc0b4fb925b0ef3b47d72cba287ec6babb6e5684667454b5",
                     "sha256": "8645c43d0116fc1608c9d149377b0fcffcf01ec12cba3da34567ab74e02049c9"
-                  },
-                  "min_glibc": "2.25"
+                  }
                 },
                 {
                   "target": "x86_64-unknown-linux-musl",
@@ -11110,8 +11033,7 @@
                   "checksums": {
                     "blake2b": "1539867778fa0bd3337b9f243e6f245d53e5aa35982cc4b8a9a4070dc3f903775c31d501fd1e06aed0ac4be1e97f32328da5563f1e5d234aa65a98197fbff0a9",
                     "sha256": "dc8b62624a5f334a9b3fcd784008c39c412ef880158ba73e2f3abd156194cbab"
-                  },
-                  "min_glibc": "2.18"
+                  }
                 },
                 {
                   "target": "x86_64-pc-windows-msvc",
@@ -11190,8 +11112,7 @@
                   "checksums": {
                     "blake2b": "baebbc77c8aaf178b59571294cb8bbf06f25a3e848848c20219408147701ab52e4a695cf1bb9ba0aeb1041f0ee175beb60d6113d884446a76fe5d4cbe1a86527",
                     "sha256": "31f288399a8b735f02383913491dc5f1b2a2ddbfacec7c8424dfb94444a4bc43"
-                  },
-                  "min_glibc": "2.25"
+                  }
                 },
                 {
                   "target": "x86_64-unknown-linux-musl",
@@ -11209,8 +11130,7 @@
                   "checksums": {
                     "blake2b": "76a4e3e16f4635e8ef1e6e160b28659b72130152a88d28fec27628715acbcb3c1686ad73a6fefbbf7c2313d61d2b1a20a8b9ce848717fdda8e17ce192b4b95e7",
                     "sha256": "a4035e63d33ac2c96371ab134a61613c3cb0ae4b03fc5ad54c2712e79afd9f16"
-                  },
-                  "min_glibc": "2.18"
+                  }
                 },
                 {
                   "target": "x86_64-pc-windows-msvc",
@@ -11289,8 +11209,7 @@
                   "checksums": {
                     "blake2b": "a3cf4609f12dac619ba8e9e990a2168772056aab0b1db2a80419a7b0a558e351c75f5888608cce4c4a04d9ebbc4cfb3a0bdc9a39f85776d408942115ec2ab7df",
                     "sha256": "5182728930c420ce3cd9c5ca8066364e4be296a29cd0a6c0dc3be7f0177be6fb"
-                  },
-                  "min_glibc": "2.25"
+                  }
                 },
                 {
                   "target": "x86_64-unknown-linux-musl",
@@ -11308,8 +11227,7 @@
                   "checksums": {
                     "blake2b": "efd0fb946611c3dfb0ee84d5dd0f65c3a49cfd4aebc2aa87147148ab92e9a7ab88c5fbd03be4851e7dd3f318708dcfa2b4be72da337221fcd93bb3c537153015",
                     "sha256": "48ebd1f859fe1a6f76829893a002806bc771e7eb340a089c3283ec1cbc524e1a"
-                  },
-                  "min_glibc": "2.18"
+                  }
                 },
                 {
                   "target": "x86_64-pc-windows-msvc",
@@ -11388,8 +11306,7 @@
                   "checksums": {
                     "blake2b": "f851ac38b192905a855a590b07bbfd5c093eb96557c3f97f3aa950618cc570d97d53e5e5489caafd1e80df11b506bd6509edce43b0245df2fca12748005b0519",
                     "sha256": "34321de06d68a3c39340e13256eae38b6529284842a8c3b7f21c338d1042945e"
-                  },
-                  "min_glibc": "2.25"
+                  }
                 },
                 {
                   "target": "x86_64-unknown-linux-musl",
@@ -11407,8 +11324,7 @@
                   "checksums": {
                     "blake2b": "a2305b831c254e106f414907668a64c5ad32b0e6ba62b889010e10bb9589914739c3328cf7bbe123937799323e56d66614809e0d27c8427ff350145261849f95",
                     "sha256": "0fc7af32f0670fefa5d1c8ccd54efff3f97acb862b77dd37fff78db85ea9f309"
-                  },
-                  "min_glibc": "2.18"
+                  }
                 },
                 {
                   "target": "x86_64-pc-windows-msvc",
@@ -11487,8 +11403,7 @@
                   "checksums": {
                     "blake2b": "5d1911bc0f28f356d36bb4be273512619200f1b2234370f296afef04615725e510b91cb28aa4a29b87f2dcadc79080e0b00c86c4c0fa6111c39293670b793484",
                     "sha256": "b605d0dc32b3eeac7ac55a9ba35e9075b09ec6a090532356a68b9a4f1a95c7dc"
-                  },
-                  "min_glibc": "2.25"
+                  }
                 },
                 {
                   "target": "x86_64-unknown-linux-musl",
@@ -11506,8 +11421,7 @@
                   "checksums": {
                     "blake2b": "07adb5e26b18b0a7902cc6c1b440873f58547cdb9569be0f4fcf56952b5cddbdef2a3ece1e46f2f779af97d00a9b298ba3ea5eb2d31b9c40439ccf651741cace",
                     "sha256": "8399c6941f27e3aa98d7e35d256f9cb0ff89453492b36c5151a77090f5ab0058"
-                  },
-                  "min_glibc": "2.18"
+                  }
                 },
                 {
                   "target": "x86_64-pc-windows-msvc",
@@ -11586,8 +11500,7 @@
                   "checksums": {
                     "blake2b": "f16de1fc03593e5cc9fed5562205bec79ff3c5e4162ceb27a490d032e7a5f285f877bace90cf64c9133ee56424704095f0d38e328e2dc1d25cde03b31598dad2",
                     "sha256": "21c95603b2efa232a7ae4e338881a9cd2050e8c3aa3a5ffe7a8e5bfc3f02f2dd"
-                  },
-                  "min_glibc": "2.25"
+                  }
                 },
                 {
                   "target": "x86_64-unknown-linux-musl",
@@ -11605,8 +11518,7 @@
                   "checksums": {
                     "blake2b": "0b9e98c603b4493cca09dc4ca2153e6461769fc9bbe499d11d93e66628dc3964b53c15f8a20c52cc62ee3e64fa517e568d7179328e7cff2491ef9508253c8fbf",
                     "sha256": "d818039d58d5af37b78ac144ae432112bc5c9f19cbf1ad6d089d697006f6a099"
-                  },
-                  "min_glibc": "2.18"
+                  }
                 },
                 {
                   "target": "x86_64-pc-windows-msvc",
@@ -11685,8 +11597,7 @@
                   "checksums": {
                     "blake2b": "6da0e4a04ca20cc4e28c4128bcd20d802a30e42b87f56d36b9353ad4e495d5ed6934d6c90afbd2092f7286e10522972d7d76d52fd0c54152e71f8ca7fe9350d9",
                     "sha256": "e6f66397d3ba9a150b5debbc414a9ad1f87e4707da1f989c0681444ba5d15571"
-                  },
-                  "min_glibc": "2.25"
+                  }
                 },
                 {
                   "target": "x86_64-unknown-linux-musl",
@@ -11704,8 +11615,7 @@
                   "checksums": {
                     "blake2b": "2c1a3b55d15f1ac4aaea4439816d7a78dff4b7010447bac2bcb867df68ddde9458e536f59627468df786b359727968db50ea338831bbb154cdcb8b76f691dff6",
                     "sha256": "f49577c199fc95c4076d90fc3017c0689d8a4982176fdefb6faa8505681da10e"
-                  },
-                  "min_glibc": "2.18"
+                  }
                 },
                 {
                   "target": "x86_64-pc-windows-msvc",
@@ -11784,8 +11694,7 @@
                   "checksums": {
                     "blake2b": "fedd33fab5b2117df4ec8a521e33f2a79594eed4056451f437d6d9f9394e616a816f441f076f942036ff5e10f82b3eb45e79049f317cb8a3c65c9b5d3f5aa65c",
                     "sha256": "c2d76b2608ce7c92d95aa016889498f273ecacbb3fcffb83db3385f643aa1a9a"
-                  },
-                  "min_glibc": "2.25"
+                  }
                 },
                 {
                   "target": "x86_64-unknown-linux-musl",
@@ -11803,8 +11712,7 @@
                   "checksums": {
                     "blake2b": "1df39a8bcec210f3c9f255498678d2894d7f2a2bc96bd87f8048d9896a7404e600534ed0f73295b33534ba8f186c1069699e58cdecfdb300db272e7083437374",
                     "sha256": "0337406b383be8316aad88347324a276a412e99e3c0ce4f43c1886f7f25c1fcb"
-                  },
-                  "min_glibc": "2.18"
+                  }
                 },
                 {
                   "target": "x86_64-pc-windows-msvc",
@@ -11883,8 +11791,7 @@
                   "checksums": {
                     "blake2b": "ca5e4e1c2384f19936e33dbdea50c42736e62392ffb57147b92ac7b09b2d7c8ba12f544f4915a270e13bc2621dba7371b5209dd71b265b3f9c3a259ffa6829a0",
                     "sha256": "7244def6f0014423e0785d99023467b617db2117a9a836bb263b52e719d01ffb"
-                  },
-                  "min_glibc": "2.25"
+                  }
                 },
                 {
                   "target": "x86_64-unknown-linux-musl",
@@ -11902,8 +11809,7 @@
                   "checksums": {
                     "blake2b": "efd3d53bf3bab592a13ac6bb912201b4ede545a264f5e460fd04d2f2d3df45510a7b2a57932711ec28cf71b87a2ebfe212b44f3a41913e3db6973edbe85e217c",
                     "sha256": "ba5c9f4d8b3030e803182017424ca3e268659150f697208659ffd15d5e5d9ef1"
-                  },
-                  "min_glibc": "2.18"
+                  }
                 },
                 {
                   "target": "x86_64-pc-windows-msvc",
@@ -11982,8 +11888,7 @@
                   "checksums": {
                     "blake2b": "0229e2e5c10d4e2450dd801c7bd93a008638e7437bd6a048a5c5deb49cdf9cda9d4504817096a2340b87d7d375a8d1ea8c59e798fc6343a9a1be37995439305b",
                     "sha256": "4841ac254e4b5c4450485f4737a53fecc39ed3a7ac6bd9ab90231f022dc1045f"
-                  },
-                  "min_glibc": "2.25"
+                  }
                 },
                 {
                   "target": "x86_64-unknown-linux-musl",
@@ -12001,8 +11906,7 @@
                   "checksums": {
                     "blake2b": "304eba2374c846e46de719c875f0d2a219e3328495b6523d4c891482dde9e26f5e533051facf3be7914836b27b246b2ea7dbeca6fba524efccdbc4636154bd15",
                     "sha256": "fa469d6a9667dc0ae81e58c332449d6a4b90c9a6450ebc1aca0e4392c04d87bf"
-                  },
-                  "min_glibc": "2.18"
+                  }
                 },
                 {
                   "target": "x86_64-pc-windows-msvc",
@@ -12081,8 +11985,7 @@
                   "checksums": {
                     "blake2b": "10e712f80c1195ab9f7b9ad9fd36856cdd411e4a0541f6ff10ec0f950f36fda7db68d734f82887275cf5a79bc5887900b63b333c8f0af652c7fd3054239553cf",
                     "sha256": "7518f785b24156519b286793eef1aa97318ac860540b7a811e39b3b597ce213d"
-                  },
-                  "min_glibc": "2.25"
+                  }
                 },
                 {
                   "target": "x86_64-unknown-linux-musl",
@@ -12100,8 +12003,7 @@
                   "checksums": {
                     "blake2b": "022ef51beb9d2a03e8414a913197a0826ff3a4c002ce55cb4c5c90fa430bf570394c2ba1c8e90bf791ea0194b625bc3c0307adc8b65264ff60efdb391653ff6d",
                     "sha256": "2a90c42a90137e2e3b48f1839fee980bdbc155f54a609dc92e3a4c672cb6ce05"
-                  },
-                  "min_glibc": "2.18"
+                  }
                 },
                 {
                   "target": "x86_64-pc-windows-msvc",
@@ -12180,8 +12082,7 @@
                   "checksums": {
                     "blake2b": "620ca2cbd44cbd14f8ffd8b58ee59b65684cb2707059bb00955deaaeef2aee302ebd409cede34f114a547218a2014cd75143dcd311cb4b1e984096d1d8c701d5",
                     "sha256": "4c1d22d171fa686e07b4c717bed0c6fad1810fef2ec8c41dd3e59decebe9c502"
-                  },
-                  "min_glibc": "2.25"
+                  }
                 },
                 {
                   "target": "x86_64-unknown-linux-musl",
@@ -12199,8 +12100,7 @@
                   "checksums": {
                     "blake2b": "3992f860e4572cd8aca42d8f42aa176754cb715fd3e0a97efa7587dc82085c77ce8c34c215d68762839af51c08a078baabb99e488237cd0ec4a908088539a415",
                     "sha256": "45a48a5fb6ad915e9d802020de47566db7b9005d90658ff0b62255d9da2a7886"
-                  },
-                  "min_glibc": "2.18"
+                  }
                 },
                 {
                   "target": "x86_64-pc-windows-msvc",
@@ -12279,8 +12179,7 @@
                   "checksums": {
                     "blake2b": "2f28650ae91de4a7cc77f7870adda5a7e4eee0417f8c0b09e8f9032c10bff0a2aa0f66b938ef1bc8eda00a88e9afdac89f535d07a5819948174adbc03988482c",
                     "sha256": "5ede546f0c000a929a8f1f3c6ade30a9f95de5f11e960bf470d25aa7cd369590"
-                  },
-                  "min_glibc": "2.25"
+                  }
                 },
                 {
                   "target": "x86_64-unknown-linux-musl",
@@ -12298,8 +12197,7 @@
                   "checksums": {
                     "blake2b": "e4d39a2f89e62f5f522808c4e0a427ee2b78aa70c0e3a1fb8c0c76e6485fdd5a06abe713e2419ca83256c856c83b48bb9c2429e4ef00af4c5652721d233e09ab",
                     "sha256": "a7afa001309ea95708b8bb68f20829ec955ae54ee681cc76781f36ad2504a909"
-                  },
-                  "min_glibc": "2.18"
+                  }
                 },
                 {
                   "target": "x86_64-pc-windows-msvc",
@@ -12378,8 +12276,7 @@
                   "checksums": {
                     "blake2b": "f219c44b31f95d86542096b3eeb9d5c23942a346ca73dc7232981d96655fa27fcbb19a9822b4a94cb104e8147362cfe856c580d19ed83aece3f319dc0536de9a",
                     "sha256": "5fd46640d3bf6d7f10f0430e33b58ea8f14c6b50a74cdd25e577890eb49680e0"
-                  },
-                  "min_glibc": "2.25"
+                  }
                 },
                 {
                   "target": "x86_64-unknown-linux-musl",
@@ -12397,8 +12294,7 @@
                   "checksums": {
                     "blake2b": "f191d56ba916ffe636be31a1d9c75ee8c932ecae01a14604ac0e962d14730dd176db94d5a3aa1d4b8662eba1c970c7dccfaddb875a3aa9ec999c7f101edb983d",
                     "sha256": "e53555b82a3060c2af61784ff925d7dde336a45847f2e5e80fbb9e5e990639d9"
-                  },
-                  "min_glibc": "2.18"
+                  }
                 },
                 {
                   "target": "x86_64-pc-windows-msvc",
@@ -12477,8 +12373,7 @@
                   "checksums": {
                     "blake2b": "eedb8ae64600ab1ec9c5c05a57a5ea00ea360909b83606af89c9ea6b343f458ffdddaf6b9d8502b3a5036b9d3116d5311854832f066e5850784d176076886a92",
                     "sha256": "fd1fc53d4e3271db3dab38e5e050d37017604f31943c5935bdc065892b72d1b8"
-                  },
-                  "min_glibc": "2.25"
+                  }
                 },
                 {
                   "target": "x86_64-unknown-linux-musl",
@@ -12496,8 +12391,7 @@
                   "checksums": {
                     "blake2b": "06369df3378fdcae3948ae2ac5e81dcb1e6a80f2a4d533d6d065213c6316027b92cdbff0cb03e9b252340c58613c77e30812ca2c2dea6e3f67d170ceb704651f",
                     "sha256": "68ee9b0bbfd9131698a8857c3006cdfa48d9c7dd0ea5d8adb4be6bede768d6f5"
-                  },
-                  "min_glibc": "2.18"
+                  }
                 },
                 {
                   "target": "x86_64-pc-windows-msvc",
@@ -12576,8 +12470,7 @@
                   "checksums": {
                     "blake2b": "946f9970c2438cb7bf7c4520a126dbdb21d795da58e2abbafa12a714d1a00c7fb991c06d99b47db31137db63358c8e50dfb9f2fc074035e0f8ee865c467d1a62",
                     "sha256": "ab48150a46e0c62ab3787dae420c9331b06b1ea066f4aa76fd340f6a3a87b6b6"
-                  },
-                  "min_glibc": "2.25"
+                  }
                 },
                 {
                   "target": "x86_64-unknown-linux-musl",
@@ -12595,8 +12488,7 @@
                   "checksums": {
                     "blake2b": "061406f091f43763a3cf7a34ea794bcf04298e2ac6166040c116e11d7ec95fd2ba1a68c6a1ee262e143c219175fef1aad76f7a1473a52575f7ac999a7a021cf2",
                     "sha256": "58f2cfb43d8cdcda978c0763380516656e00aefa9f0c9bc5d8d7fe0c8a487c31"
-                  },
-                  "min_glibc": "2.18"
+                  }
                 },
                 {
                   "target": "x86_64-pc-windows-msvc",
@@ -12675,8 +12567,7 @@
                   "checksums": {
                     "blake2b": "9b070e6f8764485abc1a6550821b18e754280928bab1ded5cf49fb54147c68f78e9e1f87ecccafa9f49a07538c1a235135722f7462da06e7dd67aa71a29f18d5",
                     "sha256": "30a77ab6a7cc63263a69becf90a59492d9b4bdcd0c2977d925b4a55c184ce491"
-                  },
-                  "min_glibc": "2.25"
+                  }
                 },
                 {
                   "target": "x86_64-unknown-linux-musl",
@@ -12694,8 +12585,7 @@
                   "checksums": {
                     "blake2b": "2b245c75d1634bed33d8d5db01dd65983ee4659af43694d95a572e35d20faa8a6d6573e8738dcd8d0fe4ce6651b58b4c62324e1bb2fec0b7d65edf08f41b14a0",
                     "sha256": "99d5fffe5b641b56f92fabb65c5ac6f062723d33bba5165fe69602aeeba54fd2"
-                  },
-                  "min_glibc": "2.18"
+                  }
                 },
                 {
                   "target": "x86_64-pc-windows-msvc",
@@ -12774,8 +12664,7 @@
                   "checksums": {
                     "blake2b": "6d64cf10e80fbbd24910907badc8c1e6ecd2f9024c56f73c310db85840a4c4321dd38a2873b4a60d7d738807001023ecc53dfd0292ad3296788aba5bf4e7f37c",
                     "sha256": "155eb73f99373f59e73ca1d73474f1496428e4d44ecfcbede7a5584238a7b4ff"
-                  },
-                  "min_glibc": "2.25"
+                  }
                 },
                 {
                   "target": "x86_64-unknown-linux-musl",
@@ -12793,8 +12682,7 @@
                   "checksums": {
                     "blake2b": "299cd9607390779b878937246a648b92d904ca12d8408160ec08c77eaa4fde56f161cb39839150f187a28245056cc3a0df6d2e4ef6c9d01482ddd75a9f415366",
                     "sha256": "149c213e28e5fc189a4bbd783533c3d02601c6d84bae4644aa4395c92be08ade"
-                  },
-                  "min_glibc": "2.18"
+                  }
                 },
                 {
                   "target": "x86_64-pc-windows-msvc",
@@ -12873,8 +12761,7 @@
                   "checksums": {
                     "blake2b": "a71f53ff95cb22f873b702f018f3dbcaf9d33ba7c30f66e7533612f7971bc0375a9a31045d7f803bb2e1afd1d8c36a0428c7482c5866de9cb7be900d0d88d7f0",
                     "sha256": "14a4a3fbee8ec437aa2a7b01801638729ca478a2241a0f879daa05ca727a79c6"
-                  },
-                  "min_glibc": "2.25"
+                  }
                 },
                 {
                   "target": "x86_64-unknown-linux-musl",
@@ -12892,8 +12779,7 @@
                   "checksums": {
                     "blake2b": "4d93f8813335754f2e80bc5018266c090e2e4f954868900d43e10d534f25a44e79df762df948796a88d3a0259cac6aef8a353df10893724672ffd7524fd5c707",
                     "sha256": "e1f84beb0d35472fcd7e3360f645f378a9817296c30d0ba410c6b0d8195cba58"
-                  },
-                  "min_glibc": "2.18"
+                  }
                 },
                 {
                   "target": "x86_64-pc-windows-msvc",
@@ -12972,8 +12858,7 @@
                   "checksums": {
                     "blake2b": "323b39fae13c826373ff2e40f59fa6475c81531ab5205739d9084c4a0ed2ba385817dd56da1d1c32dd06e7e6e2a9bddcd77858809d290423444f6a99ae52b5e3",
                     "sha256": "1dbad9e484fb7691443f88d483ee827e460fbc583b782ea7904a117261dce721"
-                  },
-                  "min_glibc": "2.25"
+                  }
                 },
                 {
                   "target": "x86_64-unknown-linux-musl",
@@ -12991,8 +12876,7 @@
                   "checksums": {
                     "blake2b": "3c16acf4163a716adb16d13e98af0a769d894cb2d39f21e3bbbb067e55ca1f24fc8c7645ac3cda36c3cf0ee936464f165824c7d3bbc74f2b0be063f90f724f09",
                     "sha256": "b5ae4258b5c4881b700ee5055d32d75ffd77d81479b51fe4093f6c17020edc7f"
-                  },
-                  "min_glibc": "2.18"
+                  }
                 },
                 {
                   "target": "x86_64-pc-windows-msvc",
@@ -13071,8 +12955,7 @@
                   "checksums": {
                     "blake2b": "b1088328a7355d0791897483dbc23f395d678c7c7bd3a86b5e3b5dbbc39ed508f5a66b09ce8846465f9b9c42bcf24c66bd5f06bc0cf75a24b99e85d36b9e2eea",
                     "sha256": "b4356be38dd3a3de748973be4ce715fba7adab5b7297c232531480e845050682"
-                  },
-                  "min_glibc": "2.25"
+                  }
                 },
                 {
                   "target": "x86_64-unknown-linux-musl",
@@ -13090,8 +12973,7 @@
                   "checksums": {
                     "blake2b": "76b2b39d3dd25966eca01b4d8c0828eda438103137e47404dfd037742b2ad1023f1b3a8b5039a6d32c0eada05fe5e74e5e63013f8e176b91d189d38a60bad273",
                     "sha256": "d237ad20d891cdd8dd79fa9980936fda91feec30a79a57ad7fce1451f5d982e2"
-                  },
-                  "min_glibc": "2.18"
+                  }
                 },
                 {
                   "target": "x86_64-pc-windows-msvc",
@@ -13170,8 +13052,7 @@
                   "checksums": {
                     "blake2b": "9bcacbfcca2f0cb6aec36c6d9180484cbf6c378d16a4c309973158d615bd5a4da553ba00a8763f77ff893e8b426cf0dcfde8ea3bbf4409d274b10355a3ea6f1f",
                     "sha256": "92721d305216cafc3db458680e3c24a939be7781327e1af96ea1174243836dcf"
-                  },
-                  "min_glibc": "2.25"
+                  }
                 },
                 {
                   "target": "x86_64-unknown-linux-musl",
@@ -13189,8 +13070,7 @@
                   "checksums": {
                     "blake2b": "e3e38917d6a1c228818d35642bc338f0e1391b24ede9fb3b95e1379f87e9bae7a7d76f1752df6a3b62d34e0b8f4fedea112edfecbfd912ea550b3092e71c6e85",
                     "sha256": "8763fafee324503d7c1925346c11844baf3f95c0ae83793eb6c464cf4e4ba590"
-                  },
-                  "min_glibc": "2.18"
+                  }
                 },
                 {
                   "target": "x86_64-pc-windows-msvc",
@@ -13269,8 +13149,7 @@
                   "checksums": {
                     "blake2b": "bbc5ff7c98619c1182610c67e1567f3a4efa689c92dfd9922452adadc104188014561a2f7dd73a59bd79c47890e98d5050b95b5ba55e28bfa1d1ec90ac78c41b",
                     "sha256": "997f775ea161e91a70516a86c623e55463c9aee31e0da0a01870d0abea17e3c0"
-                  },
-                  "min_glibc": "2.25"
+                  }
                 },
                 {
                   "target": "x86_64-unknown-linux-musl",
@@ -13288,8 +13167,7 @@
                   "checksums": {
                     "blake2b": "4f01c7f97bb3d367fdfef360267c81adf59da7f11a91b1a12fd78db01643adbddd37c2704b4dd22095833fd96dc5e5bb13110bc49a1714dea4eaabe6b1a72b8d",
                     "sha256": "1c4d3c4ec663386c2f374626cea921816cfe96f043cce2a97c9c572bede537a6"
-                  },
-                  "min_glibc": "2.18"
+                  }
                 },
                 {
                   "target": "x86_64-pc-windows-msvc",
@@ -13368,8 +13246,7 @@
                   "checksums": {
                     "blake2b": "53489cd9a59dd2fe09820f3fb6a74bd41f8a834e80f788c079812a07dc210685a8977829d081b21fc08a2c399b78953181b48a16de71ccef11c0080762ef28f5",
                     "sha256": "a6e75770907174505c5f09e8fb0f14109edf9c0b5f82c6db67c4a72dc7a0a7a4"
-                  },
-                  "min_glibc": "2.25"
+                  }
                 },
                 {
                   "target": "x86_64-unknown-linux-musl",
@@ -13387,8 +13264,7 @@
                   "checksums": {
                     "blake2b": "beac88c345483ab3ac537f61d4994bad1da7fe141fcded0cd3dc9074b6d6e78dc3d9e504d1704056599895993dfa4bd3a59ef80f35a275fd3d2534f7ddc82830",
                     "sha256": "982ce7ec908a07cc429dc91deeed782dc8b7fb7b4252c14aa4f5f337b7c64755"
-                  },
-                  "min_glibc": "2.18"
+                  }
                 },
                 {
                   "target": "x86_64-pc-windows-msvc",
@@ -13467,8 +13343,7 @@
                   "checksums": {
                     "blake2b": "7058dc99669072ee335880e49e39dbdc4528c2055f38f5477b575879e7362168ba195f66f42da6cebdd8f206ac7278dccdb97c64898e7c16c3b1fc8e491c5c1e",
                     "sha256": "3545a3dd59676f99d0a2d2b8c2f8bc7770e3607ca9f6c2df644931488b0c84d4"
-                  },
-                  "min_glibc": "2.25"
+                  }
                 },
                 {
                   "target": "x86_64-unknown-linux-musl",
@@ -13486,8 +13361,7 @@
                   "checksums": {
                     "blake2b": "4817e08ccd9b8a00d8faf5c91515ebec98aad9900e0625ebf7605f1d095310f3c9e31616bdeffcc2bcc99214d7c01a535c8a3ffff1483d9d3e30fe6458f7db99",
                     "sha256": "b52a6b4af61cd0046ce08d3ad0070e5ba66222c4c3bb986b7a7c929cf015b8d9"
-                  },
-                  "min_glibc": "2.18"
+                  }
                 },
                 {
                   "target": "x86_64-pc-windows-msvc",
@@ -13566,8 +13440,7 @@
                   "checksums": {
                     "blake2b": "f81641a1280d36d1e0d6b418639c6ed804dfb826dbd5ee094a3fa48c534e6bff28d39b27a4dcaf0d54c925f52e8d19fab7678f9ccda859eb26eb3477e730c0fb",
                     "sha256": "5fc2416dd001ec89d904a345465da0b91452896b74621a82fec33e33d4856320"
-                  },
-                  "min_glibc": "2.25"
+                  }
                 },
                 {
                   "target": "x86_64-unknown-linux-musl",
@@ -13585,8 +13458,7 @@
                   "checksums": {
                     "blake2b": "00f90aeaa24589f28c83f0067abd9fb21c935e5f027c040805bdeab1e5c4de3ad2460e5a6910f182567857860971bd62840734ff955130c654bd1ac793bfa609",
                     "sha256": "e567e43446969205fd26da6f09c03f965fce20df3a0c476c4f2f77ed30ff2538"
-                  },
-                  "min_glibc": "2.18"
+                  }
                 },
                 {
                   "target": "x86_64-pc-windows-msvc",
@@ -13665,8 +13537,7 @@
                   "checksums": {
                     "blake2b": "cadf00f074e8fae7b482c11cc04a38766d16028600844588d1059207aee6132a6f5ff939c931b1b098aa509e7f1e3e38df34768a9816171168c37e5b22fda120",
                     "sha256": "914f380306a7216c8b79ca4408cc39073eaaea9e7b2101e2bfe0c123636a478b"
-                  },
-                  "min_glibc": "2.25"
+                  }
                 },
                 {
                   "target": "x86_64-unknown-linux-musl",
@@ -13684,8 +13555,7 @@
                   "checksums": {
                     "blake2b": "849a08e8c7222e43d4dd6c060126d582296e68197ed75c9f40ee136beb95be35377571154a59a196b3e7f56be3b8ad3a1debdabbf0aeff015f387a6a8c4acd2a",
                     "sha256": "07bbc36fec9dfbe95b0a2e6fc0446175dfb9d58e24474095768965591625a19c"
-                  },
-                  "min_glibc": "2.18"
+                  }
                 },
                 {
                   "target": "x86_64-pc-windows-msvc",
@@ -13764,8 +13634,7 @@
                   "checksums": {
                     "blake2b": "7bee037c5f19b99df5625bb4dbca9842a424fb8a947db3c062096049caee49d0b490d1bb5a7b9495bec6a39267c71b6610126027347ba7cb1a257fac4c1e0957",
                     "sha256": "b5bab814d720561c002b5cbe899f997c20407689cfba23754b5a6c20ae3cac4a"
-                  },
-                  "min_glibc": "2.25"
+                  }
                 },
                 {
                   "target": "x86_64-unknown-linux-musl",
@@ -13783,8 +13652,7 @@
                   "checksums": {
                     "blake2b": "61143058ce62c5755c2b72b1ace677a93a5d75b8044bcb53a6160f865079011faf32669e15fe1ec6dd8a5920bc4cf1cb61db35a3bc8cce322d1bcdb0efde0990",
                     "sha256": "0dbd309e53c001a18afb5f3a3839d0427421bc06ba057b28506d08e7ae2fb20a"
-                  },
-                  "min_glibc": "2.18"
+                  }
                 },
                 {
                   "target": "x86_64-pc-windows-msvc",
@@ -13863,8 +13731,7 @@
                   "checksums": {
                     "blake2b": "a1055619925964e223f94b831f3f6d0e1b2c2f4d5826edc796861d17174eac86d1a9e966d04d3341f7d1efc5c89005abc40ad52da9e86bdac1052f959c5b6f45",
                     "sha256": "ed393824489793854193906946d972afc1e3c32a18aed5bc9dafc2cb3547bead"
-                  },
-                  "min_glibc": "2.25"
+                  }
                 },
                 {
                   "target": "x86_64-unknown-linux-musl",
@@ -13882,8 +13749,7 @@
                   "checksums": {
                     "blake2b": "2133c6b6607b1ec99c4623e7a4ecef749425b3e1019623536bdc2aefd920567f0d4d679f384fa6cd157ee51cfdd947fbc0f18fff16dcfb1cbca90f406466e062",
                     "sha256": "c62ae5598a857655ba7c6299be5254244c78dfb249d83f6634804221e3f0faa0"
-                  },
-                  "min_glibc": "2.18"
+                  }
                 },
                 {
                   "target": "x86_64-pc-windows-msvc",
@@ -13962,8 +13828,7 @@
                   "checksums": {
                     "blake2b": "4f50739f3c14d4c4d313a6be513e8ef2c47de5c341a9b141fcd448a41d2f5ed52d3505d013a31eb10c7c45cf693019c9bfae5834c98f6207b9d266b3c599083d",
                     "sha256": "b07def6a5e5521481eb5853e5f17650be406ce8c57ce917a90d2866c788e5967"
-                  },
-                  "min_glibc": "2.25"
+                  }
                 },
                 {
                   "target": "x86_64-unknown-linux-musl",
@@ -13981,8 +13846,7 @@
                   "checksums": {
                     "blake2b": "9ab27dde8c83564e54e9744dd83ef6baa7acb4630d29c617714d86ba28933adad6f79416fce01ff79dbbbb3ba8460761f7bed51243519bd3522b402f4509e784",
                     "sha256": "54e47dc3fcf7eead6307ac06a9e02ce9a0fe3a156a53b062b63f823cd2765bfd"
-                  },
-                  "min_glibc": "2.18"
+                  }
                 },
                 {
                   "target": "x86_64-pc-windows-msvc",
@@ -14061,8 +13925,7 @@
                   "checksums": {
                     "blake2b": "55eef7d357e281cd55a66ade9404ae6e2229353fe993197bff561fc73e727a2256115a927b061cc575662a97f4eafd34502d9d717bac93442062c028b5907521",
                     "sha256": "55bf039be0d14e4266eaacd765a292294c8627787dcb31d503690a9c14ad21fc"
-                  },
-                  "min_glibc": "2.25"
+                  }
                 },
                 {
                   "target": "x86_64-unknown-linux-musl",
@@ -14080,8 +13943,7 @@
                   "checksums": {
                     "blake2b": "50311636bd100ef7bd5a9a73bfe4b573e99962125c269247f614e2dec1b4870359042eadfa71ef0ae39f893403b86dba015e0a15298e6fe02e9a7358d974e13f",
                     "sha256": "ee7d4f5264c5be5177b3a0bb8fb0bd2100592a6ea29bcbef1d98b782c09e5dc0"
-                  },
-                  "min_glibc": "2.18"
+                  }
                 },
                 {
                   "target": "x86_64-pc-windows-msvc",
@@ -14160,8 +14022,7 @@
                   "checksums": {
                     "blake2b": "6b400cf406e2ee8b056e495e9fcbd9112a1424afc5b443c9512a4bcab9d88d922db894e586f0cea45e9c056661daa8da365812e85fa3a4c651ea87b089ef710c",
                     "sha256": "5cbf80e72737d63a601f139d6ff1c42ca9cf6204cd7991f7d6ce7458f2c12bbc"
-                  },
-                  "min_glibc": "2.25"
+                  }
                 },
                 {
                   "target": "x86_64-unknown-linux-musl",
@@ -14179,8 +14040,7 @@
                   "checksums": {
                     "blake2b": "3289fe0bbdf777b0e3952956b1c1f54a2d5dc73561b2bbe4c65a79b56bc9cb55a65091b2e53be385c350ae099c8c93e4c81309d91d1b656b704e9ea5d226e6bf",
                     "sha256": "8da18d12f95280bf1a7bde6e13cb8e1e2ea877acc4e826c27ab6c5df653fafca"
-                  },
-                  "min_glibc": "2.18"
+                  }
                 },
                 {
                   "target": "x86_64-pc-windows-msvc",
@@ -14259,8 +14119,7 @@
                   "checksums": {
                     "blake2b": "af238fedfe2cba99558bd649e3c92e1e4eb9fa59d50c17009f7c5c1631cf71ddb065101ec23adc3a7eeb2ec65bc4982f4708febb44547b95327bbe1c1c3822e4",
                     "sha256": "4586cfb628f70f6493d9f861b0c71dbe66622128e935ca3c922010bd460673ba"
-                  },
-                  "min_glibc": "2.25"
+                  }
                 },
                 {
                   "target": "x86_64-unknown-linux-musl",
@@ -14278,8 +14137,7 @@
                   "checksums": {
                     "blake2b": "8b9cff80f639dae1cf8b6291ec60a5155fe62f94cf579fbcc52f4964030de8aa476b0c8edb24a6ee441730b6a6bf0c5e23f9067b3dd5a7fa996dc4c44616225a",
                     "sha256": "ebb3198673a199518548af5f8c1a5be7e15a85e9ca5c3978caeb7e0cd09f2969"
-                  },
-                  "min_glibc": "2.18"
+                  }
                 },
                 {
                   "target": "x86_64-pc-windows-msvc",
@@ -14358,8 +14216,7 @@
                   "checksums": {
                     "blake2b": "73fa85cac6a1348ae4a2e78c49b74e98fb2e8d531b538cc05d2a65a65957b3ce67bdedd0191008f579935e54e1099fc85a8f9ce174a9b12d63ffc2ded162ef5f",
                     "sha256": "5e19c5038c9940da4c47a9ae87f94b352dc98c2ab75b4b9aeae227cdff8440d2"
-                  },
-                  "min_glibc": "2.25"
+                  }
                 },
                 {
                   "target": "x86_64-unknown-linux-musl",
@@ -14377,8 +14234,7 @@
                   "checksums": {
                     "blake2b": "3627449b15c42ff13f2d8e66250dae393c7b1d58550a3180dc972cd7eea6ea6962d0bab6302f56be0be9bdebecfc571df34f9d0219bd88c858b01026ac12a622",
                     "sha256": "40ff81ed279e8a6d38ebe06ee75bba47785e8cb006267e35a15c157724e8e437"
-                  },
-                  "min_glibc": "2.18"
+                  }
                 },
                 {
                   "target": "x86_64-pc-windows-msvc",
@@ -14457,8 +14313,7 @@
                   "checksums": {
                     "blake2b": "a6e0a6e862b064aa808adf5f4aa5610bf0b1dba2966761f496976c1831ce7d1daeaf968e164a037fb682a7055c6c804100689df8db4cad5d71b9b5c696382213",
                     "sha256": "6e91c1ccc8bcc8a528c267e77a4294920c850690b277b651d3c8aa2dc99ad240"
-                  },
-                  "min_glibc": "2.25"
+                  }
                 },
                 {
                   "target": "x86_64-unknown-linux-musl",
@@ -14476,8 +14331,7 @@
                   "checksums": {
                     "blake2b": "5edfc224e5f635fe499f82f684a4dfebb92d67efb3bdffe633159b21d2788423fc206c382df0e514380f056098c96e3f4c393e08dfb8f078e90a61e5e9d2e455",
                     "sha256": "ebda48cbb3b5d9b5a831c5161e390489215716aafe64647912f0806f18e89b05"
-                  },
-                  "min_glibc": "2.18"
+                  }
                 },
                 {
                   "target": "x86_64-pc-windows-msvc",
@@ -14556,8 +14410,7 @@
                   "checksums": {
                     "blake2b": "3e77cc4c6ea9147cba0d314dfb6a7029f3f9472be15ae1f61bec9bf873ecf7398ecf3475f3df1ddffced9176f36c3ae56defe58590864d00cc08d6f89e16569f",
                     "sha256": "9730218bacb5f6c1697a4f44a94958a3ce708e8cc7ff430ac007075620b49b09"
-                  },
-                  "min_glibc": "2.25"
+                  }
                 },
                 {
                   "target": "x86_64-unknown-linux-musl",
@@ -14575,8 +14428,7 @@
                   "checksums": {
                     "blake2b": "b745458cabc8227570fba0ee228227faeaac05d18d9174c874141177a1481f4a03e664537e1decca2283542e19264e1adad5dd6c9cc7fa2b13f1cbe49e3f5aaf",
                     "sha256": "13af6c207cfae0219f6ec3760980d951292815d26f575f4c099ae1797af7505a"
-                  },
-                  "min_glibc": "2.18"
+                  }
                 },
                 {
                   "target": "x86_64-pc-windows-msvc",
@@ -14655,8 +14507,7 @@
                   "checksums": {
                     "blake2b": "ad71808b47d29624b0eab19f1047b6bd4be2a15df9a7d3ae64da9a3266d8b04e5e5dd7c2f90668fa8ae168993d107da2350c06432d2be3f2dc8edd775ea37846",
                     "sha256": "8518f212d10ab67ad620bcf8dff755a0f083757440881143c31a3904821f260f"
-                  },
-                  "min_glibc": "2.25"
+                  }
                 },
                 {
                   "target": "x86_64-unknown-linux-musl",
@@ -14674,8 +14525,7 @@
                   "checksums": {
                     "blake2b": "8098971eef58b9647bdcf428521b8058dcb9c175fce228cd2fcf63509d6a28752c5b69ef1cee04510c2c2a1e18692dcff705aaef5ff81d7a3983b7a1590f2194",
                     "sha256": "98260769d5762f35f2e2d7b1812372f4639d2ab4078e1967d1daf659331b879b"
-                  },
-                  "min_glibc": "2.18"
+                  }
                 },
                 {
                   "target": "x86_64-pc-windows-msvc",
@@ -14754,8 +14604,7 @@
                   "checksums": {
                     "blake2b": "77e34725880f1b99ed9af99c746d28ce4a733a44421809c55196fda9e681427c7d8e700e3e9d7374f13c181a2d1d9916a89d8a00274285e7e5896d96495ed9e7",
                     "sha256": "fb7dd79b1b16e2c8a4476c72091988852966ad42dd969eaf3469b84bb996f08c"
-                  },
-                  "min_glibc": "2.25"
+                  }
                 },
                 {
                   "target": "x86_64-unknown-linux-musl",
@@ -14773,8 +14622,7 @@
                   "checksums": {
                     "blake2b": "6d84c7913d8c1799e5d0452b832dccfd218526ac2a5387c70aaf7859e21f6fc81d7f200c3064ae73e8185de54ceb7f4e37dbd0a51046bc6299e46521a7267c1d",
                     "sha256": "e8aef754b393369cff845ffe1a0acba569b04f4747874320e71bb15593c8235d"
-                  },
-                  "min_glibc": "2.18"
+                  }
                 },
                 {
                   "target": "x86_64-pc-windows-msvc",
@@ -14853,8 +14701,7 @@
                   "checksums": {
                     "blake2b": "8bbee22572748288e39069b873c830c27a3a2a068f07e489546a3f66b27be5de98389991a6107cf0dbbdebe8ca79bebd4e6c4b7ee004f65b393bd2e1a9b7011c",
                     "sha256": "315a638c0d114972d8942c4022fe62ffd5ab6db5b8df4a50e4c733c0d8e78cc6"
-                  },
-                  "min_glibc": "2.25"
+                  }
                 },
                 {
                   "target": "x86_64-unknown-linux-musl",
@@ -14872,8 +14719,7 @@
                   "checksums": {
                     "blake2b": "c9677ba53a45d7d5412724d7b08950a166b595a9b4becc4273a2081a590e19591e1a6d3ff4288e69ea416c7c14aa003edfbd08c0c215c42644f2847b84e46eea",
                     "sha256": "13873774fc39751f6e3c93d9c1050e721f61dc9dfd055fd2f76eae314db3b6a4"
-                  },
-                  "min_glibc": "2.18"
+                  }
                 },
                 {
                   "target": "x86_64-pc-windows-msvc",
@@ -14952,8 +14798,7 @@
                   "checksums": {
                     "blake2b": "dd26455b8e17f677148186baf5a55b451924a916fa6294131c667b3d19b65e0b4b788278a2e0894eb7585f5a8630566c9c81d7ce59feb334e4c0b09af10c261b",
                     "sha256": "544e15a10bdea2e98da6762d062a61fe1e1a24235200895c9f1c4817d3d9fec1"
-                  },
-                  "min_glibc": "2.25"
+                  }
                 },
                 {
                   "target": "x86_64-unknown-linux-musl",
@@ -14971,8 +14816,7 @@
                   "checksums": {
                     "blake2b": "9e3b5a96d3cab0f9492e5c19210da2bebef60fda69366c6a6cf0c0cd8f803e6ddca9e47fbda6d5ac7b8e3122b697fce9a930796ca539577dd15318cfa91af63f",
                     "sha256": "7293c00fcc3a1f77e2b12438aba0de8612b4b5ed6b6eaa5b1665db9d84e99ba0"
-                  },
-                  "min_glibc": "2.18"
+                  }
                 },
                 {
                   "target": "x86_64-pc-windows-msvc",
@@ -15033,8 +14877,7 @@
                   "checksums": {
                     "blake2b": "eccc26e7b9e224b7c9cd723d974aa4a3909b6e7f5c3d07b1d26ee3a9ea22d74d957c39527a450bbff735a86fac85cd83c5a5accbd0b58f5361fe481bda608f65",
                     "sha256": "448e6700d5b0e459b9dcd73f6ebc76fd57bd1c621f4ac5f2c915ac90d6e89c84"
-                  },
-                  "min_glibc": "2.25"
+                  }
                 },
                 {
                   "target": "x86_64-unknown-linux-musl",
@@ -15052,8 +14895,7 @@
                   "checksums": {
                     "blake2b": "132af9952d8490a40de5e644a82850d9d92195e76027eab47ee48a216ba59851e84d57f2c4ccd8364f13f8cba43837435d6c9af3dc11f3feb9e57e27c329b499",
                     "sha256": "79da74c38d6ba1381058fb5d1318c6b318b47869349b8a80806e09596abc8017"
-                  },
-                  "min_glibc": "2.18"
+                  }
                 },
                 {
                   "target": "x86_64-pc-windows-msvc",
@@ -15114,8 +14956,7 @@
                   "checksums": {
                     "blake2b": "529e411ed345fa7faea08d020a8650a5d3de93d9767fb9dca11b2da8697963eb3b4dcba8e7bb674cc921d85a26c1adb116f1add311dc103d1be3c28e9c74ce16",
                     "sha256": "c33a1851d4a353cd271b77f22cd6e3575b886d45b5dc9527ec789151595d6250"
-                  },
-                  "min_glibc": "2.25"
+                  }
                 },
                 {
                   "target": "x86_64-unknown-linux-musl",
@@ -15133,8 +14974,7 @@
                   "checksums": {
                     "blake2b": "fc2937b8e944b12f47ff97b956aabc4fd177f02751b2be41ac7950626368a56df738cf1151b1a4f67ff1c37f724991d4db654df61927089934a7d66c22a721e4",
                     "sha256": "b19f2d1b860801ce418271828ad0ad989aa699fcbe51cec40752634a3d366702"
-                  },
-                  "min_glibc": "2.18"
+                  }
                 },
                 {
                   "target": "x86_64-pc-windows-msvc",
@@ -15195,8 +15035,7 @@
                   "checksums": {
                     "blake2b": "c06254404487e115ca9dfb1c2e3949243cacd351acba8df0721edd757761709ca2b9981dff319a1e6290f2318454a7d19f86c61db693e3aae7c698b13fbfc7ef",
                     "sha256": "b65d9627c782c1b194ae6c55c62b6194a5b7d3d14df92ccf4b4ae6c4843db200"
-                  },
-                  "min_glibc": "2.25"
+                  }
                 },
                 {
                   "target": "x86_64-unknown-linux-musl",
@@ -15214,8 +15053,7 @@
                   "checksums": {
                     "blake2b": "7b4f1a133a2e84e79167fd3da318209348c841487986a321aca9b4a53d44d304a3187c93ab0917354dabf7861fc86a3dfe9a372483108e3801c81515d4591eef",
                     "sha256": "da0498ebe8c104b5097a8b7991638eb17b252cc5be69be1bebf30aa86aacc69b"
-                  },
-                  "min_glibc": "2.18"
+                  }
                 },
                 {
                   "target": "x86_64-pc-windows-msvc",
@@ -15276,8 +15114,7 @@
                   "checksums": {
                     "blake2b": "5a8e929fe9130b5727493e68d738f6e79d74a78f7cc6e5cbc957168d1e0425041224c4a1aee4d9416cfbb66373d04e67ce52e579178d99f1e3c8e4efde76b2d5",
                     "sha256": "7f07af11012a98555034aa98b3f39ac8e9cbe484d5d9f7c04f021c1a90dc42af"
-                  },
-                  "min_glibc": "2.25"
+                  }
                 },
                 {
                   "target": "x86_64-unknown-linux-musl",
@@ -15295,8 +15132,7 @@
                   "checksums": {
                     "blake2b": "ecc84339ba9ba811a096a52254360c123a78e126926f4ce01fe1dc77e4484049f7e875b2ab28a828cc4f2612b13932a32181aa452bdb6b918e7f3361104d9084",
                     "sha256": "0da689538db740207dffeaa1b2f38211ed4a1f5bb947d385ae86ce29e1a6bff9"
-                  },
-                  "min_glibc": "2.18"
+                  }
                 },
                 {
                   "target": "x86_64-pc-windows-msvc",
@@ -15357,8 +15193,7 @@
                   "checksums": {
                     "blake2b": "d036743daa65988e08a437b920f7227bff8c921c278bf93659991a9e3081c0a6ab2aefaac87115485eb91db022ce003f4339f782ba35ea35695098e9b7a0b1c3",
                     "sha256": "baaed41d21ff120fed927e022c9bf74e8d31dc50a4342e7849894fc341f31c53"
-                  },
-                  "min_glibc": "2.25"
+                  }
                 },
                 {
                   "target": "x86_64-unknown-linux-musl",
@@ -15376,8 +15211,7 @@
                   "checksums": {
                     "blake2b": "055ced9009c4fc7748bfacff061b52d0b56aa60355fee27eaa2769cd34a0ef3cbb88e905784e2bb9c9ca665222992682acbcc2e9b69fa1f7a353674652315ce9",
                     "sha256": "f2de3914236041d7aa843c3d1d2304cf25e032dad2a3cd2e3fd4cbde12202b64"
-                  },
-                  "min_glibc": "2.18"
+                  }
                 },
                 {
                   "target": "x86_64-pc-windows-msvc",
@@ -15438,8 +15272,7 @@
                   "checksums": {
                     "blake2b": "10ae0c7270af8fb110f02a518e789ce1ab2d6f0d2117518d935c3fc7fc33f02d68e83c098dc910945b6c66be8103ac047a1f5b3fc218430bc731d9ad6f302622",
                     "sha256": "f2b8b8ff88cbc0ab268d3d5002fcc19a2d69be1ef1f56ab577890a971ebbccf7"
-                  },
-                  "min_glibc": "2.25"
+                  }
                 },
                 {
                   "target": "x86_64-unknown-linux-musl",
@@ -15457,8 +15290,7 @@
                   "checksums": {
                     "blake2b": "1ebf9abca600b33118f5650574ddaddff206764593dbf7c0dbcf669061a69e81892ba00b05e7356343f3642846fb6f87c4de0f203767de206fad99b7da6a8ef2",
                     "sha256": "d45460c6eb7eea140152aee9870213dbf3c7fc8b6627987c5ae55ca6aae4bfae"
-                  },
-                  "min_glibc": "2.18"
+                  }
                 },
                 {
                   "target": "x86_64-pc-windows-msvc",
@@ -15519,8 +15351,7 @@
                   "checksums": {
                     "blake2b": "d7e809569563485620557f5ed76c11d90477ad267b5374e005e13cb3f90b3e087891cc0ede9cd205017bc30f04a24c3d7187e1aa995a6de9ee2b028618c9c792",
                     "sha256": "d9ab201015d93bc1e47b0c9da0a778d746fb7f22c610cdc9f2dabd441dd7fc76"
-                  },
-                  "min_glibc": "2.25"
+                  }
                 },
                 {
                   "target": "x86_64-unknown-linux-musl",
@@ -15538,8 +15369,7 @@
                   "checksums": {
                     "blake2b": "291ff45466751aac3f9f11bbaaf00c8e8641edecca7d5215fe2156cb5268008b83340f2c877c0656ef38c1a34fa944467a2d3f4b174e3ed1d08ef7e7c758ab26",
                     "sha256": "e20dde1b62b5be9c76782b3c6521682621b04e483f4029f69c05b5f44a133704"
-                  },
-                  "min_glibc": "2.18"
+                  }
                 },
                 {
                   "target": "x86_64-pc-windows-msvc",
@@ -15600,8 +15430,7 @@
                   "checksums": {
                     "blake2b": "70260f628ac2df2deb9d385fc88c6a6c4d4f803991aee7c5791c70c3ab0a28c9b3ee733d90652b23b77f5f3c44a82a2a48a2f2bd5e7fe2e0be319a4740b36ee9",
                     "sha256": "759d6766f4686af03c99d9d641286b313b8acad01f5795d825eb33014ae0867a"
-                  },
-                  "min_glibc": "2.25"
+                  }
                 },
                 {
                   "target": "x86_64-unknown-linux-musl",
@@ -15619,8 +15448,7 @@
                   "checksums": {
                     "blake2b": "313b53da35b86a5ac45693f6715176df773b1945474f6edf08c730f99da851ee2cf7a0a132aa65624c8df33fc74e21210f03511f00fb148307fdd798f56e5943",
                     "sha256": "bc4300207ca8365348f6a4c5d2122873bf6ca12652b4c58c455a339e79118568"
-                  },
-                  "min_glibc": "2.18"
+                  }
                 },
                 {
                   "target": "x86_64-pc-windows-msvc",
@@ -15681,8 +15509,7 @@
                   "checksums": {
                     "blake2b": "4b57727c77d561e909a2121a86244a5a753f72d481e81a225658c02afe30c385da9a3d9655e7cd83a264a5cf0afb915d72b6d89af9a234611b62871ec6dc6754",
                     "sha256": "ce6a30df41bc32158d0136b59757f41e9da9b9633ca00a5f96f03c4586ea7bf5"
-                  },
-                  "min_glibc": "2.25"
+                  }
                 },
                 {
                   "target": "x86_64-unknown-linux-musl",
@@ -15700,8 +15527,7 @@
                   "checksums": {
                     "blake2b": "80446cab8024dcb793dffd0aa30e576956dcbcb10df9750cdb43ce34b3e4a8a57177e6b050280b0c19f68843c2b933f47a76e70170586724116e3f25ad4586b4",
                     "sha256": "b7fc94e638e82075286190ba696222a6768f4144ea7384ea5a25292ca5534fac"
-                  },
-                  "min_glibc": "2.18"
+                  }
                 },
                 {
                   "target": "x86_64-pc-windows-msvc",
@@ -15762,8 +15588,7 @@
                   "checksums": {
                     "blake2b": "e8497dc3ca2dc9b5b696ffd874c285d6271ed43f3a5b054b1cf2e0455381a300d14638ac49081e3791451ed0acde0f3e333aff5fcf28eb3d43e0726958d770da",
                     "sha256": "da51679397ed055a0cc2f2e63ff934d179372bbd88f937f71f7255fd5c528755"
-                  },
-                  "min_glibc": "2.25"
+                  }
                 },
                 {
                   "target": "x86_64-unknown-linux-musl",
@@ -15781,8 +15606,7 @@
                   "checksums": {
                     "blake2b": "2713a1e80338fc3a30957d28a0a60cd61e572bdda06ccd82915a82027d76fe0dcd45f4ba5c3ec1c0d7a6721add05658a3dbc718cc035fc1f22ad67eef0b955b3",
                     "sha256": "41ccf7273be37af8ea466b2dfa35fe922cdd1d1b45716407f2951fb38d97a748"
-                  },
-                  "min_glibc": "2.18"
+                  }
                 },
                 {
                   "target": "x86_64-pc-windows-msvc",
@@ -15843,8 +15667,7 @@
                   "checksums": {
                     "blake2b": "26adae1adfd2a2ad294e28c2bd89cdaeb25e2eeb0d20625cd6435348a08720d4e73433a6929ae5b905f5b12dc61a4bc667dfd0f577223ff8e161776b0ca35cf5",
                     "sha256": "d2b0f7b0773e60a93aba72a9ae5c11fc348e58f38fe25d6e1877725d9e6ae475"
-                  },
-                  "min_glibc": "2.25"
+                  }
                 },
                 {
                   "target": "x86_64-unknown-linux-musl",
@@ -15862,8 +15685,7 @@
                   "checksums": {
                     "blake2b": "8cb465d8388537c853d189c53512eb2920f3a32bc841a94e356c025421604cfc2cb321f31f75ac427194289e5e57b9d12477c91ce7a8b956ea86fe91f6446c19",
                     "sha256": "b266b330fcfc7223825b46a07cdd072df3e41911515697000508baf019e64dea"
-                  },
-                  "min_glibc": "2.18"
+                  }
                 },
                 {
                   "target": "x86_64-pc-windows-msvc",
@@ -15924,8 +15746,7 @@
                   "checksums": {
                     "blake2b": "daf6b6a7f914cdcd632a8b0281978ce67e49f8c079804c72e8f5a144c2dd6a8f076d0f20bcadee976e57c96a102d6eeaa114b2988bcad598b34b6f3c28e0a01d",
                     "sha256": "fa6fbc8d848e595d847eaeddea432dad6944a4cfc4ac3156ef91173772a1c4ab"
-                  },
-                  "min_glibc": "2.25"
+                  }
                 },
                 {
                   "target": "x86_64-unknown-linux-musl",
@@ -15943,8 +15764,7 @@
                   "checksums": {
                     "blake2b": "2a3bc7b94033c4927f3ee3e78adc24e1539479220eff5d132eacaea3cbfaf63ac437604f993cdd05e57dc5cc80e3a8aef0d793aa670e7396cd4a2c88289cbea7",
                     "sha256": "866db5b1b39032055eb2cfb0a62f5a5a23899ce0abfba0129f44bf826b81adcf"
-                  },
-                  "min_glibc": "2.18"
+                  }
                 },
                 {
                   "target": "x86_64-pc-windows-msvc",
@@ -16005,8 +15825,7 @@
                   "checksums": {
                     "blake2b": "3f7cce544f91846a0a0d71365a6398d0a24a0b6c620e460c0c5c9386331bbca508a73fc28b4be501e85d71b0b7eeae9ee1d64d30db0b35cfbec24f16496a348e",
                     "sha256": "a96acb41a9ca14d5cd5aef9e8a12c1be8f8a3362bafe4f3a3da32c56b9c1abc5"
-                  },
-                  "min_glibc": "2.25"
+                  }
                 },
                 {
                   "target": "x86_64-unknown-linux-musl",
@@ -16024,8 +15843,7 @@
                   "checksums": {
                     "blake2b": "3baf70ad7d4830a948a2ef30cd1c5a9e00bfbe0d8175acc5dbd6ed6951e09b6769e127b0e49f1da6d2a27765422357d13b750f5becae47ca0e9cbb8ff94e2b11",
                     "sha256": "008927576704b0650727539daa435d1636f01516bad5f45d27c21afe992fdc01"
-                  },
-                  "min_glibc": "2.18"
+                  }
                 },
                 {
                   "target": "x86_64-pc-windows-msvc",
@@ -16086,8 +15904,7 @@
                   "checksums": {
                     "blake2b": "a23da193c97c230742d23979df3db7031f1e8d413beabac0ff8be3d3f751ede346a0c578312f2f4f34d4bea7f3387f6bae92fd029315ba95bb563006f192ddaa",
                     "sha256": "6bfd0f9f156dcad38f40282320b38cb513f19023617b9df327026cc8e41a2795"
-                  },
-                  "min_glibc": "2.25"
+                  }
                 },
                 {
                   "target": "x86_64-unknown-linux-musl",
@@ -16105,8 +15922,7 @@
                   "checksums": {
                     "blake2b": "949875509cb08f837418d0b57da8a90ab61365ebe414f93f6d9190299c2c763c822944df9b91bc66fb18a624ef7280a05a8fb0d347940628df827eb439b9d3ab",
                     "sha256": "1b016e421493e11a5272bd9a24fa1515d7fad2962d41393261b5823fd1c8dbf4"
-                  },
-                  "min_glibc": "2.18"
+                  }
                 },
                 {
                   "target": "x86_64-pc-windows-msvc",
@@ -16167,8 +15983,7 @@
                   "checksums": {
                     "blake2b": "55a63e2df993f902294f37142588e5334f6ea09616afbdae55b5394a0655b3bb7af63bca2c7589ca06b25f58dfa56aa4fe88533fd231c7fac2cd307e682a7dc5",
                     "sha256": "3c4688160d7055494ba4343b6f84c80d229576df6acf6c4caf955b01e52a67a9"
-                  },
-                  "min_glibc": "2.25"
+                  }
                 },
                 {
                   "target": "x86_64-unknown-linux-musl",
@@ -16186,8 +16001,7 @@
                   "checksums": {
                     "blake2b": "2032a94ef7c80601760d37650c2f3d2ea105142093fa1cdff3b95bfa22433ec24adf01b7103c3cb8033d7434922b3f3c44012d58573ae393c1d9da8557859688",
                     "sha256": "c50cedfbf8c5ec41c8777e9b18f082f0cc789ee7a47de07bfa6f4549e84d8bed"
-                  },
-                  "min_glibc": "2.18"
+                  }
                 },
                 {
                   "target": "x86_64-pc-windows-msvc",
@@ -16248,8 +16062,7 @@
                   "checksums": {
                     "blake2b": "a4b30066d70c2f45126bddcfe84ff53b9c970657ab1aa33823e242c44f4894e2fc0054914e7b24dece9845f7bd79aafd078250b226efe72eb202915d2120d5f8",
                     "sha256": "e086b4d84f08ff750afc917dbe89803e3aece8ff166ab380d2c4437cd459da72"
-                  },
-                  "min_glibc": "2.25"
+                  }
                 },
                 {
                   "target": "x86_64-unknown-linux-musl",
@@ -16267,8 +16080,7 @@
                   "checksums": {
                     "blake2b": "8dad778a1813231969ccb9a19d2aa3da6b5ee4b347b99a9e78e37a3f3ea56779c0c406afd6df02c96ef0d899b50fec56ece94a972ed7940563087cbd62f3c3d7",
                     "sha256": "a5c23e61574f938d1b9e0d71425b9b01a9af5dd5000a79489b5f256fb48d174e"
-                  },
-                  "min_glibc": "2.18"
+                  }
                 },
                 {
                   "target": "x86_64-pc-windows-msvc",
@@ -16311,8 +16123,7 @@
                   "checksums": {
                     "blake2b": "0c4d99fd2de6df2700534c5a6ae5967d178170a46bad858ed9ee17161e9f60f11f179f5b32d71580e9fd2f4db1bb87894b42d60f83feace606786291e852157a",
                     "sha256": "6607736082fa6557012cd1b388cc63d3ec4b5eb344d41404c0726bfaa37c108b"
-                  },
-                  "min_glibc": "2.25"
+                  }
                 },
                 {
                   "target": "x86_64-unknown-linux-musl",
@@ -16330,8 +16141,7 @@
                   "checksums": {
                     "blake2b": "160f645eaa2e9d8fd42b8bd6b105b4b406912849a2c8101b01afe3a2e457c3f8076e57c996fbb11ba2fb32472fc87f8eab3fff6718ca2b34a388d885063d0804",
                     "sha256": "2bbeea2fcb0a84b4349c735bafe4575a85d2c080e1863347601bbbec17f7602f"
-                  },
-                  "min_glibc": "2.18"
+                  }
                 },
                 {
                   "target": "x86_64-pc-windows-msvc",
@@ -16374,8 +16184,7 @@
                   "checksums": {
                     "blake2b": "4110cac461c55ff25194ba8ffbeba0567c2deb8a38576796b3da2815eee6323999ec0428f9b92984c9dd525bc875d0d8a37ca60a2d1e69464b6f8d9b8ac6698c",
                     "sha256": "8050d0e69ebd34c72790954158e64528206b6a8b2db517d1211fcaba9f10995e"
-                  },
-                  "min_glibc": "2.25"
+                  }
                 },
                 {
                   "target": "x86_64-unknown-linux-musl",
@@ -16393,8 +16202,7 @@
                   "checksums": {
                     "blake2b": "236b735741ff30b5bc5fa181c021cfc2a35f5306749ff211aa2b4ba92bdd8ff1b08a8dbe48361ecffe7e532b71dd4aa2011ac47ae62a789468931f3c49ecdd95",
                     "sha256": "c19395e60bd8ffffb60f508773790813dd212284011f4de4bf5555353fbb5863"
-                  },
-                  "min_glibc": "2.18"
+                  }
                 },
                 {
                   "target": "x86_64-pc-windows-msvc",
@@ -16437,8 +16245,7 @@
                   "checksums": {
                     "blake2b": "e73d069f67eae67b7224465053ab83a781fc29aad6cc7560c0d43473d873781ac989d598c30ff03f7c9315e715099598e28fb3d3495eaef2db53bb61ceb1ef06",
                     "sha256": "b57d1662827d85be4ea37e9e4ca0bc53b96dc564fb8d8ab2300fda3b53423895"
-                  },
-                  "min_glibc": "2.25"
+                  }
                 },
                 {
                   "target": "x86_64-unknown-linux-musl",
@@ -16456,8 +16263,7 @@
                   "checksums": {
                     "blake2b": "82a7f4205dd378305cb290540cab4e7d2fdd427b06f484cb1253ac2876bcec01fe2905bfeaad9e44a1c5777b09ec7961f4dd8913b8bf11dcd72afe2bbef63479",
                     "sha256": "fa32a8c8951b4f6ea19fdb97799188fc8c8b1fba06afc0240a005d72b685915a"
-                  },
-                  "min_glibc": "2.18"
+                  }
                 },
                 {
                   "target": "x86_64-pc-windows-msvc",
@@ -16500,8 +16306,7 @@
                   "checksums": {
                     "blake2b": "ec091e536a4d3a9750ba019f9324438c8c0b2e479eea3c4b44a204e9b4ae3537a6bc02bc1ba3c08c8d02ad90e724e65c0ef833c459ce68abd7bff5c85a8a7895",
                     "sha256": "e60ae5385c738edc8ac5c3e98ba354632ca1ccb2e01579e63c823de221ce27ff"
-                  },
-                  "min_glibc": "2.25"
+                  }
                 },
                 {
                   "target": "x86_64-unknown-linux-musl",
@@ -16519,8 +16324,7 @@
                   "checksums": {
                     "blake2b": "297b09731d60717ec0b58aaf99d8c1b268d4d57fb19800d91a261cc8edc6232c23f5532755e7e513d61c82bca78844a03acf8b0feab04713058f02341bbb8e31",
                     "sha256": "313760874a296e9e953f3a9f1196f093cb205a1c1b9482b72f101dd0618f7dc1"
-                  },
-                  "min_glibc": "2.18"
+                  }
                 },
                 {
                   "target": "x86_64-pc-windows-msvc",
@@ -16563,8 +16367,7 @@
                   "checksums": {
                     "blake2b": "c1f2fa3805d9049f31efe2126e83a6751c749647441837409b99c3d065228f19c6e3a40393a3641524ceee832ad2034ba320e012f9d80e80473929a25c1f38e7",
                     "sha256": "fa0f8843469cf3c541b6dedb9321ba04573d9ba75bf8608a028537ba924f0bd8"
-                  },
-                  "min_glibc": "2.25"
+                  }
                 },
                 {
                   "target": "x86_64-pc-windows-msvc",
@@ -16607,8 +16410,7 @@
                   "checksums": {
                     "blake2b": "79d75b9b592af8532fa247951f27fe974752af7b7e9afa21ace1688ef9cd1752ae373e24ef41fb86680d69b909a65bf67f29b7e88c643fad68ed36bdcfd5063b",
                     "sha256": "da3054259e0aac51d3a4392778a594fa22cef2ae22494c2cc109ffe1b895e1f6"
-                  },
-                  "min_glibc": "2.25"
+                  }
                 },
                 {
                   "target": "x86_64-pc-windows-msvc",
@@ -16651,8 +16453,7 @@
                   "checksums": {
                     "blake2b": "37b443bcf26904eceea3c6e5c3c88c9a001a2e191d510480735562953915decfa5fba45843c7d5d96d41aa29cad3faf3776d8b9ed12405d46cf99dd92d6e0876",
                     "sha256": "fda7a9d8964d87da648fb2336957a5ea4c3584671eeac4d378a258873395814a"
-                  },
-                  "min_glibc": "2.25"
+                  }
                 },
                 {
                   "target": "x86_64-pc-windows-msvc",
@@ -16695,8 +16496,7 @@
                   "checksums": {
                     "blake2b": "dcfb07142bfc87983d61f8f41682661507df8ef5f58ea030e4f0724f2024a4b54a6ffd5074a5f703b6258da98a5a9f310bcac278449239319adc4cad08f3e525",
                     "sha256": "5a0af54644702a17690d3e9bfe5b007f5eb04a423a31560011818f6e6b828011"
-                  },
-                  "min_glibc": "2.25"
+                  }
                 },
                 {
                   "target": "x86_64-pc-windows-msvc",
@@ -16739,8 +16539,7 @@
                   "checksums": {
                     "blake2b": "950f59439930d13ed0027df4ada206b9d9c8a0ec42e47e1af882faa85066b303a0a4d6061aef11ed2d252021dd1b72f2ae3942d62f6858d36f72665b7e7773ca",
                     "sha256": "a51b6fedb9b7a4d1616bed1e84a9c001a7b74f1c238d0f82fd06f2c2c1852a15"
-                  },
-                  "min_glibc": "2.25"
+                  }
                 },
                 {
                   "target": "x86_64-pc-windows-msvc",
@@ -16783,8 +16582,7 @@
                   "checksums": {
                     "blake2b": "d22bd45efad399204a8ecea9cf5fce7f3e857cc665649aa85bd3cd9f513ba27c05e580e9025948e8004b22218c9bab71294f9607283ed250cdb358fa04ea2dcb",
                     "sha256": "e55ea8d86b2667fa630e1b3cf61eb1d5f079619ccc63c193b64545a2b6bc5cea"
-                  },
-                  "min_glibc": "2.25"
+                  }
                 },
                 {
                   "target": "x86_64-pc-windows-msvc",
@@ -16827,8 +16625,7 @@
                   "checksums": {
                     "blake2b": "82e46908eb8587f72369a9af762549d5ab61a6f1665948ff6eb5df955b193cf035562452116f8c363472e29123d28bdda8451f7c371c8ed20fd0e42d7b159a79",
                     "sha256": "b0d05e3fc88b0fb8320a05fc860f2f5030e8f6ee2662e62750a194e8af5546f6"
-                  },
-                  "min_glibc": "2.25"
+                  }
                 },
                 {
                   "target": "x86_64-pc-windows-msvc",
@@ -16871,8 +16668,7 @@
                   "checksums": {
                     "blake2b": "c97327bbe858b76c7bdf4ef82b4bcf13e4958057691102c440092859ba8cec19d990bba7ee275e880536b569d26715c46a3c072ba3b2372e74ea2a1a226617ce",
                     "sha256": "33b905ef2202b97e7103ff7765a42547e25b2d6b781f6f985442e2b438d1aa62"
-                  },
-                  "min_glibc": "2.25"
+                  }
                 },
                 {
                   "target": "x86_64-pc-windows-msvc",
@@ -16915,8 +16711,7 @@
                   "checksums": {
                     "blake2b": "8f9b3ca741820bb72f443b49d7a70b8a9fa2c25504f60ea64359c64ebb08a5149f9526a8ebc17ae0afe5e929cac86ec9c76e046bdf2130744d3366eb24fb05c9",
                     "sha256": "d1de19dc8e5d46aaa5fc00394e1a7ccb04160761a4d262f58d1eb6b73b80d73b"
-                  },
-                  "min_glibc": "2.25"
+                  }
                 },
                 {
                   "target": "x86_64-pc-windows-msvc",
@@ -16959,8 +16754,7 @@
                   "checksums": {
                     "blake2b": "60d7c0728ff1163c87e9ae2edd47facd739675c0aa89b48036a7df6dbc1c1dd2144fc74792a3a1d6924631d73db9de58bc1276b844ab6f9d6f3e26a2da425b1e",
                     "sha256": "fd351b31fdb2ce547027928918820d7f07e3a1782e419427028f4993ae7be8ef"
-                  },
-                  "min_glibc": "2.25"
+                  }
                 },
                 {
                   "target": "x86_64-pc-windows-msvc",
@@ -17003,8 +16797,7 @@
                   "checksums": {
                     "blake2b": "12523034e91669938cd7989b9be5fdf68009a4e00681292fe5b752e7ee410fc9dad01c0e3d75f9b001b4632e25f7290c7ff83c74e91ce1034f59d3c46d47081b",
                     "sha256": "5409e9098500e76a24b4ee254a4a96092f5c4c9e2c72ab623867bdaf63240073"
-                  },
-                  "min_glibc": "2.25"
+                  }
                 },
                 {
                   "target": "x86_64-pc-windows-msvc",
@@ -17047,8 +16840,7 @@
                   "checksums": {
                     "blake2b": "4a3abddaa787b6a88ebfaa9e162ac23a7fae9c79cccd9cb03386829d6ccafe017aa6c1fa080b1d364d7bd814adb89da5ca7b47aa621e247efba361de2f2fe55c",
                     "sha256": "4256b6d13a962df136a8e9273311372d5b66119f08e8a27e95ae2bb974e81a48"
-                  },
-                  "min_glibc": "2.25"
+                  }
                 },
                 {
                   "target": "x86_64-pc-windows-msvc",
@@ -17091,8 +16883,7 @@
                   "checksums": {
                     "blake2b": "3b375ce3740ce4a104b9e5321aa3609e70a480c046bf4af51fc2d14d44fcc83879a00f4a00a4800ae1e8d960e4d9f3d9995c8d79fb9d053c6b2dc8f257ed885b",
                     "sha256": "acbeaf13acdf5913dae7c628eaf834e2ad166567fdfbb8fc5bb1a7e3fcf1ea0d"
-                  },
-                  "min_glibc": "2.25"
+                  }
                 },
                 {
                   "target": "x86_64-pc-windows-msvc",
@@ -17135,8 +16926,7 @@
                   "checksums": {
                     "blake2b": "9eb1f7e6b6712a77dede2b700f45a7e9e93cb3fc5793c75e9eac33ed5cd6bd30917d98d629c180fac51ab2c2f9ed3ecf0c6d1d952072f02a6852fc5d14100747",
                     "sha256": "2ac1d189f8efdc3ef6f487b1230c41f4f417b26caee07fef2845828cd5282ee6"
-                  },
-                  "min_glibc": "2.25"
+                  }
                 },
                 {
                   "target": "x86_64-pc-windows-msvc",
@@ -17179,8 +16969,7 @@
                   "checksums": {
                     "blake2b": "202c99ce36de09d1ca572623a1dd28aa4bfa4f8c5f3f576434d4b5dfc02f045a2dd95b72072ba8d1ccdba7a54e18d016f03a7f5b6de666461e3c9f88cc7543df",
                     "sha256": "64889b60a9d13082b2848c262072bf113635c70a71b89656e7d9848dbb10f58b"
-                  },
-                  "min_glibc": "2.25"
+                  }
                 },
                 {
                   "target": "x86_64-pc-windows-msvc",
@@ -17223,8 +17012,7 @@
                   "checksums": {
                     "blake2b": "c567b1845e8f560d6eb5f223f46b2f0865021fad6d53418178094d2ce4cbe37c522d90503433f399e210f3ddb34f4a22bbc3bafdb1b5c80ebd254358c36406a4",
                     "sha256": "d80d666195a97d0e41c371f7e763855475d08d9a5209aa5302598d926bbb590c"
-                  },
-                  "min_glibc": "2.25"
+                  }
                 },
                 {
                   "target": "x86_64-pc-windows-msvc",
@@ -17267,8 +17055,7 @@
                   "checksums": {
                     "blake2b": "ccad94ed36d13f0c3bc069c707967b8420d59af42085f230d6fa811faa8cac77a370d3509b7743c8d41477afdaa011dadb8467d3a4111a8e8c2f0a8460fa1a2e",
                     "sha256": "42bcff26fec36c213371108cbf1c7d5baeccf3ae84f4f177db222d59268db417"
-                  },
-                  "min_glibc": "2.25"
+                  }
                 },
                 {
                   "target": "x86_64-pc-windows-msvc",
@@ -17311,8 +17098,7 @@
                   "checksums": {
                     "blake2b": "b94adcb5c1ad5aacd1c0936f4fb88d9db4a19f06ea325b85ab76f861b74f41ec3c0a8c76e91ad8a86e5659fb0928958c2c40a96381a326cd3d967c64bec060d4",
                     "sha256": "299338ee9dba31b1b1df06142ce6fbfb3388f42b5047b33bc6f83db1b903a6b8"
-                  },
-                  "min_glibc": "2.25"
+                  }
                 },
                 {
                   "target": "x86_64-pc-windows-msvc",
@@ -17355,8 +17141,7 @@
                   "checksums": {
                     "blake2b": "c930e33a0ed8fc8b1905d5e51511922f387aba1b3f9c694a5c775cb1ee5dd2b44fab33fef85c43b2addab21b96ad4be606e5030c148ec6689fcbd13ded1330f1",
                     "sha256": "62a3bd60304f031a9e8de2eb5359ac709bbf43c979b2885cf719ee6982925a1b"
-                  },
-                  "min_glibc": "2.25"
+                  }
                 },
                 {
                   "target": "x86_64-pc-windows-msvc",
@@ -17399,8 +17184,7 @@
                   "checksums": {
                     "blake2b": "532851acafb3c83850d5f7a98c73685412464882955923a759e0982f757da0e51a370b6af3d01d9897c54e30e1a800f7db249d3188271c22d4cc601671ff35a2",
                     "sha256": "edf8b5de7ae39fc1f7c1a5696f92fecee67ea40eb2937b707c026421cd2b0ef7"
-                  },
-                  "min_glibc": "2.25"
+                  }
                 },
                 {
                   "target": "x86_64-pc-windows-msvc",
@@ -17443,8 +17227,7 @@
                   "checksums": {
                     "blake2b": "b6bb2fa6a75ea0706fb50305b3c7be954962e70e3a961a2768149d19a7b8544c509036d63f8ff96f7e1bffba0cd5e8a420d7e34a9e2406d33f50abd2ee697c5a",
                     "sha256": "72f2452beab162849800e451f002b7b666599c1fbf48ba0f1e4e1f66d1a3f964"
-                  },
-                  "min_glibc": "2.25"
+                  }
                 },
                 {
                   "target": "x86_64-pc-windows-msvc",
@@ -17487,8 +17270,7 @@
                   "checksums": {
                     "blake2b": "41bd16831213659e2e275853f858b74c19745d0e8bd0c4c19c26507dd5a340580c8cc47f014976eb02b33b0894a5377f815fdfd07690fb592ea1516cc8740aee",
                     "sha256": "a68f660fc632ba9f56d34c108e12268c776b3a4af12e4a57919defea2749a4fb"
-                  },
-                  "min_glibc": "2.25"
+                  }
                 },
                 {
                   "target": "x86_64-pc-windows-msvc",
@@ -17531,8 +17313,7 @@
                   "checksums": {
                     "blake2b": "487e1547c6f4462e63c09c260a1c94f996b0319ab353baff45d9aad8c3b9b42514acd586adda9857adee511e4eb3623c9597949dcccd13f00fb86f31f6be1927",
                     "sha256": "9f2bcac8b65bafb12573b0106db48b29d9ceba4acaa351cc5f2504d38245de61"
-                  },
-                  "min_glibc": "2.18"
+                  }
                 },
                 {
                   "target": "x86_64-pc-windows-msvc",
@@ -17575,8 +17356,7 @@
                   "checksums": {
                     "blake2b": "c9ac52aa5db25849043e490d203e4c70ef38411706cd9376b2b84dbcfa944f00524691e0f0300d7b82bebb8b4dd46f0c8b18088dc05422bd53db2c302ab0a73b",
                     "sha256": "f837faa4e747a82f73f01e735dc9304e64bda55adcf857b9448158d1817cafbc"
-                  },
-                  "min_glibc": "2.18"
+                  }
                 },
                 {
                   "target": "x86_64-pc-windows-msvc",
@@ -17619,8 +17399,7 @@
                   "checksums": {
                     "blake2b": "13055454db37059cd1273ae822b2590822324fe9a1162b0c80be1e676470226a2f878e86ca69802118aeacfe6073a47360b27ae4db9e1b9ed6b0ada6305af772",
                     "sha256": "de73c56b53a96dbdbb0625727cd7296afebfc3b3b561310330732aefd20808bf"
-                  },
-                  "min_glibc": "2.18"
+                  }
                 },
                 {
                   "target": "x86_64-pc-windows-msvc",
@@ -17663,8 +17442,7 @@
                   "checksums": {
                     "blake2b": "c4853182af79e7326d10e0acae5255c3ca0a5770e61cba2c3390cbf61e192c7c03704252d75d396bfe350155e9cd0b2a1afe01dd2eca1433bfee5ac0be9cc63a",
                     "sha256": "170abd2e313faab81ff5f9a029feec552fed6f9131790206554870a8e33ff6ab"
-                  },
-                  "min_glibc": "2.18"
+                  }
                 },
                 {
                   "target": "x86_64-pc-windows-msvc",
@@ -17707,8 +17485,7 @@
                   "checksums": {
                     "blake2b": "7688b6688214b5dc8bf7743eea238c609b55e33f3f0aa04c1851145a9725a56e1bcfe8a4a7b925d57e565ee366b3dbe340ffed3b06d92b0f5e3e74c80a8509d3",
                     "sha256": "b7d4c5d9d1c3f858016550e0cd55444272a134d97449d6445dc556a3316977a8"
-                  },
-                  "min_glibc": "2.18"
+                  }
                 },
                 {
                   "target": "x86_64-pc-windows-msvc",
@@ -17742,8 +17519,7 @@
                   "checksums": {
                     "blake2b": "84abd13aa62eeb5e697bd5d48bb81714b5dce9ac5895d3113dff92ab16b7220827ded9a7eb575817bb5b112f52aa60df4c9477ccbcbb110c2e18a22aa7bee931",
                     "sha256": "4fb5d463b3addaa69bdcf32b498d0c8c212e647b370cee064e1cfa2df95c67a8"
-                  },
-                  "min_glibc": "2.18"
+                  }
                 },
                 {
                   "target": "x86_64-pc-windows-msvc",
@@ -17777,8 +17553,7 @@
                   "checksums": {
                     "blake2b": "0f3a8bacdd79b8c9babfe48780446457e86a1d0ee752d3e478754ca93a661114624cd34427d2b34a09b4e1041c66988c07baada6b85f1a5000c743f37e8f45cd",
                     "sha256": "08b9c483c5a7a1fdc15375a1ea061f79e1a08670e77912f7943852215e3da4f6"
-                  },
-                  "min_glibc": "2.18"
+                  }
                 },
                 {
                   "target": "x86_64-pc-windows-msvc",
