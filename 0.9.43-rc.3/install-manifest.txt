@@ -1,0 +1,12 @@
+mukti-install-manifest 1
+project cargo-nextest
+version 0.9.43-rc.3
+status active
+archive x86_64-unknown-linux-gnu tar.gz c33a1851d4a353cd271b77f22cd6e3575b886d45b5dc9527ec789151595d6250 https://github.com/nextest-rs/nextest/releases/download/cargo-nextest-0.9.43-rc.3/cargo-nextest-0.9.43-rc.3-x86_64-unknown-linux-gnu.tar.gz min-glibc=2.25
+archive x86_64-unknown-linux-musl tar.gz 952595315bffaf8467cf5f2ab0f0b2f2be52f0f6b12afe71ff980c79b40a585c https://github.com/nextest-rs/nextest/releases/download/cargo-nextest-0.9.43-rc.3/cargo-nextest-0.9.43-rc.3-x86_64-unknown-linux-musl.tar.gz
+archive aarch64-unknown-linux-gnu tar.gz b19f2d1b860801ce418271828ad0ad989aa699fcbe51cec40752634a3d366702 https://github.com/nextest-rs/nextest/releases/download/cargo-nextest-0.9.43-rc.3/cargo-nextest-0.9.43-rc.3-aarch64-unknown-linux-gnu.tar.gz min-glibc=2.18
+archive x86_64-pc-windows-msvc tar.gz e9625a6d04d08a2e583171b6aacb2bca254f5af27b5748b3ac67bd565b58a9da https://github.com/nextest-rs/nextest/releases/download/cargo-nextest-0.9.43-rc.3/cargo-nextest-0.9.43-rc.3-x86_64-pc-windows-msvc.tar.gz
+archive x86_64-pc-windows-msvc zip c4e0f85ab415be78c1940b0d0a098388aa3b654089612b5b1005e2c2064405b3 https://github.com/nextest-rs/nextest/releases/download/cargo-nextest-0.9.43-rc.3/cargo-nextest-0.9.43-rc.3-x86_64-pc-windows-msvc.zip
+archive i686-pc-windows-msvc tar.gz 2519b1a156b1aa5150f0787200baf49b9540208151af09f990a2c82b53cd1494 https://github.com/nextest-rs/nextest/releases/download/cargo-nextest-0.9.43-rc.3/cargo-nextest-0.9.43-rc.3-i686-pc-windows-msvc.tar.gz
+archive i686-pc-windows-msvc zip 8ca3234570cd5163f95b98d8f8a013e52402a51c6dd617b0a483aedfe1469c0a https://github.com/nextest-rs/nextest/releases/download/cargo-nextest-0.9.43-rc.3/cargo-nextest-0.9.43-rc.3-i686-pc-windows-msvc.zip
+archive universal-apple-darwin tar.gz c439357659622d61459d7cc8a4649759d5b093e822ace2e3eb2cf58a29206511 https://github.com/nextest-rs/nextest/releases/download/cargo-nextest-0.9.43-rc.3/cargo-nextest-0.9.43-rc.3-universal-apple-darwin.tar.gz

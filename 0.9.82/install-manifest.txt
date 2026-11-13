@@ -1,0 +1,14 @@
+mukti-install-manifest 1
+project cargo-nextest
+version 0.9.82
+status active
+archive x86_64-unknown-linux-gnu tar.gz 54311a679100aaf5595e8a4ce27641b4cbc8f1c71719ede7574394a6c37a8477 https://github.com/nextest-rs/nextest/releases/download/cargo-nextest-0.9.82/cargo-nextest-0.9.82-x86_64-unknown-linux-gnu.tar.gz min-glibc=2.25
+archive x86_64-unknown-linux-musl tar.gz 95484aa8676d700fa1add750cdf76c8a53205088e1ccc9d9888f4bfeeae14951 https://github.com/nextest-rs/nextest/releases/download/cargo-nextest-0.9.82/cargo-nextest-0.9.82-x86_64-unknown-linux-musl.tar.gz
+archive aarch64-unknown-linux-gnu tar.gz 359a0c0be044142d08cf4d4f1e73a7dcdd7af9bd4a5027c895f1f0bac9fa58f8 https://github.com/nextest-rs/nextest/releases/download/cargo-nextest-0.9.82/cargo-nextest-0.9.82-aarch64-unknown-linux-gnu.tar.gz min-glibc=2.18
+archive x86_64-pc-windows-msvc tar.gz ec508709cbf52ce3e84080eecd3391546053f6193100e8f381e6cd5a7b9dd0ed https://github.com/nextest-rs/nextest/releases/download/cargo-nextest-0.9.82/cargo-nextest-0.9.82-x86_64-pc-windows-msvc.tar.gz
+archive x86_64-pc-windows-msvc zip 31e697699433b5a94ea229bc851e8597cfe2689c5c777087b40bd4d72f91d810 https://github.com/nextest-rs/nextest/releases/download/cargo-nextest-0.9.82/cargo-nextest-0.9.82-x86_64-pc-windows-msvc.zip
+archive i686-pc-windows-msvc tar.gz 7e5bfa4fa9d91305101d8620f6dd561d9dba9d057b8e71b9eccd857c424805f1 https://github.com/nextest-rs/nextest/releases/download/cargo-nextest-0.9.82/cargo-nextest-0.9.82-i686-pc-windows-msvc.tar.gz
+archive i686-pc-windows-msvc zip 443ff7266a058f0e758b651166d1a3720e1ef27c7f0be9d912db0026ebd664de https://github.com/nextest-rs/nextest/releases/download/cargo-nextest-0.9.82/cargo-nextest-0.9.82-i686-pc-windows-msvc.zip
+archive universal-apple-darwin tar.gz c99875f5aeca65b0faf71d515e2b379f3d7329006ba1f6fa7245916e1b1ef6db https://github.com/nextest-rs/nextest/releases/download/cargo-nextest-0.9.82/cargo-nextest-0.9.82-universal-apple-darwin.tar.gz
+archive x86_64-unknown-freebsd tar.gz 0aeffd976832bab5d7e030d4872059fc1823572430acf897785c951c2fa9b8cd https://github.com/nextest-rs/nextest/releases/download/cargo-nextest-0.9.82/cargo-nextest-0.9.82-x86_64-unknown-freebsd.tar.gz
+archive x86_64-unknown-illumos tar.gz 13ebe6666b1c1c9130b4346334b9ba2c19eed0b5f839b636d09ff3a1b24dbfad https://github.com/nextest-rs/nextest/releases/download/cargo-nextest-0.9.82/cargo-nextest-0.9.82-x86_64-unknown-illumos.tar.gz

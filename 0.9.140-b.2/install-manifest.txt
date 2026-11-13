@@ -1,0 +1,18 @@
+mukti-install-manifest 1
+project cargo-nextest
+version 0.9.140-b.2
+status active
+archive x86_64-unknown-linux-gnu tar.gz f7320ac096191f9a4cda2821ca85bcf270a2511c9c1b4201eafb103d2acd257e https://github.com/nextest-rs/nextest/releases/download/cargo-nextest-0.9.140-b.2/cargo-nextest-0.9.140-b.2-x86_64-unknown-linux-gnu.tar.gz min-glibc=2.27
+archive x86_64-unknown-linux-musl tar.gz 385928c29f0dd31f3a613131f4de4beb9f1859622c3ae96721847247f56030a8 https://github.com/nextest-rs/nextest/releases/download/cargo-nextest-0.9.140-b.2/cargo-nextest-0.9.140-b.2-x86_64-unknown-linux-musl.tar.gz
+archive aarch64-unknown-linux-gnu tar.gz 22f8d6364798d7c9b81854771351c8d419b935c265a755d47f0b4251774205b6 https://github.com/nextest-rs/nextest/releases/download/cargo-nextest-0.9.140-b.2/cargo-nextest-0.9.140-b.2-aarch64-unknown-linux-gnu.tar.gz min-glibc=2.27
+archive aarch64-unknown-linux-musl tar.gz 4ae6ee9cdc9446046c11c860797049093da8f1e84581277c8bf52f007aa1167f https://github.com/nextest-rs/nextest/releases/download/cargo-nextest-0.9.140-b.2/cargo-nextest-0.9.140-b.2-aarch64-unknown-linux-musl.tar.gz
+archive riscv64gc-unknown-linux-gnu tar.gz 97f56003a825612a1d9a2ae7611284e6aadc721b9bbca40fef35c90b96572e5e https://github.com/nextest-rs/nextest/releases/download/cargo-nextest-0.9.140-b.2/cargo-nextest-0.9.140-b.2-riscv64gc-unknown-linux-gnu.tar.gz min-glibc=2.27
+archive x86_64-pc-windows-msvc tar.gz 0ce14e7f5c08bc13b0b3338a5736b68d798c45b395373618bfafb9f237a2a645 https://github.com/nextest-rs/nextest/releases/download/cargo-nextest-0.9.140-b.2/cargo-nextest-0.9.140-b.2-x86_64-pc-windows-msvc.tar.gz
+archive x86_64-pc-windows-msvc zip 00d7cb2ed4e1415e8438eadb2f84a12b403e7304bf6135a244d95038a5756f20 https://github.com/nextest-rs/nextest/releases/download/cargo-nextest-0.9.140-b.2/cargo-nextest-0.9.140-b.2-x86_64-pc-windows-msvc.zip
+archive i686-pc-windows-msvc tar.gz cceb06acfd38e71a9b0ff5c245527dfd0f4df7ed9004db2eda4849e08e0269f2 https://github.com/nextest-rs/nextest/releases/download/cargo-nextest-0.9.140-b.2/cargo-nextest-0.9.140-b.2-i686-pc-windows-msvc.tar.gz
+archive i686-pc-windows-msvc zip 40c1ec57884d4b67f6ffe7d42d4fb90ba183e9b42a92ed745a9592cc1d268d46 https://github.com/nextest-rs/nextest/releases/download/cargo-nextest-0.9.140-b.2/cargo-nextest-0.9.140-b.2-i686-pc-windows-msvc.zip
+archive aarch64-pc-windows-msvc tar.gz fd5b6ec514b83c5344b0f664481bb371149e2173c35e177518a35ec619594271 https://github.com/nextest-rs/nextest/releases/download/cargo-nextest-0.9.140-b.2/cargo-nextest-0.9.140-b.2-aarch64-pc-windows-msvc.tar.gz
+archive aarch64-pc-windows-msvc zip e86d12f87ddd4923339a2eaf140435af765b12f79c1fcda1324d63d17e863e2e https://github.com/nextest-rs/nextest/releases/download/cargo-nextest-0.9.140-b.2/cargo-nextest-0.9.140-b.2-aarch64-pc-windows-msvc.zip
+archive universal-apple-darwin tar.gz ccc9aa1ec7ee35e52b3595840bc20b788d59beb28e38207d7293a8f94757f011 https://github.com/nextest-rs/nextest/releases/download/cargo-nextest-0.9.140-b.2/cargo-nextest-0.9.140-b.2-universal-apple-darwin.tar.gz
+archive x86_64-unknown-freebsd tar.gz b50adb1b98a43fac552187d8565423faf8b057de6b3d7c4995ce54b4405d5b95 https://github.com/nextest-rs/nextest/releases/download/cargo-nextest-0.9.140-b.2/cargo-nextest-0.9.140-b.2-x86_64-unknown-freebsd.tar.gz
+archive x86_64-unknown-illumos tar.gz 3c925564215a411fc57dc974704fc47e14aa266a3f887b67a6034a669aa005a9 https://github.com/nextest-rs/nextest/releases/download/cargo-nextest-0.9.140-b.2/cargo-nextest-0.9.140-b.2-x86_64-unknown-illumos.tar.gz

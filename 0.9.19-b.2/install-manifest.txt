@@ -1,0 +1,8 @@
+mukti-install-manifest 1
+project cargo-nextest
+version 0.9.19-b.2
+status active
+archive x86_64-unknown-linux-gnu tar.gz 5409e9098500e76a24b4ee254a4a96092f5c4c9e2c72ab623867bdaf63240073 https://github.com/nextest-rs/nextest/releases/download/cargo-nextest-0.9.19-b.2/cargo-nextest-0.9.19-b.2-x86_64-unknown-linux-gnu.tar.gz min-glibc=2.25
+archive x86_64-pc-windows-msvc tar.gz 12ca0b89ee343ddf5574596cba35550625dd959b2ff554f5377390edef890f40 https://github.com/nextest-rs/nextest/releases/download/cargo-nextest-0.9.19-b.2/cargo-nextest-0.9.19-b.2-x86_64-pc-windows-msvc.tar.gz
+archive x86_64-pc-windows-msvc zip c1eca6a5607cb40036f14d01322c9b886e55e234588504849c55d0d8f45df485 https://github.com/nextest-rs/nextest/releases/download/cargo-nextest-0.9.19-b.2/cargo-nextest-0.9.19-b.2-x86_64-pc-windows-msvc.zip
+archive universal-apple-darwin tar.gz f3fc283a5e757138e3c897cb01457dc3fdd98f5b02b2cacfcddb4f607a009935 https://github.com/nextest-rs/nextest/releases/download/cargo-nextest-0.9.19-b.2/cargo-nextest-0.9.19-b.2-universal-apple-darwin.tar.gz
